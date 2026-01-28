@@ -1,0 +1,21 @@
+{
+  "Group": "slimerrain",
+  "Name": "Leaf Juice",
+  "Version": "1.0",
+  "Description": "This is an extensive tea mod.",
+  "Authors": [
+    {
+      "Name": "slimerrain",
+      "Email": "slimerrain@gmail.com",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "ServerVersion": "",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true,
+  "SubPlugins": []
+}

@@ -1,0 +1,113 @@
+{
+    "TranslationProperties": {
+        "Name": "server.items.Bench_Teapot.name",
+        "Description": "server.items.Bench_Teapot.description"
+    },
+    "Icon": "Icons/ItemsGenerated/Bench_Teapot.png",
+    "Categories": [
+        "Furniture.Benches"
+    ],
+    "Recipe": {
+        "TimeSeconds": 3,
+        "Input": [
+            {
+                "ResourceTypeId": "Clay",
+                "Quantity": 5
+            }
+        ],
+        "BenchRequirement": [
+            {
+                "Type": "Crafting",
+                "Id": "Workbench",
+                "Categories": [
+                    "Workbench_Crafting"
+                ]
+            }
+        ]
+    },
+    "BlockType": {
+        "Material": "Solid",
+        "DrawType": "Model",
+        "Opacity": "Transparent",
+        "CustomModel": "Blocks/Benches/Teapot.blockymodel",
+        "CustomModelTexture": [
+            {
+                "Texture": "Blocks/Benches/Teapot_Texture.png",
+                "Weight": 1
+            }
+        ],
+        "HitboxType": "Bench_Teapot",
+        "VariantRotation": "NESW",
+        "Bench": {
+            "Type": "Crafting",
+            "Categories": [
+                {
+                    "Id": "Prepared",
+                    "Icon": "Icons/CraftingCategories/Teapot/Prepared.png",
+                    "Name": "server.benchCategories.prepared"
+                },
+                {
+                    "Id": "Ingredients",
+                    "Name": "server.benchCategories.ingredients",
+                    "Icon": "Icons/CraftingCategories/Teapot/Boiled.png"
+                },
+                {
+                "Id": "Pot",
+                "Name": "server.benchCategories.pot.name"
+                }
+            ],
+            "LocalOpenSoundEventId": "SFX_Bench_Placeholder",
+            "LocalCloseSoundEventId": "SFX_Bench_Placeholder",
+            "CompletedSoundEventId": "SFX_Bench_Placeholder",
+            "Id": "Teapotbench"
+        },
+        "State": {
+            "Id": "crafting",
+            "Definitions": {
+                "CraftCompleted": {
+                    "CustomModelAnimation": "Blocks/Benches/Teapot_Crafting.blockyanim",
+                    "Looping": true
+                },
+                "CraftCompletedInstant": {
+                    "CustomModelAnimation": "Blocks/Benches/Teapot_Crafting.blockyanim"
+                }
+            }
+        },
+        "Gathering": {
+            "Breaking": {
+                "GatherType": "Benches"
+            }
+        },
+        "BlockParticleSetId": "Clay",
+        "ParticleColor": "#5C583E",
+        "Support": {
+            "Down": [
+                {
+                    "FaceType": "Full"
+                }
+            ]
+        },
+        "BlockSoundSetId": "Clay"
+    },
+    "PlayerAnimationsId": "Block",
+    "IconProperties": {
+        "Scale": 0.34,
+        "Translation": [
+            11.4,
+            -18
+        ],
+        "Rotation": [
+            22.5,
+            45,
+            22.5
+        ]
+    },
+    "Tags": {
+        "Type": [
+            "Bench"
+        ]
+    },
+    "MaxStack": 1,
+    "ItemLevel": 6,
+    "ItemSoundSetId": "ISS_Blocks_Clay"
+}
