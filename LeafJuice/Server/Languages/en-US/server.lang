@@ -1,0 +1,3 @@
+server.items.TeaBench.name=Tea Set
+server.items.TeaBench.description=A crafting station for brewing tea and other drinks.
+server.benchCategories.teabench.brewing=Tea Brewing

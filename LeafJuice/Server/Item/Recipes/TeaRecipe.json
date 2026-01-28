@@ -1,0 +1,25 @@
+{
+    "RecipeName": "Recipe_Tea",
+    "CraftingStation": "TeaBench",
+    "Inputs": [
+        {
+            "ItemId": "Wheat",
+            "Quantity": 1
+        },
+        {
+            "ItemId": "Lettuce",
+            "Quantity": 1
+        }
+    ],
+    "Outputs": [
+        {
+            "ItemId": "Apple",
+            "Quantity": 1
+        },
+        {
+            "ItemId": "Tomato",
+            "Quantity": 1
+        }
+    ],
+    "CraftingTime": 8.0
+}

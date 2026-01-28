@@ -1,0 +1,95 @@
+{
+    "TranslationProperties": {
+        "Name": "server.items.TeaBench.name",
+        "Description": "server.items.TeaBench.description"
+    },
+    "Recipe": {
+        "Input": [
+            {
+                "Quantity": 4,
+                "ResourceTypeId": "Wood_Trunk"
+            },
+            {
+                "Quantity": 2,
+                "ResourceTypeId": "Rock"
+            }
+        ],
+        "BenchRequirement": [
+            {
+                "Type": "Crafting",
+                "Categories": [
+                    "Workbench_Crafting"
+                ],
+                "Id": "Workbench"
+            }
+        ]
+    },
+    "Categories": [
+        "Furniture.Benches"
+    ],
+    "Icon": "Icons/ItemsGenerated/TeaBench.png",
+    "BlockType": {
+        "Material": "Solid",
+        "DrawType": "Model",
+        "Opacity": "Transparent",
+        "CustomModel": "Blocks/Benches/TeaBench.blockymodel",
+        "CustomModelTexture": [
+            {
+                "Texture": "Blocks/Benches/TeaBench_Texture.png",
+                "Weight": 1
+            }
+        ],
+        "HitboxType": "TeaBench",
+        "ParticleColor": "#8B4513",
+        "CustomModelScale": 1.0,
+        "VariantRotation": "NESW",
+        "Bench": {
+            "Type": "Crafting",
+            "Categories": [
+                {
+                    "Id": "TeaBench_Brewing",
+                    "Icon": "Icons/ItemsGenerated/TeaBench.png",
+                    "Name": "server.benchCategories.teabench.brewing"
+                }
+            ],
+            "LocalOpenSoundEventId": "SFX_Bench_Placeholder",
+            "LocalCloseSoundEventId": "SFX_Bench_Placeholder",
+            "CompletedSoundEventId": "SFX_Bench_Placeholder",
+            "Id": "TeaBench"
+        },
+        "Gathering": {
+            "Breaking": {
+                "GatherType": "Benches"
+            }
+        },
+        "BlockParticleSetId": "Wood",
+        "Support": {
+            "Down": [
+                {
+                    "FaceType": "Full"
+                }
+            ]
+        },
+        "BlockSoundSetId": "Wood"
+    },
+    "PlayerAnimationsId": "Block",
+    "MaxStack": 1,
+    "ItemSoundSetId": "ISS_Blocks_Wood",
+    "Tags": {
+        "Type": [
+            "Bench"
+        ]
+    },
+    "IconProperties": {
+        "Scale": 1.0,
+        "Rotation": [
+            0,
+            45,
+            0
+        ],
+        "Translation": [
+            0,
+            0
+        ]
+    }
+}
