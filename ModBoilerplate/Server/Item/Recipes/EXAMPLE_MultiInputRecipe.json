@@ -1,0 +1,15 @@
+{
+  "RecipeName": "Recipe_ComplexItem",
+  "CraftingStation": "AdvancedWorkbench",
+  "Inputs": [
+    {"ItemId": "Material1", "Quantity": 3},
+    {"ItemId": "Material2", "Quantity": 2},
+    {"ItemId": "Material3", "Quantity": 1},
+    {"ItemId": "Catalyst", "Quantity": 1}
+  ],
+  "Outputs": [
+    {"ItemId": "ComplexItem", "Quantity": 1},
+    {"ItemId": "Byproduct", "Quantity": 1}
+  ],
+  "CraftingTime": 8.0
+}

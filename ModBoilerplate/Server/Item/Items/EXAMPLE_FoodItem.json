@@ -1,0 +1,32 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Apple.name",
+    "Description": "server.items.Apple.description"
+  },
+  "Parent": "Template_Food",
+  "Icon": "Icons/ItemsGenerated/Apple.png",
+  "ResourceTypes": [{"Id": "Foods"}],
+  "Quality": "Common",
+  "Consumable": true,
+  "Interactions": {},
+  "BlockType": {
+    "Material": "Empty",
+    "DrawType": "Model",
+    "CustomModel": "Resources/Apple.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Apple_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "Item_Small",
+    "ParticleColor": "#FF5555",
+    "CustomModelScale": 0.8
+  },
+  "Scale": 1,
+  "IconProperties": {
+    "Scale": 0.9,
+    "Rotation": [15, 45, 20],
+    "Translation": [0, -2]
+  }
+}

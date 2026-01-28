@@ -1,0 +1,32 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.BasicItem.name",
+    "Description": "server.items.BasicItem.description"
+  },
+  "Parent": "Template_Generic",
+  "Icon": "Icons/ItemsGenerated/BasicItem.png",
+  "ResourceTypes": [{"Id": "Miscellaneous"}],
+  "Quality": "Common",
+  "Consumable": false,
+  "Interactions": {},
+  "BlockType": {
+    "Material": "Empty",
+    "DrawType": "Model",
+    "CustomModel": "Resources/BasicItem.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/BasicItem_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "Item_Small",
+    "ParticleColor": "#FFFFFF",
+    "CustomModelScale": 1.0
+  },
+  "Scale": 1,
+  "IconProperties": {
+    "Scale": 1.0,
+    "Rotation": [0, 0, 0],
+    "Translation": [0, 0]
+  }
+}

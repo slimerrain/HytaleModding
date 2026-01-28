@@ -1,8 +1,32 @@
-# Example JSON Structures
+# Example JSON Structures - REFERENCE GUIDE
 
-This file contains copy-paste ready examples for common mod configurations.
+**📍 Examples are now distributed throughout the mod structure!**
+
+Instead of looking at this file, **navigate to the actual folders** where files belong:
+
+- **Item definitions**: `Server/Item/Items/` (see EXAMPLE_* files)
+- **Recipes**: `Server/Item/Recipes/` (see EXAMPLE_* files)
+- **Drop tables**: `Server/Drops/Item/` (see EXAMPLE_* files)
+- **Hitboxes**: `Server/Item/Block/Hitboxes/` (see EXAMPLE_* files)
+- **Resource types**: `Server/Item/ResourceTypes/` (see EXAMPLE_* files)
+- **Interactions**: `Server/Item/Interactions/` (see EXAMPLE_* files)
+
+Each folder has:
+1. **EXAMPLE_* files** - Copy these and modify them
+2. **README.md** - Explains what goes in that folder and how to use it
+
+---
 
 ## Items
+
+**📍 Location**: `Server/Item/Items/` folder
+
+Example files:
+- `EXAMPLE_BasicItem.json` - Simple generic item
+- `EXAMPLE_FoodItem.json` - Consumable food
+- `EXAMPLE_BlockItem.json` - Placeable block
+- `EXAMPLE_BlockWithInteraction.json` - Block with interaction
+- `README.md` - Complete guide for items
 
 ### Basic Item
 ```json

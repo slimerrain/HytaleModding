@@ -1,0 +1,12 @@
+{
+  "RecipeName": "Recipe_CookedFood",
+  "CraftingStation": "Stove",
+  "Inputs": [
+    {"ItemId": "RawFood", "Quantity": 1},
+    {"ItemId": "Water", "Quantity": 1}
+  ],
+  "Outputs": [
+    {"ItemId": "CookedFood", "Quantity": 1}
+  ],
+  "CraftingTime": 5.0
+}

@@ -1,0 +1,11 @@
+{
+  "InteractionType": "Harvest",
+  "BlockId": "CustomCrop",
+  "CropType": "CustomCrop",
+  "RequiredTool": "Hands",
+  "HarvestTime": 0.5,
+  "DropContainer": "Drops_CustomCrop",
+  "Sound": "CropHarvest",
+  "Particles": "LeafParticles",
+  "ParticleColor": "#90EE90"
+}

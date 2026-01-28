@@ -1,0 +1,23 @@
+server.items.CustomCropSeed.name=Custom Crop Seeds
+server.items.CustomCropSeed.description=Plant in tilled soil to grow custom crops.
+
+server.items.CustomCrop.name=Custom Crop
+server.items.CustomCrop.description=A fresh harvest from carefully tended crops.
+
+server.items.SageLeafSeed.name=Sage Leaf Seeds
+server.items.SageLeafSeed.description=Plant in tilled soil to cultivate sage leaves.
+
+server.items.SageLeaf.name=Sage Leaf
+server.items.SageLeaf.description=Fresh sage leaves used in cooking and alchemy.
+
+server.items.TwineFlowerSeed.name=Twine Flower Seeds
+server.items.TwineFlowerSeed.description=Plant in tilled soil to grow delicate twine flowers.
+
+server.items.TwineFlower.name=Twine Flower
+server.items.TwineFlower.description=Vibrant flowers used for natural fiber extraction.
+
+server.items.CrimsonGrainSeed.name=Crimson Grain Seeds
+server.items.CrimsonGrainSeed.description=Plant in tilled soil to harvest crimson grain.
+
+server.items.CrimsonGrain.name=Crimson Grain
+server.items.CrimsonGrain.description=A premium grain with deep red color. Excellent for baking.
