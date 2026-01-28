@@ -1,0 +1,21 @@
+{
+  "Group": "slimerrain",
+  "Name": "Template Mod",
+  "Version": "1.0",
+  "Description": "This is a template mod.",
+  "Authors": [
+    {
+      "Name": "slimerrain",
+      "Email": "slimerrain@gmail.com",
+      "Url": ""
+    }
+  ],
+  "Website": "website",
+  "ServerVersion": "",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true,
+  "SubPlugins": []
+}

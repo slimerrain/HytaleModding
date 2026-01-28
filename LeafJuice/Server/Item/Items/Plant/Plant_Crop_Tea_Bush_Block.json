@@ -1,0 +1,57 @@
+{
+    "TranslationProperties": {
+        "Name": "server.items.Plant_Crop_Tea_Bush_Block.name",
+        "Description": "server.items.Plant_Crop_Tea_Bush_Block.description"
+    },
+    "Parent": "Template_Crop_Tea_Block",
+    "ItemLevel": 10,
+    "BlockType": {
+        "CustomModel": "Blocks/Foliage/Plants/Bush_Tea_Wild.blockymodel",
+        "CustomModelTexture": [
+            {
+                "Texture": "Blocks/Foliage/Plants/Bush_Tea_Wild.png",
+                "Weight": 1
+            }
+        ],
+        "State": {
+            "Definitions": {
+                "StageFinal": {
+                    "CustomModel": "Blocks/Foliage/Plants/Bush_Wild_Tea.blockymodel",
+                    "CustomModelTexture": [
+                        {
+                            "Texture": "Blocks/Foliage/Plants/Bush_Tea_Wild.png",
+                            "Weight": 1
+                        }
+                    ],
+                    "InteractionHint": "server.interactionHints.harvest",
+                    "Interactions": {
+                        "Use": {
+                            "Interactions": [
+                                {
+                                    "Type": "HarvestCrop"
+                                }
+                            ]
+                        }
+                    },
+                    "Support": {
+                        "Down": [
+                            {
+                                "FaceType": "Full"
+                            },
+                            {
+                                "FaceType": "Bushes"
+                            }
+                        ]
+                    },
+                    "Supporting": {
+                        "Up": [
+                            {
+                                "FaceType": "Bushes"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "Id": "Recipe_Tea_Brewing_Basic",
+    "BenchRequirement": {
+        "Type": "Crafting",
+        "Id": "Teapot"
+    },
+    "InputItems": [
+        {
+            "ItemId": "Ingredient_Tea_Leaves",
+            "Quantity": 1
+        }
+    ],
+    "OutputItem": {
+        "ItemId": "Item_Tea_Brewed",
+        "Quantity": 1
+    },
+    "TimeSeconds": 5,
+    "Category": "Brewed"
+}

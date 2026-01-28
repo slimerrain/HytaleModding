@@ -1,0 +1,11 @@
+{
+    "Textures": [
+        {
+            "All": "Blocks/Benches/Teapot_Texture.png"
+        }
+    ],
+    "Material": "Solid",
+    "Light": {
+        "Color": "#ffffff"
+    }
+}
