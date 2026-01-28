@@ -1,9 +1,9 @@
 {
-  "Container": {
-    "Type": "Single",
-    "Weight": 100.0,
-    "Item": {
-      "ItemId": "YourItem"
+    "Container": {
+        "Type": "Single",
+        "Weight": 100.0,
+        "Item": {
+            "ItemId": "YourItem"
+        }
     }
-  }
 }

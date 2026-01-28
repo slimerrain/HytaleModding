@@ -3,11 +3,11 @@
 
 # Example mining interaction
 {
-  "InteractionType": "Hit",
-  "BlockId": "YourBlockId",
-  "RequiredTool": "Pickaxe",
-  "BreakTime": 2.0,
-  "DropContainer": "Drops_YourBlock",
-  "Sound": "BlockBreak",
-  "Particles": "StoneParticles"
+    "InteractionType": "Hit",
+    "BlockId": "YourBlockId",
+    "RequiredTool": "Pickaxe",
+    "BreakTime": 2.0,
+    "DropContainer": "Drops_YourBlock",
+    "Sound": "BlockBreak",
+    "Particles": "StoneParticles"
 }

@@ -1,36 +1,43 @@
 {
-  "TranslationProperties": {
-    "Name": "server.items.YourItem.name",
-    "Description": "server.items.YourItem.description"
-  },
-  "Parent": "Template_Generic",
-  "Icon": "Icons/ItemsGenerated/YourItem.png",
-  "ResourceTypes": [
-    {
-      "Id": "YourResourceType"
-    }
-  ],
-  "Quality": "Common",
-  "Consumable": false,
-  "Interactions": {},
-  "BlockType": {
-    "Material": "Empty",
-    "DrawType": "Model",
-    "CustomModel": "Resources/YourItem.blockymodel",
-    "CustomModelTexture": [
-      {
-        "Texture": "Resources/YourItem_Texture.png",
-        "Weight": 1
-      }
+    "TranslationProperties": {
+        "Name": "server.items.YourItem.name",
+        "Description": "server.items.YourItem.description"
+    },
+    "Parent": "Template_Generic",
+    "Icon": "Icons/ItemsGenerated/YourItem.png",
+    "ResourceTypes": [
+        {
+            "Id": "YourResourceType"
+        }
     ],
-    "HitboxType": "Item_Small",
-    "ParticleColor": "#FFFFFF",
-    "CustomModelScale": 1.0
-  },
-  "Scale": 1,
-  "IconProperties": {
-    "Scale": 1.0,
-    "Rotation": [0, 0, 0],
-    "Translation": [0, 0]
-  }
+    "Quality": "Common",
+    "Consumable": false,
+    "Interactions": {},
+    "BlockType": {
+        "Material": "Empty",
+        "DrawType": "Model",
+        "CustomModel": "Resources/YourItem.blockymodel",
+        "CustomModelTexture": [
+            {
+                "Texture": "Resources/YourItem_Texture.png",
+                "Weight": 1
+            }
+        ],
+        "HitboxType": "Item_Small",
+        "ParticleColor": "#FFFFFF",
+        "CustomModelScale": 1.0
+    },
+    "Scale": 1,
+    "IconProperties": {
+        "Scale": 1.0,
+        "Rotation": [
+            0,
+            0,
+            0
+        ],
+        "Translation": [
+            0,
+            0
+        ]
+    }
 }

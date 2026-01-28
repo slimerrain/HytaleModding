@@ -1,12 +1,21 @@
 {
-  "RecipeName": "Recipe_SimpleItem",
-  "CraftingStation": "Workbench",
-  "Inputs": [
-    {"ItemId": "RawMaterial", "Quantity": 2},
-    {"ItemId": "Tool", "Quantity": 1}
-  ],
-  "Outputs": [
-    {"ItemId": "CraftedItem", "Quantity": 1}
-  ],
-  "CraftingTime": 3.0
+    "RecipeName": "Recipe_SimpleItem",
+    "CraftingStation": "Workbench",
+    "Inputs": [
+        {
+            "ItemId": "RawMaterial",
+            "Quantity": 2
+        },
+        {
+            "ItemId": "Tool",
+            "Quantity": 1
+        }
+    ],
+    "Outputs": [
+        {
+            "ItemId": "CraftedItem",
+            "Quantity": 1
+        }
+    ],
+    "CraftingTime": 3.0
 }

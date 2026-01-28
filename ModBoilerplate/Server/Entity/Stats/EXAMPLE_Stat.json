@@ -3,11 +3,11 @@
 
 # Basic health stat
 {
-  "StatName": "Health",
-  "DisplayName": "server.stats.Health.name",
-  "BaseValue": 100,
-  "MinValue": 0,
-  "MaxValue": 1000,
-  "Regeneration": 1.0,
-  "RegenerationDelay": 5.0
+    "StatName": "Health",
+    "DisplayName": "server.stats.Health.name",
+    "BaseValue": 100,
+    "MinValue": 0,
+    "MaxValue": 1000,
+    "Regeneration": 1.0,
+    "RegenerationDelay": 5.0
 }

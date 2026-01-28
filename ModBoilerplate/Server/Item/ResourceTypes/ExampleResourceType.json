@@ -1,5 +1,5 @@
 {
-  "Name": "YourResourceType",
-  "Color": "#FFFFFF",
-  "Weight": 1
+    "Name": "YourResourceType",
+    "Color": "#FFFFFF",
+    "Weight": 1
 }

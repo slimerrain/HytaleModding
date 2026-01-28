@@ -1,27 +1,27 @@
 {
-  "Container": {
-    "Type": "Multiple",
-    "Items": [
-      {
-        "Weight": 100.0,
-        "Item": {
-          "ItemId": "CustomCrop",
-          "Quantity": {
-            "Min": 1,
-            "Max": 3
-          }
-        }
-      },
-      {
-        "Weight": 50.0,
-        "Item": {
-          "ItemId": "CustomCropSeed",
-          "Quantity": {
-            "Min": 1,
-            "Max": 2
-          }
-        }
-      }
-    ]
-  }
+    "Container": {
+        "Type": "Multiple",
+        "Items": [
+            {
+                "Weight": 100.0,
+                "Item": {
+                    "ItemId": "CustomCrop",
+                    "Quantity": {
+                        "Min": 1,
+                        "Max": 3
+                    }
+                }
+            },
+            {
+                "Weight": 50.0,
+                "Item": {
+                    "ItemId": "CustomCropSeed",
+                    "Quantity": {
+                        "Min": 1,
+                        "Max": 2
+                    }
+                }
+            }
+        ]
+    }
 }

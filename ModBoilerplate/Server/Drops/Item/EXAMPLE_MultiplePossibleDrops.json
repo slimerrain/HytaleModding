@@ -1,31 +1,31 @@
 {
-  "Container": {
-    "Type": "Multiple",
-    "Containers": [
-      {
-        "Type": "Single",
-        "Weight": 50.0,
-        "Item": {
-          "ItemId": "CommonDrop",
-          "Quantity": 1
-        }
-      },
-      {
-        "Type": "Single",
-        "Weight": 30.0,
-        "Item": {
-          "ItemId": "UncommonDrop",
-          "Quantity": 1
-        }
-      },
-      {
-        "Type": "Single",
-        "Weight": 20.0,
-        "Item": {
-          "ItemId": "RareDrop",
-          "Quantity": 1
-        }
-      }
-    ]
-  }
+    "Container": {
+        "Type": "Multiple",
+        "Containers": [
+            {
+                "Type": "Single",
+                "Weight": 50.0,
+                "Item": {
+                    "ItemId": "CommonDrop",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Type": "Single",
+                "Weight": 30.0,
+                "Item": {
+                    "ItemId": "UncommonDrop",
+                    "Quantity": 1
+                }
+            },
+            {
+                "Type": "Single",
+                "Weight": 20.0,
+                "Item": {
+                    "ItemId": "RareDrop",
+                    "Quantity": 1
+                }
+            }
+        ]
+    }
 }

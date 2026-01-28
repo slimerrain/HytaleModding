@@ -3,11 +3,11 @@
 
 # Basic poison effect
 {
-  "EffectName": "Poison",
-  "DisplayName": "server.effects.Poison.name",
-  "IconPath": "Icons/Effects/Poison.png",
-  "Duration": 10.0,
-  "TickRate": 1.0,
-  "Damage": 0.5,
-  "CanStack": true
+    "EffectName": "Poison",
+    "DisplayName": "server.effects.Poison.name",
+    "IconPath": "Icons/Effects/Poison.png",
+    "Duration": 10.0,
+    "TickRate": 1.0,
+    "Damage": 0.5,
+    "CanStack": true
 }

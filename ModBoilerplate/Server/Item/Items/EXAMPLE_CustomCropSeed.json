@@ -1,24 +1,38 @@
 {
-  "TranslationProperties": {
-    "Name": "server.items.CustomCropSeed.name",
-    "Description": "server.items.CustomCropSeed.description"
-  },
-  "Parent": "Template_Seed",
-  "Icon": "Icons/ItemsGenerated/CustomCropSeed.png",
-  "ResourceTypes": [{"Id": "Seeds"}, {"Id": "Agriculture"}],
-  "Quality": "Common",
-  "Consumable": false,
-  "Properties": {
-    "CropType": "CustomCrop",
-    "GrowthTime": 300,
-    "Stages": 4,
-    "RequiresTilling": true,
-    "BonemealBoost": 0.5
-  },
-  "Scale": 0.8,
-  "IconProperties": {
-    "Scale": 0.9,
-    "Rotation": [0, 45, 0],
-    "Translation": [0, -2]
-  }
+    "TranslationProperties": {
+        "Name": "server.items.CustomCropSeed.name",
+        "Description": "server.items.CustomCropSeed.description"
+    },
+    "Parent": "Template_Seed",
+    "Icon": "Icons/ItemsGenerated/CustomCropSeed.png",
+    "ResourceTypes": [
+        {
+            "Id": "Seeds"
+        },
+        {
+            "Id": "Agriculture"
+        }
+    ],
+    "Quality": "Common",
+    "Consumable": false,
+    "Properties": {
+        "CropType": "CustomCrop",
+        "GrowthTime": 300,
+        "Stages": 4,
+        "RequiresTilling": true,
+        "BonemealBoost": 0.5
+    },
+    "Scale": 0.8,
+    "IconProperties": {
+        "Scale": 0.9,
+        "Rotation": [
+            0,
+            45,
+            0
+        ],
+        "Translation": [
+            0,
+            -2
+        ]
+    }
 }

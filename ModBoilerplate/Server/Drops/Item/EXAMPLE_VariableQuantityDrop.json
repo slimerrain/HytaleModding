@@ -1,13 +1,13 @@
 {
-  "Container": {
-    "Type": "Single",
-    "Weight": 100.0,
-    "Item": {
-      "ItemId": "Seeds",
-      "Quantity": {
-        "Min": 2,
-        "Max": 5
-      }
+    "Container": {
+        "Type": "Single",
+        "Weight": 100.0,
+        "Item": {
+            "ItemId": "Seeds",
+            "Quantity": {
+                "Min": 2,
+                "Max": 5
+            }
+        }
     }
-  }
 }

@@ -1,43 +1,57 @@
 {
-  "TranslationProperties": {
-    "Name": "server.items.CustomWorkbench.name",
-    "Description": "server.items.CustomWorkbench.description"
-  },
-  "Parent": "Template_Block",
-  "Icon": "Icons/ItemsGenerated/CustomWorkbench.png",
-  "ResourceTypes": [{"Id": "Blocks"}, {"Id": "Crafting"}],
-  "Quality": "Uncommon",
-  "Consumable": false,
-  "Interactions": {
-    "Hit": {
-      "RequiredTool": "Pickaxe",
-      "DropContainer": "Drops_CustomWorkbench",
-      "BreakTime": 2.0
+    "TranslationProperties": {
+        "Name": "server.items.CustomWorkbench.name",
+        "Description": "server.items.CustomWorkbench.description"
     },
-    "Interact": {
-      "InteractionId": "Interact_CustomWorkbench",
-      "OpenUI": "CraftingMenu",
-      "CraftingStationId": "CustomWorkbench"
-    }
-  },
-  "BlockType": {
-    "Material": "Wood",
-    "DrawType": "Model",
-    "CustomModel": "Resources/CustomWorkbench.blockymodel",
-    "CustomModelTexture": [
-      {
-        "Texture": "Resources/CustomWorkbench_Texture.png",
-        "Weight": 1
-      }
+    "Parent": "Template_Block",
+    "Icon": "Icons/ItemsGenerated/CustomWorkbench.png",
+    "ResourceTypes": [
+        {
+            "Id": "Blocks"
+        },
+        {
+            "Id": "Crafting"
+        }
     ],
-    "HitboxType": "Block_Full",
-    "ParticleColor": "#8B4513",
-    "CustomModelScale": 1.0
-  },
-  "Scale": 1,
-  "IconProperties": {
-    "Scale": 1.0,
-    "Rotation": [0, 45, 0],
-    "Translation": [0, 0]
-  }
+    "Quality": "Uncommon",
+    "Consumable": false,
+    "Interactions": {
+        "Hit": {
+            "RequiredTool": "Pickaxe",
+            "DropContainer": "Drops_CustomWorkbench",
+            "BreakTime": 2.0
+        },
+        "Interact": {
+            "InteractionId": "Interact_CustomWorkbench",
+            "OpenUI": "CraftingMenu",
+            "CraftingStationId": "CustomWorkbench"
+        }
+    },
+    "BlockType": {
+        "Material": "Wood",
+        "DrawType": "Model",
+        "CustomModel": "Resources/CustomWorkbench.blockymodel",
+        "CustomModelTexture": [
+            {
+                "Texture": "Resources/CustomWorkbench_Texture.png",
+                "Weight": 1
+            }
+        ],
+        "HitboxType": "Block_Full",
+        "ParticleColor": "#8B4513",
+        "CustomModelScale": 1.0
+    },
+    "Scale": 1,
+    "IconProperties": {
+        "Scale": 1.0,
+        "Rotation": [
+            0,
+            45,
+            0
+        ],
+        "Translation": [
+            0,
+            0
+        ]
+    }
 }
