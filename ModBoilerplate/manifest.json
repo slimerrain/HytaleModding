@@ -1,12 +1,12 @@
 {
-  "Group": "slimerrain",
-  "Name": "Leaf Juice",
-  "Version": "1.0",
-  "Description": "This is a tea mod.",
+  "Group": "YourGroupName",
+  "Name": "Your Mod Name",
+  "Version": "1.0.0",
+  "Description": "A brief description of what your mod does.",
   "Authors": [
     {
-      "Name": "slimerrain",
-      "Email": "slimerrain@gmail.com",
+      "Name": "Your Name",
+      "Email": "your.email@example.com",
       "Url": ""
     }
   ],
