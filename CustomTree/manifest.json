@@ -1,0 +1,20 @@
+{
+    "Group": "CustomTree",
+    "Name": "Custom Date Fruit Tree",
+    "Version": "1.0.0",
+    "Description": "Adds plantable Date Fruit trees based on vanilla Apple Tree mechanics. Date trees spawn naturally in the wild and can be planted and grown by players.",
+    "Authors": [
+        {
+            "Name": "CustomTree Developer",
+            "Email": "",
+            "Url": ""
+        }
+    ],
+    "Website": "",
+    "Dependencies": {},
+    "OptionalDependencies": {},
+    "LoadBefore": {},
+    "DisabledByDefault": false,
+    "IncludesAssetPack": false,
+    "SubPlugins": []
+}
