@@ -1,9 +1,0 @@
-{
-    "InteractionType": "Interact",
-    "BlockId": "CustomWorkbench",
-    "CraftingStationId": "CustomWorkbench",
-    "OpenUI": "CraftingMenu",
-    "Sound": "UIOpen",
-    "RequiresFacing": "Top",
-    "InteractionRange": 5.0
-}

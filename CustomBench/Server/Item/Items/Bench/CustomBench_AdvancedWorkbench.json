@@ -1,0 +1,168 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.CustomBench_AdvancedWorkbench.name",
+    "Description": "server.items.CustomBench_AdvancedWorkbench.description"
+  },
+  "Icon": "Icons/ItemsGenerated/CustomBench_AdvancedWorkbench.png",
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Benches/CustomBench_AdvancedWorkbench.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Benches/CustomBench_AdvancedWorkbench_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "Bench_Workbench",
+    "VariantRotation": "NESW",
+    "Bench": {
+      "Type": "Crafting",
+      "Categories": [
+        {
+          "Id": "CustomBench_Advanced_Crafting",
+          "Icon": "Icons/CraftingCategories/CustomBench/AdvancedCrafting.png",
+          "Name": "server.benchCategories.custombench.advancedcrafting"
+        },
+        {
+          "Id": "CustomBench_Special_Items",
+          "Icon": "Icons/CraftingCategories/CustomBench/SpecialItems.png",
+          "Name": "server.benchCategories.custombench.specialitems"
+        },
+        {
+          "Id": "CustomBench_Tools",
+          "Icon": "Icons/CraftingCategories/CustomBench/Tools.png",
+          "Name": "server.benchCategories.custombench.tools"
+        }
+      ],
+      "LocalOpenSoundEventId": "SFX_Workbench_Open",
+      "LocalCloseSoundEventId": "SFX_Workbench_Close",
+      "CompletedSoundEventId": "SFX_Workbench_Craft",
+      "FailedSoundEventId": "SFX_Generic_Crafting_Failed",
+      "BenchUpgradeSoundEventId": "SFX_Workbench_Upgrade_Start_Default",
+      "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default",
+      "Id": "CustomBench_AdvancedWorkbench",
+      "TierLevels": [
+        {
+          "CraftingTimeReductionModifier": 0.0,
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ItemId": "Ingredient_Bar_Iron",
+                "Quantity": 20
+              },
+              {
+                "ItemId": "Ingredient_Bar_Copper",
+                "Quantity": 15
+              },
+              {
+                "ItemId": "Ingredient_Fabric_Scrap_Linen",
+                "Quantity": 10
+              }
+            ],
+            "TimeSeconds": 5.0
+          }
+        },
+        {
+          "CraftingTimeReductionModifier": 0.2,
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ItemId": "Ingredient_Bar_Cobalt",
+                "Quantity": 25
+              },
+              {
+                "ItemId": "Ingredient_Bar_Thorium",
+                "Quantity": 20
+              },
+              {
+                "ItemId": "Ingredient_Leather_Heavy",
+                "Quantity": 15
+              }
+            ],
+            "TimeSeconds": 10.0
+          }
+        },
+        {
+          "CraftingTimeReductionModifier": 0.4
+        }
+      ]
+    },
+    "State": {
+      "Id": "crafting",
+      "Definitions": {
+        "CraftCompleted": {
+          "CustomModelAnimation": "Blocks/Benches/CustomBench_AdvancedWorkbench_Crafting.blockyanim",
+          "Looping": true
+        },
+        "CraftCompletedInstant": {
+          "CustomModelAnimation": "Blocks/Benches/CustomBench_AdvancedWorkbench_Crafting.blockyanim"
+        }
+      }
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches"
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "ParticleColor": "#8B4513",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockSoundSetId": "Wood"
+  },
+  "PlayerAnimationsId": "Block",
+  "MaxStack": 1,
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Tags": {
+    "Type": [
+      "Bench"
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 6,
+        "ResourceTypeId": "Wood_Trunk"
+      },
+      {
+        "Quantity": 4,
+        "ResourceTypeId": "Rock"
+      },
+      {
+        "Quantity": 2,
+        "ItemId": "Ingredient_Bar_Iron"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ],
+        "Id": "Workbench"
+      }
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.42,
+    "Rotation": [
+      22.5,
+      45.0,
+      22.5
+    ],
+    "Translation": [
+      0,
+      0
+    ]
+  }
+}

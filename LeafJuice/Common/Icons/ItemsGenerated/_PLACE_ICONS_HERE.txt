@@ -1,0 +1,21 @@
+// This directory should contain your custom icon PNG files
+// Create the following files here:
+//
+// 1. CustomCrop_Strawberry.png
+//    - Icon for the harvested strawberry item
+//    - Red/pink strawberry design
+//    - 128x128 pixels recommended
+//
+// 2. Plant_Seeds_Strawberry.png  
+//    - Icon for the strawberry seeds
+//    - Seed bag with strawberry imagery
+//    - Match vanilla seed bag style
+//
+// 3. Plant_Crop_Strawberry_Block.png
+//    - Icon for the strawberry crop block
+//    - Plant/crop visualization with strawberries
+//    - Show multiple growth stages or mature crop
+//
+// All icons should be PNG format with transparency
+// Use image editing software like Photoshop, GIMP, or Paint.NET
+// Reference the vanilla game icons in Assets/Common/Icons/ItemsGenerated/ for style

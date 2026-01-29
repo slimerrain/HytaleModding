@@ -1,12 +1,12 @@
 {
-  "Group": "LeafJuice",
-  "Name": "Leaf Juice Tea Bench",
+  "Group": "CustomBench",
+  "Name": "Custom Crafting Bench",
   "Version": "1.0.0",
-  "Description": "Adds a specialized tea brewing bench with multiple crafting categories",
+  "Description": "Adds a custom crafting bench with unique crafting categories",
   "Authors": [
     {
-      "Name": "slimerrain",
-      "Email": "slimerrain@gmail.com",
+      "Name": "CustomBench Developer",
+      "Email": "",
       "Url": ""
     }
   ],

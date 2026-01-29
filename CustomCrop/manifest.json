@@ -1,0 +1,20 @@
+{
+    "Group": "CustomCrop",
+    "Name": "Custom Tea Crop",
+    "Version": "1.0.0",
+    "Description": "Adds a custom tea crop that can be planted and harvested for tea leaves",
+    "Authors": [
+        {
+            "Name": "CustomCrop Developer",
+            "Email": "",
+            "Url": ""
+        }
+    ],
+    "Website": "",
+    "Dependencies": {},
+    "OptionalDependencies": {},
+    "LoadBefore": {},
+    "DisabledByDefault": false,
+    "IncludesAssetPack": false,
+    "SubPlugins": []
+}

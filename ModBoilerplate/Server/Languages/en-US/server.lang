@@ -1,5 +1,0 @@
-server.items.YourItem.name=Your Item Name
-server.items.YourItem.description=Your item description goes here.
-
-server.effects.ExampleEffect.name=Example Effect
-server.effects.ExampleEffect.description=Example effect description.

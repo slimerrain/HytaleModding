@@ -1,0 +1,168 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.LeafJuice_TeaBench.name",
+    "Description": "server.items.LeafJuice_TeaBench.description"
+  },
+  "Icon": "Icons/ItemsGenerated/LeafJuice_TeaBench.png",
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Benches/LeafJuice_TeaBench.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Benches/LeafJuice_TeaBench_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "LeafJuice_TeaBench_1x1x1",
+    "VariantRotation": "NESW",
+    "Bench": {
+      "Type": "Crafting",
+      "Categories": [
+        {
+          "Id": "LeafJuice_Tea_Brewing",
+          "Icon": "Icons/CraftingCategories/LeafJuice/TeaBrewing.png",
+          "Name": "server.benchCategories.leafjuice.teabrewing"
+        },
+        {
+          "Id": "LeafJuice_Herbal_Infusions",
+          "Icon": "Icons/CraftingCategories/LeafJuice/HerbalInfusions.png",
+          "Name": "server.benchCategories.leafjuice.herbalinfusions"
+        },
+        {
+          "Id": "LeafJuice_Special_Brews",
+          "Icon": "Icons/CraftingCategories/LeafJuice/SpecialBrews.png",
+          "Name": "server.benchCategories.leafjuice.specialbrews"
+        }
+      ],
+      "LocalOpenSoundEventId": "SFX_Bench_Placeholder",
+      "LocalCloseSoundEventId": "SFX_Bench_Placeholder",
+      "CompletedSoundEventId": "SFX_Bench_Placeholder",
+      "FailedSoundEventId": "SFX_Generic_Crafting_Failed",
+      "BenchUpgradeSoundEventId": "SFX_Workbench_Upgrade_Start_Default",
+      "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default",
+      "Id": "LeafJuice_TeaBench",
+      "TierLevels": [
+        {
+          "CraftingTimeReductionModifier": 0.0,
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ItemId": "Ingredient_Bar_Copper",
+                "Quantity": 10
+              },
+              {
+                "ResourceTypeId": "Wood_Trunk",
+                "Quantity": 5
+              },
+              {
+                "ResourceTypeId": "Clay",
+                "Quantity": 5
+              }
+            ],
+            "TimeSeconds": 3.0
+          }
+        },
+        {
+          "CraftingTimeReductionModifier": 0.15,
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ItemId": "Ingredient_Bar_Iron",
+                "Quantity": 15
+              },
+              {
+                "ItemId": "Ingredient_Fabric_Scrap_Linen",
+                "Quantity": 10
+              },
+              {
+                "ResourceTypeId": "Clay",
+                "Quantity": 10
+              }
+            ],
+            "TimeSeconds": 5.0
+          }
+        },
+        {
+          "CraftingTimeReductionModifier": 0.25
+        }
+      ]
+    },
+    "State": {
+      "Id": "crafting",
+      "Definitions": {
+        "CraftCompleted": {
+          "CustomModelAnimation": "Blocks/Benches/LeafJuice_TeaBench_Crafting.blockyanim",
+          "Looping": true
+        },
+        "CraftCompletedInstant": {
+          "CustomModelAnimation": "Blocks/Benches/LeafJuice_TeaBench_Crafting.blockyanim"
+        }
+      }
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches"
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "ParticleColor": "#6B5B42",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockSoundSetId": "Wood"
+  },
+  "PlayerAnimationsId": "Block",
+  "MaxStack": 1,
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Tags": {
+    "Type": [
+      "Bench"
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 4,
+        "ResourceTypeId": "Wood_Trunk"
+      },
+      {
+        "Quantity": 2,
+        "ResourceTypeId": "Clay"
+      },
+      {
+        "Quantity": 1,
+        "ItemId": "Ingredient_Bar_Copper"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ],
+        "Id": "Workbench"
+      }
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.42,
+    "Rotation": [
+      22.5,
+      45.0,
+      22.5
+    ],
+    "Translation": [
+      0,
+      0
+    ]
+  }
+}

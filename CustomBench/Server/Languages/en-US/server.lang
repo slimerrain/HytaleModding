@@ -1,0 +1,6 @@
+items.CustomBench_AdvancedWorkbench.name = Advanced Workbench
+items.CustomBench_AdvancedWorkbench.description = A specialized crafting bench for creating advanced items and tools.
+
+benchCategories.custombench.advancedcrafting = Advanced Crafting
+benchCategories.custombench.specialitems = Special Items
+benchCategories.custombench.tools = Custom Tools

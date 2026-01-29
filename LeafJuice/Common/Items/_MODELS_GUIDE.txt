@@ -1,0 +1,17 @@
+// Optional: Place custom strawberry item models here
+// 
+// If you want to replace the vanilla models with custom ones:
+//
+// 1. Create your .blockymodel files using BlockBench or similar tool
+// 2. Place them in this directory (e.g., Strawberry.blockymodel)
+// 3. Create matching texture files (e.g., Strawberry_Texture.png)
+// 4. Update Server/Item/Items/CustomCrop_Strawberry_Item.json to reference:
+//    "Model": "Items/Strawberry/Strawberry.blockymodel"
+//    "Texture": "Items/Strawberry/Strawberry_Texture.png"
+//
+// Currently the mod uses vanilla models:
+// - Resources/Ingredients/Strawberry.blockymodel (does not exist, needs creation)
+// - Resources/Ingredients/Strawberry_Texture.png (does not exist, needs creation)
+//
+// Note: You may need to use actual vanilla models like Carrot.blockymodel
+// or create custom models that match the game's art style

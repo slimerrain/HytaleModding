@@ -1,0 +1,36 @@
+{
+  "Input": [
+    {
+      "ItemId": "Ingredient_Bar_Copper",
+      "Quantity": 4
+    },
+    {
+      "ResourceTypeId": "Wood_Trunk",
+      "Quantity": 2
+    },
+    {
+      "ItemId": "Ingredient_Fabric_Scrap_Linen",
+      "Quantity": 2
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Tool_Hammer_Copper",
+    "Quantity": 1
+  },
+  "Output": [
+    {
+      "ItemId": "Tool_Hammer_Copper",
+      "Quantity": 1
+    }
+  ],
+  "BenchRequirement": [
+    {
+      "Type": "Crafting",
+      "Categories": [
+        "CustomBench_Special_Items"
+      ],
+      "Id": "CustomBench_AdvancedWorkbench"
+    }
+  ],
+  "TimeSeconds": 6
+}
