@@ -1,6 +1,3 @@
-// Date Fruit Tree Mod - English (US) Translations
-// server.items.* translations for the custom date fruit tree mod
-
 items.Plant_Sapling_Date.name = Date Tree Sapling
 items.Plant_Sapling_Date.description = [TMP] Grows into a <color is="#ffffff">Date Fruit Tree</color>.\n• Yields <color is="#c68642">Date Fruits</color>\n• Grows <color is="#4ade80">2-4</color> <color is="#c68642">Dates</color> per harvest\n• Dates regrow every <color is="#4ade80">12</color> <color is="#ffffff">Hours</color>\n\nGrowth Time:\n• <color is="#4ade80">4</color> <color is="#ffffff">Stages</color>\n• <color is="#4ade80">4</color> <color is="#ffffff">Days</color>
 
@@ -10,6 +7,5 @@ items.Plant_Fruit_Date.description = [TMP] A sweet and delicious date fruit harv
 items.Plant_Crop_Date_StageFinal.name = Mature Date
 items.Plant_Crop_Date_StageFinal.description = [TMP] A mature date fruit tree ready for harvest. Right-click to collect date fruits.
 
-// Interaction hints
 interactionHints.harvest = Harvest
 

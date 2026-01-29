@@ -1,0 +1,20 @@
+{
+  "Group": "LeafJuice",
+  "Name": "Leaf Juice - Tea & Herbal Drinks",
+  "Version": "1.0.0",
+  "Description": "Adds tea cultivation, processing benches, and a variety of tea drinks and herbal beverages. Includes new plants, flowers, bushes, and trees for making authentic teas.",
+  "Authors": [
+    {
+      "Name": "slimerrain",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}
