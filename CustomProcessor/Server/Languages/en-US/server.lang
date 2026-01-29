@@ -1,0 +1,7 @@
+items.CustomProcessor_TeaProcessor.name = Tea Processor
+items.CustomProcessor_TeaProcessor.description = A specialized bench for drying and processing tea leaves into various tea products.
+
+items.CustomProcessor_WhiteTea.name = White Tea
+items.CustomProcessor_WhiteTea.description = Delicate dried tea leaves with a subtle flavor. Provides health and energy regeneration when consumed.
+
+benchCategories.customprocessor.teadrying = Tea Drying

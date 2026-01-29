@@ -1,0 +1,5 @@
+# CustomFood Language Strings - English
+
+# Tea Items
+items.Food_Tea_Herbal.name = Herbal Tea
+items.Food_Tea_Herbal.description = A soothing brew made from fresh herbs. Instantly restores <color is="#ffffff">20%</color> health and slightly increases stamina regen.

@@ -1,0 +1,28 @@
+{
+    "Input": [
+        {
+            "ItemId": "CustomCrop_TeaLeaves_Item",
+            "Quantity": 3
+        }
+    ],
+    "PrimaryOutput": {
+        "ItemId": "CustomProcessor_WhiteTea",
+        "Quantity": 1
+    },
+    "Output": [
+        {
+            "ItemId": "CustomProcessor_WhiteTea",
+            "Quantity": 1
+        }
+    ],
+    "BenchRequirement": [
+        {
+            "Type": "Processing",
+            "Categories": [
+                "CustomProcessor_Tea_Drying"
+            ],
+            "Id": "CustomProcessor_TeaProcessor"
+        }
+    ],
+    "TimeSeconds": 8
+}

@@ -1,0 +1,20 @@
+{
+    "Group": "CustomFood",
+    "Name": "Custom Food",
+    "Version": "1.0.0",
+    "Description": "Adds custom food items including herbal tea to Hytale",
+    "Authors": [
+        {
+            "Name": "CustomFood Developer",
+            "Email": "",
+            "Url": ""
+        }
+    ],
+    "Website": "",
+    "Dependencies": {},
+    "OptionalDependencies": {},
+    "LoadBefore": {},
+    "DisabledByDefault": false,
+    "IncludesAssetPack": false,
+    "SubPlugins": []
+}

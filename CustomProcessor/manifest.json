@@ -1,0 +1,20 @@
+{
+    "Group": "CustomProcessor",
+    "Name": "Tea Processor - White Tea Dryer",
+    "Version": "1.0.0",
+    "Description": "Adds a Tea Processor bench that dries tea leaves from CustomCrop into White Tea",
+    "Authors": [
+        {
+            "Name": "CustomProcessor Developer",
+            "Email": "",
+            "Url": ""
+        }
+    ],
+    "Website": "",
+    "Dependencies": {},
+    "OptionalDependencies": {},
+    "LoadBefore": {},
+    "DisabledByDefault": false,
+    "IncludesAssetPack": false,
+    "SubPlugins": []
+}

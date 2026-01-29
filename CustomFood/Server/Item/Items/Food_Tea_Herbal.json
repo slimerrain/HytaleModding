@@ -1,0 +1,133 @@
+{
+    "TranslationProperties": {
+        "Name": "server.items.Food_Tea_Herbal.name",
+        "Description": "server.items.Food_Tea_Herbal.description"
+    },
+    "Parent": "Template_Food",
+    "Interactions": {
+        "Secondary": "Root_Secondary_Consume_Food_T2"
+    },
+    "Quality": "Uncommon",
+    "Icon": "Icons/ItemsGenerated/Food_Tea_Herbal.png",
+    "BlockType": {
+        "Material": "Empty",
+        "DrawType": "Model",
+        "Opacity": "Semitransparent",
+        "CustomModel": "Items/Consumables/Food/Tea_Cup.blockymodel",
+        "CustomModelTexture": [
+            {
+                "Texture": "Items/Consumables/Food/Tea_Cup_Texture.png",
+                "Weight": 1
+            }
+        ],
+        "HitboxType": "Food_Medium",
+        "RandomRotation": "YawStep1",
+        "Gathering": {
+            "Harvest": {},
+            "Soft": {}
+        },
+        "CustomModelScale": 0.5,
+        "BlockParticleSetId": "Dust",
+        "ParticleColor": "#8B7355"
+    },
+    "InteractionVars": {
+        "Consume_Charge": {
+            "Interactions": [
+                {
+                    "Parent": "Consume_Charge_Food_T1_Inner",
+                    "Effects": {
+                        "Particles": [
+                            {
+                                "SystemId": "Food_Eat",
+                                "Color": "#D4A574",
+                                "TargetNodeName": "Mouth",
+                                "TargetEntityPart": "Entity"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "Effect": {
+            "Interactions": [
+                {
+                    "Type": "ApplyEffect",
+                    "EffectId": "Food_Instant_Heal_T2"
+                }
+            ]
+        },
+        "ConsumeSFX": {
+            "Interactions": [
+                {
+                    "Type": "Simple",
+                    "RunTime": 0,
+                    "Effects": {
+                        "LocalSoundEventId": "SFX_Health_Potion_Low_Drink",
+                        "ClearSoundEventOnFinish": true
+                    }
+                }
+            ]
+        }
+    },
+    "Recipe": {
+        "Input": [
+            {
+                "ItemId": "Plant_Herb_Mint",
+                "Quantity": 2
+            },
+            {
+                "ResourceTypeId": "Water_Bucket",
+                "Quantity": 1
+            }
+        ],
+        "Output": [
+            {
+                "ItemId": "Food_Tea_Herbal"
+            },
+            {
+                "ItemId": "Container_Bucket",
+                "Quantity": 1
+            }
+        ],
+        "BenchRequirement": [
+            {
+                "Type": "Crafting",
+                "Id": "Cookingbench",
+                "Categories": [
+                    "Brewing"
+                ]
+            }
+        ],
+        "TimeSeconds": 8
+    },
+    "Scale": 1.2,
+    "ItemLevel": 8,
+    "MaxStack": 25,
+    "DropOnDeath": true,
+    "Categories": [
+        "Items.Foods"
+    ],
+    "PlayerAnimationsId": {
+        "Parent": "Item",
+        "Animations": {
+            "Consume": {
+                "FirstPerson": "Characters/Animations/Items/Main_Handed/Item/Attacks/Drink/Drink_FPS.blockyanim",
+                "ThirdPerson": "Characters/Animations/Items/Main_Handed/Item/Attacks/Drink/Drink.blockyanim",
+                "Speed": 1,
+                "Looping": true
+            }
+        }
+    },
+    "IconProperties": {
+        "Rotation": [
+            22.5,
+            45,
+            22.5
+        ],
+        "Scale": 0.75,
+        "Translation": [
+            0,
+            -8
+        ]
+    }
+}
