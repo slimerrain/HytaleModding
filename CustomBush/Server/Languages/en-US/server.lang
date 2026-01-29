@@ -1,0 +1,10 @@
+items.Plant_Crop_Camellia_Block.name = Camellia Bush
+items.Plant_Crop_Camellia_Block.description = A beautiful bush that produces delicate pink camellia flowers. Can be planted and grown for decorative purposes and flower harvesting.
+
+items.Plant_Camellia_Flower.name = Camellia Flower
+items.Plant_Camellia_Flower.description = A delicate pink flower from the camellia bush. Used in crafting and decoration.
+
+items.Plant_Camellia_Leaf_Tender.name = Tender Camellia Leaf
+items.Plant_Camellia_Leaf_Tender.description = A young, tender leaf from the camellia plant. Perfect for brewing tea or crafting.
+
+interactionHints.harvest_camellia = Harvest Camellia Flowers

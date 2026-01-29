@@ -1,0 +1,21 @@
+{
+    "Container": {
+        "Type": "Multiple",
+        "Containers": [
+            {
+                "Type": "Single",
+                "Item": {
+                    "ItemId": "Plant_Crop_Camellia_Block"
+                }
+            },
+            {
+                "Type": "Single",
+                "Item": {
+                    "ItemId": "Plant_Camellia_Leaf_Tender",
+                    "QuantityMin": 2,
+                    "QuantityMax": 3
+                }
+            }
+        ]
+    }
+}

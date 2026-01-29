@@ -1,0 +1,20 @@
+{
+    "Group": "CustomBush",
+    "Name": "Custom Camellia Bush",
+    "Version": "1.0.0",
+    "Description": "Adds plantable Camellia bushes that spawn naturally in the wild. Based on vanilla berry bush mechanics.",
+    "Authors": [
+        {
+            "Name": "CustomBush Developer",
+            "Email": "",
+            "Url": ""
+        }
+    ],
+    "Website": "",
+    "Dependencies": {},
+    "OptionalDependencies": {},
+    "LoadBefore": {},
+    "DisabledByDefault": false,
+    "IncludesAssetPack": false,
+    "SubPlugins": []
+}

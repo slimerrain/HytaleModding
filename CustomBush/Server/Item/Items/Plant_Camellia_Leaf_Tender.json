@@ -1,0 +1,67 @@
+{
+    "TranslationProperties": {
+        "Name": "server.items.Plant_Camellia_Leaf_Tender.name",
+        "Description": "server.items.Plant_Camellia_Leaf_Tender.description"
+    },
+    "Parent": "Template_Crop_Item",
+    "Quality": "Common",
+    "Icon": "Icons/ItemsGenerated/Plant_Camellia_Leaf_Tender.png",
+    "PlayerAnimationsId": "Item",
+    "Categories": [
+        "Items.Ingredients"
+    ],
+    "IconProperties": {
+        "Scale": 0.5,
+        "Translation": [
+            0,
+            -15
+        ],
+        "Rotation": [
+            22.5,
+            45,
+            22.5
+        ]
+    },
+    "Texture": "Resources/Plants/Camellia_Leaf_Tender.png",
+    "Model": "Resources/Plants/Camellia_Flower.blockymodel",
+    "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
+    "Tags": {
+        "Type": [
+            "Plant"
+        ],
+        "Family": [
+            "Leaf"
+        ]
+    },
+    "ItemEntity": {
+        "ParticleSystemId": null
+    },
+    "Consumable": false,
+    "BlockType": {
+        "Material": "Empty",
+        "DrawType": "Model",
+        "HitboxType": "Food_Small",
+        "CustomModel": "Resources/Plants/Camellia_Flower.blockymodel",
+        "CustomModelScale": 0.7,
+        "CustomModelTexture": [
+            {
+                "Texture": "Resources/Plants/Camellia_Leaf_Tender.png",
+                "Weight": 1
+            }
+        ],
+        "Support": {
+            "Down": [
+                {
+                    "FaceType": "Full"
+                }
+            ]
+        },
+        "ParticleColor": "#4d8b1b",
+        "RandomRotation": "YawStep1",
+        "Gathering": {
+            "Harvest": {},
+            "Soft": {}
+        }
+    },
+    "DropOnDeath": true
+}
