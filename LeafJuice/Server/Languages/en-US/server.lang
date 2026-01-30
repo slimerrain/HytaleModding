@@ -49,6 +49,15 @@ items.LeafJuice_Date_Sapling.description = A sapling that grows into a Date Frui
 items.Plant_Crop_Date_StageFinal.name = Mature Date
 items.Plant_Crop_Date_StageFinal.description = A mature date fruit ready for harvest. Right-click to collect dates.
 
+items.LeafJuice_Bergamot_Fruit.name = Bergamot Orange
+items.LeafJuice_Bergamot_Fruit.description = A fragrant citrus fruit with bright, floral notes. Often used to flavor tea.
+
+items.LeafJuice_Bergamot_Sapling.name = Bergamot Orange Tree Sapling
+items.LeafJuice_Bergamot_Sapling.description = A sapling that grows into a Bergamot Orange tree. Plant on soil to cultivate bergamot.
+
+items.Plant_Crop_Bergamot_StageFinal.name = Mature Bergamot
+items.Plant_Crop_Bergamot_StageFinal.description = A mature bergamot fruit ready for harvest. Right-click to collect bergamot.
+
 items.LeafJuice_Dried_Jasmine.name = Dried Jasmine
 items.LeafJuice_Dried_Jasmine.description = Dried jasmine flowers with concentrated aroma. Ready for brewing into jasmine tea.
 
@@ -91,8 +100,8 @@ items.LeafJuice_Hojicha_Powder.description = Roasted green tea ground into fine 
 items.LeafJuice_Matcha_Powder.name = Matcha Powder
 items.LeafJuice_Matcha_Powder.description = Finely ground green tea powder. Vibrant green color and rich in antioxidants.
 
-items.LeafJuice_Orange_Garnish.name = Orange Garnish
-items.LeafJuice_Orange_Garnish.description = Sliced and prepared orange peel. Adds citrus notes to tea blends.
+items.LeafJuice_Bergamot_Garnish.name = Bergamot Garnish
+items.LeafJuice_Bergamot_Garnish.description = Sliced and prepared bergamot peel. Adds bright, floral citrus notes to tea blends.
 
 items.LeafJuice_Roasted_Rice.name = Roasted Rice
 items.LeafJuice_Roasted_Rice.description = Rice kernels roasted until golden brown. Adds a nutty, toasted flavor to tea.

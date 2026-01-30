@@ -32,6 +32,11 @@
                     "Id": "LeafJuice_TeaPowders",
                     "Icon": "Icons/CraftingCategories/LeafJuice/TeaPowders.png",
                     "Name": "server.benchCategories.leafjuice.teapowders"
+                },
+                {
+                    "Id": "LeafJuice_Prepared",
+                    "Icon": "Icons/CraftingCategories/LeafJuice/Prepared.png",
+                    "Name": "server.benchCategories.leafjuice.prepared"
                 }
             ],
             "LocalOpenSoundEventId": "SFX_Workbench_Open",

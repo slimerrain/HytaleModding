@@ -1,0 +1,15 @@
+{
+    "Container": {
+        "Type": "Multiple",
+        "Containers": [
+            {
+                "Type": "Single",
+                "Item": {
+                    "ItemId": "LeafJuice_Bergamot_Fruit",
+                    "QuantityMin": 2,
+                    "QuantityMax": 4
+                }
+            }
+        ]
+    }
+}

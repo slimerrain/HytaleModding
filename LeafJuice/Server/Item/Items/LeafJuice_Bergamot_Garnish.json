@@ -1,10 +1,10 @@
 {
     "TranslationProperties": {
-        "Name": "server.items.LeafJuice_Orange_Garnish.name",
-        "Description": "server.items.LeafJuice_Orange_Garnish.description"
+        "Name": "server.items.LeafJuice_Bergamot_Garnish.name",
+        "Description": "server.items.LeafJuice_Bergamot_Garnish.description"
     },
     "Parent": "Template_Food",
-    "Icon": "Icons/ItemsGenerated/LeafJuice_Orange_Garnish.png",
+    "Icon": "Icons/ItemsGenerated/LeafJuice_Bergamot_Garnish.png",
     "Categories": [
         "Ingredients.Food"
     ],

@@ -15,5 +15,26 @@
             "Ingredient",
             "Fruit"
         ]
+    },
+    "Recipe": {
+        "Input": [
+            {
+                "ItemId": "Fruit_Date",
+                "Quantity": 1
+            }
+        ],
+        "TimeSeconds": 5,
+        "Output": [
+            {
+                "ItemId": "LeafJuice_Dried_Date",
+                "Quantity": 1
+            }
+        ],
+        "BenchRequirement": [
+            {
+                "Type": "Processing",
+                "Id": "LeafJuice_DryingRack"
+            }
+        ]
     }
 }

@@ -1,26 +1,26 @@
 {
     "Input": [
         {
-            "ItemId": "Food_Fruit_Orange",
+            "ItemId": "LeafJuice_Bergamot_Fruit",
             "Quantity": 1
         }
     ],
     "PrimaryOutput": {
-        "ItemId": "LeafJuice_Orange_Garnish",
+        "ItemId": "LeafJuice_Bergamot_Garnish",
         "Quantity": 2
     },
     "Output": [
         {
-            "ItemId": "LeafJuice_Orange_Garnish",
+            "ItemId": "LeafJuice_Bergamot_Garnish",
             "Quantity": 2
         }
     ],
     "BenchRequirement": [
         {
             "Type": "Crafting",
-            "Id": "Cookingbench",
+            "Id": "LeafJuice_TeaBench",
             "Categories": [
-                "Cooking"
+                "LeafJuice_Prepared"
             ]
         }
     ],

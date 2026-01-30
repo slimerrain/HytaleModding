@@ -15,5 +15,26 @@
             "Ingredient",
             "Plant"
         ]
+    },
+    "Recipe": {
+        "Input": [
+            {
+                "ItemId": "Plant_Flower_Common_Orange",
+                "Quantity": 1
+            }
+        ],
+        "TimeSeconds": 5,
+        "Output": [
+            {
+                "ItemId": "LeafJuice_Dried_Chrysanthemum",
+                "Quantity": 1
+            }
+        ],
+        "BenchRequirement": [
+            {
+                "Type": "Processing",
+                "Id": "LeafJuice_DryingRack"
+            }
+        ]
     }
 }

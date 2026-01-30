@@ -15,5 +15,26 @@
             "Food",
             "Ingredient"
         ]
+    },
+    "Recipe": {
+        "Input": [
+            {
+                "ItemId": "Plant_Crop_Rice_Item",
+                "Quantity": 1
+            }
+        ],
+        "TimeSeconds": 5,
+        "Output": [
+            {
+                "ItemId": "LeafJuice_Roasted_Rice",
+                "Quantity": 1
+            }
+        ],
+        "BenchRequirement": [
+            {
+                "Type": "Processing",
+                "Id": "LeafJuice_WitheringStation"
+            }
+        ]
     }
 }
