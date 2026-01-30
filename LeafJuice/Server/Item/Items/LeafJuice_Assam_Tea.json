@@ -6,7 +6,7 @@
   "Parent": "Template_Food",
   "Icon": "Icons/ItemsGenerated/LeafJuice_Assam_Tea.png",
   "Categories": [
-    "Food.Drinks"
+    "Items.Foods"
   ],
   "MaxStack": 16,
   "ItemSoundSetId": "ISS_Items_Food_Liquid",
