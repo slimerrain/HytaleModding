@@ -29,12 +29,11 @@
                 "Quantity": 1
             }
         ],
-        "BenchRequirement": {
-            "Type": "Processing",
-            "Id": "LeafJuice_TeaPot",
-            "Categories": [
-                "LeafJuice_Brewing"
-            ]
-        }
+        "BenchRequirement": [
+            {
+                "Type": "Processing",
+                "Id": "LeafJuice_TeaPot"
+            }
+        ]
     }
 }

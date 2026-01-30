@@ -22,10 +22,7 @@
         "BenchRequirement": [
             {
                 "Type": "Processing",
-                "Id": "LeafJuice_TeaPot",
-                "Categories": [
-                    "LeafJuice_Brewing"
-                ]
+                "Id": "LeafJuice_TeaPot"
             }
         ]
     }
