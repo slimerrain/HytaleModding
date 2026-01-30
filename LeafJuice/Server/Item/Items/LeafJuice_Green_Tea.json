@@ -6,7 +6,7 @@
     "Parent": "LeafJuice_Template_Tea",
     "Icon": "Icons/ItemsGenerated/LeafJuice_Green_Tea.png",
     "BlockType": {
-        "CustomModel": "Items/Consumables/Food/Tea_Cup_Green.blockymodel",
+        "CustomModel": "Items/Consumables/Food/Tea_Cup.blockymodel",
         "CustomModelTexture": [
             {
                 "Texture": "Items/Consumables/Food/Tea_Cup_Green.png",

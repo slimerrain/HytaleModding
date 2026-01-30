@@ -6,7 +6,7 @@
     "Parent": "LeafJuice_Template_Tea",
     "Icon": "Icons/ItemsGenerated/LeafJuice_Chrysanthemum_Tea.png",
     "BlockType": {
-        "CustomModel": "Items/Consumables/Food/Tea_Cup_Chrysanthemum.blockymodel",
+        "CustomModel": "Items/Consumables/Food/Tea_Cup.blockymodel",
         "CustomModelTexture": [
             {
                 "Texture": "Items/Consumables/Food/Tea_Cup_Yellow.png",
