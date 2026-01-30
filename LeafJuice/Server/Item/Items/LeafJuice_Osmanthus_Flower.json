@@ -3,52 +3,17 @@
     "Name": "server.items.LeafJuice_Osmanthus_Flower.name",
     "Description": "server.items.LeafJuice_Osmanthus_Flower.description"
   },
-  "Parent": "Template_Crop_Item",
+  "Parent": "Template_Food",
   "Icon": "Icons/ItemsGenerated/LeafJuice_Osmanthus_Flower.png",
   "Categories": [
-    "Plants.Flowers"
+    "Ingredients.Plants"
   ],
-  "BlockType": {
-    "CustomModel": "Blocks/Foliage/Flowers/LeafJuice_Flower_Osmanthus.blockymodel",
-    "CustomModelTexture": [
-      {
-        "Texture": "Blocks/Foliage/Flowers/LeafJuice_Flower_Osmanthus.png",
-        "Weight": 1
-      }
-    ],
-    "CustomModelScale": 0.8,
-    "ParticleColor": "#FFD700"
-  },
   "MaxStack": 64,
-  "ItemSoundSetId": "ISS_Plants_Flowers",
+  "ItemSoundSetId": "ISS_Items_Foliage",
   "Tags": {
     "Type": [
-      "Plant",
-      "Flower"
+      "Food",
+      "Ingredient"
     ]
-  },
-  "Recipe": {
-    "Input": [
-      {
-        "ItemId": "LeafJuice_Osmanthus_Flower",
-        "Quantity": 1
-      }
-    ],
-    "Output": [
-      {
-        "ItemId": "LeafJuice_Osmanthus_Flower",
-        "Quantity": 2
-      }
-    ],
-    "BenchRequirement": [
-      {
-        "Type": "Crafting",
-        "Id": "Farmingbench",
-        "Categories": [
-          "Farming"
-        ]
-      }
-    ],
-    "CraftTime": 2.0
   }
 }

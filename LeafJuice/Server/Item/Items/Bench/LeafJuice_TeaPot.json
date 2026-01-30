@@ -116,18 +116,7 @@
     }
   },
   "PlayerAnimationsId": "Block",
-  "IconProperties": {
-    "Scale": 0.45,
-    "Translation": [
-      -12,
-      -15
-    ],
-    "Rotation": [
-      22.5,
-      45,
-      22.5
-    ]
-  },
+
   "Tags": {
     "Type": [
       "Furniture"

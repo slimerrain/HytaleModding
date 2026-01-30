@@ -6,14 +6,14 @@
   "Parent": "Template_Food",
   "Icon": "Icons/ItemsGenerated/LeafJuice_Matcha_Powder.png",
   "Categories": [
-    "Ingredients.Plants"
+    "Ingredients.Powders"
   ],
   "MaxStack": 64,
-  "ItemSoundSetId": "ISS_Items_Powder",
+  "ItemSoundSetId": "ISS_Items_Foliage",
   "Tags": {
     "Type": [
-      "Ingredient",
-      "Powder"
+      "Food",
+      "Ingredient"
     ]
   }
 }
