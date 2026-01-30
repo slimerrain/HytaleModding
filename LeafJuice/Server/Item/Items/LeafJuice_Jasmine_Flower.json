@@ -3,17 +3,66 @@
         "Name": "server.items.LeafJuice_Jasmine_Flower.name",
         "Description": "server.items.LeafJuice_Jasmine_Flower.description"
     },
-    "Parent": "Template_Food",
+    "Parent": "Plant_Flower_Common_White",
     "Icon": "Icons/ItemsGenerated/LeafJuice_Jasmine_Flower.png",
     "Categories": [
-        "Ingredients.Plants"
+        "Ingredients.Plants",
+        "Blocks.Plants"
     ],
+    "Interactions": {
+        "Primary": "Block_Primary",
+        "Secondary": "Block_Secondary"
+    },
     "MaxStack": 64,
     "ItemSoundSetId": "ISS_Items_Foliage",
     "Tags": {
         "Type": [
             "Food",
-            "Ingredient"
+            "Ingredient",
+            "Plant"
+        ],
+        "Family": [
+            "Flower"
         ]
+    },
+    "BlockType": {
+        "Material": "Empty",
+        "DrawType": "Model",
+        "Group": "Plant",
+        "HitboxType": "Plant_Large",
+        "CustomModel": "Blocks/Foliage/Flowers/LeafJuice_Flower_Jasmine.blockymodel",
+        "CustomModelScale": 0.7,
+        "Opacity": "Transparent",
+        "Flags": {
+            "IsStackable": false
+        },
+        "CustomModelTexture": [
+            {
+                "Texture": "Blocks/Foliage/Flowers/LeafJuice_Flower_Jasmine.png",
+                "Weight": 1
+            }
+        ],
+        "RandomRotation": "YawStep1",
+        "Effect": [
+            "WindFractal"
+        ],
+        "Gathering": {
+            "Soft": {
+                "DropList": "LeafJuice_Jasmine_Flower_Harvest"
+            },
+            "Harvest": {}
+        },
+        "Support": {
+            "Down": [
+                {
+                    "TagId": "Type=Soil"
+                },
+                {
+                    "TagId": "SubType=Planter"
+                }
+            ]
+        },
+        "BlockParticleSetId": "Flower",
+        "BlockSoundSetId": "Plant"
     }
 }

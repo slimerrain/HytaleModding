@@ -1,0 +1,28 @@
+{
+    "Input": [
+        {
+            "ItemId": "Ingredient_Life_Essence",
+            "Quantity": 20
+        }
+    ],
+    "PrimaryOutput": {
+        "ItemId": "LeafJuice_Bush_Camellia_Sinesis",
+        "Quantity": 1
+    },
+    "Output": [
+        {
+            "ItemId": "LeafJuice_Bush_Camellia_Sinesis",
+            "Quantity": 1
+        }
+    ],
+    "BenchRequirement": [
+        {
+            "Type": "Crafting",
+            "Categories": [
+                "LeafJuice_Cultivation"
+            ],
+            "Id": "LeafJuice_TeaBench"
+        }
+    ],
+    "TimeSeconds": 12
+}

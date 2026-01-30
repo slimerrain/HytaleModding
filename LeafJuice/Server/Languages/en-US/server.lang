@@ -172,8 +172,10 @@ interactionHints.harvest_camellia_assam = Harvest Tender Camellia Assam Leaves
 interactionHints.harvest_camellia_sinesis = Harvest Tender Camellia Sinesis Leaves
 interactionHints.harvest_goji_berry = Harvest Goji Berries
 
-benchCategories.leafjuice.teamixing = Tea Mixing
-benchCategories.leafjuice.teapowders = Tea Powders
+benchCategories.leafjuice.teamixing = Mixing
+benchCategories.leafjuice.teapowders = Grinding
+benchCategories.leafjuice.prepared = Preparing
+benchCategories.leafjuice.cultivation = Cultivation
 benchCategories.leafjuice.drying = Drying
 benchCategories.leafjuice.withering = Withering
 benchCategories.leafjuice.brewing = Brewing

@@ -4,6 +4,7 @@
         "Description": "server.items.LeafJuice_Bush_Camellia_Sinesis.description"
     },
     "ItemLevel": 10,
+    "Parent": "Plant_Bush",
     "Categories": [
         "Blocks.Plants"
     ],

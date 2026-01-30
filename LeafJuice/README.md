@@ -16,6 +16,7 @@ Camellia Assam Bush - a bush that produces Tender Camellia Assam Leaves, spawns 
 Camellia Sinesis Bush - a bush that produces Tender Camellia Sinesis Leaves, spawns in Whisperfrost Frontiers. Can also be randomly bought in shops.
 Goji Berry Bush - a bush that produces Goji Berries, spawns in emerald wilds. Can also be randomly bought in shops.
 Date Fruit Tree - a tree that produces Dates (fruit), Sapling can be made in the Farming Bench
+Bergamot Orange Fruit Tree - a tree that produces Bergamot Oranges (fruit), Sapling can be made in the Farming Bench
 
 Products:
 Orange Garnish - made from Oranges in the Cooking Station

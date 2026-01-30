@@ -1,0 +1,16 @@
+{
+    "Pools": [
+        {
+            "Entries": [
+                {
+                    "Name": "LeafJuice_Chamomile_Flower",
+                    "Weight": 1
+                }
+            ],
+            "Rolls": {
+                "Min": 1,
+                "Max": 1
+            }
+        }
+    ]
+}

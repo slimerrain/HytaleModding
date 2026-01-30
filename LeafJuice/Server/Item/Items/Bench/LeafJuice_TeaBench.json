@@ -18,7 +18,7 @@
                 "Weight": 1
             }
         ],
-        "HitboxType": "Bench_Workbench",
+        "HitboxType": "LeafJuice_Processor_1x1x1",
         "VariantRotation": "NESW",
         "Bench": {
             "Type": "Crafting",
@@ -37,6 +37,11 @@
                     "Id": "LeafJuice_Prepared",
                     "Icon": "Icons/CraftingCategories/LeafJuice/Prepared.png",
                     "Name": "server.benchCategories.leafjuice.prepared"
+                },
+                {
+                    "Id": "LeafJuice_Cultivation",
+                    "Icon": "Icons/CraftingCategories/LeafJuice/Cultivation.png",
+                    "Name": "server.benchCategories.leafjuice.cultivation"
                 }
             ],
             "LocalOpenSoundEventId": "SFX_Workbench_Open",
