@@ -4,7 +4,7 @@
         "Description": "server.items.LeafJuice_Roasted_Rice_Green_Tea.description"
     },
     "Parent": "LeafJuice_Template_Tea",
-    "Icon": "Icons/ItemsGenerated/LeafJuice_Roasted_Rice_Green_Tea.png",
+    "Icon": "Icons/ItemsGenerated/Tea_Cup_Green.png",
     "BlockType": {
         "CustomModel": "Items/Consumables/Food/Tea_Cup.blockymodel",
         "CustomModelTexture": [

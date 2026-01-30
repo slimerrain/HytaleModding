@@ -7,7 +7,7 @@
     "Categories": [
         "Items.Foods"
     ],
-    "Icon": "Icons/ItemsGenerated/LeafJuice_Red_Tea.png",
+    "Icon": "Icons/ItemsGenerated/Tea_Cup_Dark.png",
     "Interactions": {
         "Secondary": "Root_Secondary_Consume_Food_T2"
     },

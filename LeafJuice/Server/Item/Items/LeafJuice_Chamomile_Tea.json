@@ -4,7 +4,7 @@
         "Description": "server.items.LeafJuice_Chamomile_Tea.description"
     },
     "Parent": "LeafJuice_Template_Tea",
-    "Icon": "Icons/ItemsGenerated/LeafJuice_Chamomile_Tea.png",
+    "Icon": "Icons/ItemsGenerated/Tea_Cup_Pale.png",
     "BlockType": {
         "CustomModel": "Items/Consumables/Food/Tea_Cup.blockymodel",
         "CustomModelTexture": [

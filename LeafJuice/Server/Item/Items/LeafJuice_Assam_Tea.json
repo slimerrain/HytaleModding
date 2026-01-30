@@ -4,7 +4,7 @@
         "Description": "server.items.LeafJuice_Assam_Tea.description"
     },
     "Parent": "LeafJuice_Template_Tea",
-    "Icon": "Icons/ItemsGenerated/LeafJuice_Assam_Tea.png",
+    "Icon": "Icons/ItemsGenerated/Tea_Cup_Red.png",
     "BlockType": {
         "CustomModel": "Items/Consumables/Food/Tea_Cup.blockymodel",
         "CustomModelTexture": [
