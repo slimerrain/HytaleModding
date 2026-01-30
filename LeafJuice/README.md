@@ -9,14 +9,14 @@ Withering Station - a processor used to wither tea leaves into specific types of
 Tea Pot - a processor used to create tea drinks from processed tea leaves, herbs, and fruits
 
 Plants:
-Jasmine Flower - a fragrant white flower, spawns in emerald wilds
-Osmanthus Flower - a fragrant yellow flower, spawns in emerald wilds
-Chamomile Flower - a fragrant yellow flower, spawns in emerald wilds
-Camellia Assam Bush - a bush that produces Tender Camellia Assam Leaves, spawns in Howling Sands. Can also be randomly bought in shops.
-Camellia Sinesis Bush - a bush that produces Tender Camellia Sinesis Leaves, spawns in Whisperfrost Frontiers. Can also be randomly bought in shops.
-Goji Berry Bush - a bush that produces Goji Berries, spawns in emerald wilds. Can also be randomly bought in shops.
-Date Fruit Tree - a tree that produces Dates (fruit), Sapling can be made in the Farming Bench
-Bergamot Orange Fruit Tree - a tree that produces Bergamot Oranges (fruit), Sapling can be made in the Farming Bench
+Jasmine Flower - a fragrant white flower, spawns in emerald wilds. Can be cultivated at the Tea Bench (Cultivation tab) for 10 Life Essence.
+Osmanthus Flower - a fragrant yellow flower, spawns in emerald wilds. Can be cultivated at the Tea Bench (Cultivation tab) for 10 Life Essence.
+Chamomile Flower - a fragrant yellow flower, spawns in emerald wilds. Can be cultivated at the Tea Bench (Cultivation tab) for 10 Life Essence.
+Camellia Assam Bush - a bush that produces Tender Camellia Assam Leaves. Can be cultivated at the Tea Bench (Cultivation tab) for 20 Life Essence.
+Camellia Sinesis Bush - a bush that produces Tender Camellia Sinesis Leaves. Can be  cultivated at the Tea Bench (Cultivation tab) for 20 Life Essence.
+Goji Berry Bush - a bush that produces Goji Berries. Can be randomly bought in shops or cultivated at the Tea Bench (Cultivation tab) for 20 Life Essence.
+Date Fruit Tree - a tree that produces Dates (fruit), Sapling can be cultivated at the Tea Bench (Cultivation tab) for 30 Life Essence.
+Bergamot Orange Fruit Tree - a tree that produces Bergamot Oranges (fruit), Sapling can be cultivated at the Tea Bench (Cultivation tab) for 30 Life Essence.
 
 Products:
 Orange Garnish - made from Oranges in the Cooking Station
