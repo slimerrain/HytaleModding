@@ -1,0 +1,19 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.LeafJuice_Camellia_Sinesis_Tea_Leaves.name",
+    "Description": "server.items.LeafJuice_Camellia_Sinesis_Tea_Leaves.description"
+  },
+  "Parent": "Template_Crop_Item",
+  "Icon": "Icons/ItemsGenerated/LeafJuice_Camellia_Sinesis_Tea_Leaves.png",
+  "Categories": [
+    "Ingredients.Plants"
+  ],
+  "MaxStack": 64,
+  "ItemSoundSetId": "ISS_Items_Foliage",
+  "Tags": {
+    "Type": [
+      "Ingredient",
+      "Plant"
+    ]
+  }
+}

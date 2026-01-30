@@ -1,0 +1,19 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.LeafJuice_Dried_Osmanthus.name",
+    "Description": "server.items.LeafJuice_Dried_Osmanthus.description"
+  },
+  "Parent": "Template_Food",
+  "Icon": "Icons/ItemsGenerated/LeafJuice_Dried_Osmanthus.png",
+  "Categories": [
+    "Ingredients.Plants"
+  ],
+  "MaxStack": 64,
+  "ItemSoundSetId": "ISS_Items_Foliage",
+  "Tags": {
+    "Type": [
+      "Ingredient",
+      "Plant"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.LeafJuice_Date_Fruit.name",
+    "Description": "server.items.LeafJuice_Date_Fruit.description"
+  },
+  "Parent": "Template_Food",
+  "Icon": "Icons/ItemsGenerated/LeafJuice_Date_Fruit.png",
+  "Categories": [
+    "Food.Fruits"
+  ],
+  "MaxStack": 64,
+  "Interactions": {
+    "Secondary": "Root_Secondary_Consume_Food_T1"
+  },
+  "InteractionVars": {
+    "Consume_Charge": {
+      "Interactions": [
+        {
+          "Parent": "Consume_Charge_Food_T1_Inner",
+          "Effects": {
+            "Particles": [
+              {
+                "SystemId": "Food_Eat",
+                "Color": "#8B4513",
+                "TargetNodeName": "Mouth",
+                "TargetEntityPart": "Entity"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "Effect": {
+      "Interactions": [
+        {
+          "Type": "ApplyEffect",
+          "EffectId": "Food_Instant_Heal_T1"
+        }
+      ]
+    }
+  },
+  "ItemSoundSetId": "ISS_Plants_Fruit",
+  "Tags": {
+    "Type": [
+      "Food",
+      "Fruit"
+    ]
+  }
+}

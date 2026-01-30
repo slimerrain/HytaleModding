@@ -1,0 +1,19 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.LeafJuice_Roasted_Rice.name",
+    "Description": "server.items.LeafJuice_Roasted_Rice.description"
+  },
+  "Parent": "Template_Food",
+  "Icon": "Icons/ItemsGenerated/LeafJuice_Roasted_Rice.png",
+  "Categories": [
+    "Ingredients.Food"
+  ],
+  "MaxStack": 64,
+  "ItemSoundSetId": "ISS_Items_Food",
+  "Tags": {
+    "Type": [
+      "Ingredient",
+      "Food"
+    ]
+  }
+}

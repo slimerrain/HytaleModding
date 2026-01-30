@@ -1,0 +1,10 @@
+{
+  "Container": {
+    "Type": "Single",
+    "Item": {
+      "ItemId": "LeafJuice_Bush_Camellia_Assam",
+      "QuantityMin": 1,
+      "QuantityMax": 1
+    }
+  }
+}

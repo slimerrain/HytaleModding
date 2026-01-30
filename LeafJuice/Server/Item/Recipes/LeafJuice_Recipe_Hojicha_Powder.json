@@ -1,0 +1,28 @@
+{
+  "Input": [
+    {
+      "ItemId": "LeafJuice_Green_Tea_Leaves",
+      "Quantity": 2
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "LeafJuice_Hojicha_Powder",
+    "Quantity": 1
+  },
+  "Output": [
+    {
+      "ItemId": "LeafJuice_Hojicha_Powder",
+      "Quantity": 1
+    }
+  ],
+  "BenchRequirement": [
+    {
+      "Type": "Crafting",
+      "Categories": [
+        "LeafJuice_TeaPowders"
+      ],
+      "Id": "LeafJuice_TeaBench"
+    }
+  ],
+  "TimeSeconds": 4
+}

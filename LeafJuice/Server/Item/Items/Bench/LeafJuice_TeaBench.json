@@ -1,0 +1,144 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.LeafJuice_TeaBench.name",
+    "Description": "server.items.LeafJuice_TeaBench.description"
+  },
+  "Icon": "Icons/ItemsGenerated/LeafJuice_TeaBench.png",
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Benches/LeafJuice_TeaBench.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Benches/LeafJuice_TeaBench_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "Bench_Workbench",
+    "VariantRotation": "NESW",
+    "Bench": {
+      "Type": "Crafting",
+      "Categories": [
+        {
+          "Id": "LeafJuice_TeaMixing",
+          "Icon": "Icons/CraftingCategories/LeafJuice/TeaMixing.png",
+          "Name": "server.benchCategories.leafjuice.teamixing"
+        },
+        {
+          "Id": "LeafJuice_TeaPowders",
+          "Icon": "Icons/CraftingCategories/LeafJuice/TeaPowders.png",
+          "Name": "server.benchCategories.leafjuice.teapowders"
+        }
+      ],
+      "LocalOpenSoundEventId": "SFX_Workbench_Open",
+      "LocalCloseSoundEventId": "SFX_Workbench_Close",
+      "CompletedSoundEventId": "SFX_Workbench_Craft",
+      "FailedSoundEventId": "SFX_Generic_Crafting_Failed",
+      "BenchUpgradeSoundEventId": "SFX_Workbench_Upgrade_Start_Default",
+      "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default",
+      "Id": "LeafJuice_TeaBench",
+      "TierLevels": [
+        {
+          "CraftingTimeReductionModifier": 0.0,
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ItemId": "Ingredient_Bar_Iron",
+                "Quantity": 10
+              },
+              {
+                "ItemId": "Ingredient_Fabric_Scrap_Linen",
+                "Quantity": 8
+              }
+            ],
+            "TimeSeconds": 5.0
+          }
+        },
+        {
+          "CraftingTimeReductionModifier": 0.25,
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ItemId": "Ingredient_Bar_Cobalt",
+                "Quantity": 15
+              },
+              {
+                "ItemId": "Ingredient_Bar_Copper",
+                "Quantity": 12
+              }
+            ],
+            "TimeSeconds": 10.0
+          }
+        },
+        {
+          "CraftingTimeReductionModifier": 0.5
+        }
+      ]
+    },
+    "State": {
+      "Id": "crafting",
+      "Definitions": {
+        "CraftCompleted": {
+          "CustomModelAnimation": "Blocks/Benches/LeafJuice_TeaBench_Crafting.blockyanim",
+          "Looping": true
+        },
+        "CraftCompletedInstant": {
+          "CustomModelAnimation": "Blocks/Benches/LeafJuice_TeaBench_Crafting.blockyanim"
+        }
+      }
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches"
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "ParticleColor": "#8B4513",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockSoundSetId": "Wood"
+  },
+  "PlayerAnimationsId": "Block",
+  "MaxStack": 1,
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Tags": {
+    "Type": [
+      "Bench"
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 4,
+        "ResourceTypeId": "Wood_Trunk"
+      },
+      {
+        "Quantity": 3,
+        "ItemId": "Ingredient_Bar_Iron"
+      },
+      {
+        "Quantity": 2,
+        "ItemId": "Ingredient_Fabric_Scrap_Linen"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ],
+        "Id": "Workbench"
+      }
+    ],
+    "CraftTime": 3.0
+  }
+}
