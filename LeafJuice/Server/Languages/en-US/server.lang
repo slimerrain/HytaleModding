@@ -46,6 +46,9 @@ items.LeafJuice_Date_Fruit.description = A sweet, chewy fruit from the date palm
 items.LeafJuice_Date_Sapling.name = Date Fruit Tree Sapling
 items.LeafJuice_Date_Sapling.description = A sapling that grows into a Date Fruit Tree. Plant on soil to cultivate dates.
 
+items.Plant_Crop_Date_StageFinal.name = Mature Date
+items.Plant_Crop_Date_StageFinal.description = A mature date fruit ready for harvest. Right-click to collect dates.
+
 items.LeafJuice_Dried_Jasmine.name = Dried Jasmine
 items.LeafJuice_Dried_Jasmine.description = Dried jasmine flowers with concentrated aroma. Ready for brewing into jasmine tea.
 
