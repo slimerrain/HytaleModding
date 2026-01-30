@@ -83,25 +83,12 @@
         }
       ]
     },
-    "State": {
-      "Id": "processingBench",
-      "Definitions": {
-        "Processing": {
-          "Looping": true,
-          "CustomModelAnimation": "Blocks/Benches/LeafJuice_TeaPot_Processing.blockyanim"
-        },
-        "ProcessCompleted": {
-          "CustomModelAnimation": "Blocks/Benches/LeafJuice_TeaPot_Processing.blockyanim",
-          "Looping": true
-        }
-      }
-    },
     "Gathering": {
       "Breaking": {
         "GatherType": "Woods"
       }
     },
-    "BlockParticleSetId": "Metal",
+    "BlockParticleSetId": "Wood",
     "Support": {
       "Down": [
         {
@@ -109,8 +96,8 @@
         }
       ]
     },
-    "ParticleColor": "#C0C0C0",
-    "BlockSoundSetId": "Metal",
+    "ParticleColor": "#8B7355",
+    "BlockSoundSetId": "Wood",
     "Interactions": {
       "Use": "Open_Processing_Bench"
     }
@@ -126,7 +113,7 @@
     ]
   },
   "MaxStack": 1,
-  "ItemSoundSetId": "ISS_Blocks_Metal",
+  "ItemSoundSetId": "ISS_Blocks_Wood",
   "Recipe": {
     "Input": [
       {

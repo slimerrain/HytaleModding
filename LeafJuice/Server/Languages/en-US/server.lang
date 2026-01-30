@@ -43,6 +43,9 @@ items.LeafJuice_Goji_Berry.description = A bright red berry packed with nutrient
 items.LeafJuice_Date_Fruit.name = Date Fruit
 items.LeafJuice_Date_Fruit.description = A sweet, chewy fruit from the date palm tree. Rich in natural sugars and fiber.
 
+items.LeafJuice_Date_Sapling.name = Date Fruit Tree Sapling
+items.LeafJuice_Date_Sapling.description = A sapling that grows into a Date Fruit Tree. Plant on soil to cultivate dates.
+
 items.LeafJuice_Dried_Jasmine.name = Dried Jasmine
 items.LeafJuice_Dried_Jasmine.description = Dried jasmine flowers with concentrated aroma. Ready for brewing into jasmine tea.
 

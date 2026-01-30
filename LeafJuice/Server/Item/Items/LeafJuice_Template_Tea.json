@@ -2,6 +2,7 @@
   "TranslationProperties": {
     "Name": "server.items.LeafJuice_Template_Tea.name"
   },
+  "Parent": "Template_Food",
   "Quality": "Template",
   "Categories": [
     "Items.Foods"
@@ -16,14 +17,7 @@
         {
           "Parent": "Consume_Charge_Food_T1_Inner",
           "Effects": {
-            "Particles": [
-              {
-                "SystemId": "Food_Eat",
-                "Color": "#8B4513",
-                "TargetNodeName": "Mouth",
-                "TargetEntityPart": "Entity"
-              }
-            ]
+            "ItemAnimationId": "Consume"
           }
         }
       ]
@@ -39,11 +33,19 @@
     "ConsumeSFX": {
       "Interactions": [
         {
-          "Type": "Simple",
-          "RunTime": 0,
+          "Parent": "Consume_SFX",
           "Effects": {
-            "LocalSoundEventId": "SFX_Health_Potion_Low_Drink",
-            "ClearSoundEventOnFinish": true
+            "LocalSoundEventId": "SFX_Consume_Bread_Local"
+          }
+        }
+      ]
+    },
+    "ConsumedSFX": {
+      "Interactions": [
+        {
+          "Parent": "Consumed_SFX",
+          "Effects": {
+            "LocalSoundEventId": "SFX_Consume_Bread_Local"
           }
         }
       ]
@@ -52,7 +54,6 @@
   "BlockType": {
     "Material": "Empty",
     "DrawType": "Model",
-    "Opacity": "Semitransparent",
     "CustomModel": "Items/Consumables/Food/Tea_Cup.blockymodel",
     "CustomModelTexture": [
       {
@@ -67,11 +68,10 @@
       "Soft": {}
     },
     "CustomModelScale": 0.5,
-    "BlockParticleSetId": "Dust",
     "ParticleColor": "#8B4513"
   },
+  "Scale": 1.2,
   "MaxStack": 16,
-  "ItemSoundSetId": "ISS_Items_Food_Liquid",
   "Tags": {
     "Type": [
       "Food",
