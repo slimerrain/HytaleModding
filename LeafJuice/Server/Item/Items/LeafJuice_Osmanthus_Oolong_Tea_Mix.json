@@ -1,0 +1,19 @@
+{
+    "TranslationProperties": {
+        "Name": "server.items.LeafJuice_Osmanthus_Oolong_Tea_Mix.name",
+        "Description": "server.items.LeafJuice_Osmanthus_Oolong_Tea_Mix.description"
+    },
+    "Parent": "Template_Food",
+    "Icon": "Icons/ItemsGenerated/LeafJuice_Osmanthus_Oolong_Mix.png",
+    "Categories": [
+        "Ingredients.Plants"
+    ],
+    "MaxStack": 64,
+    "ItemSoundSetId": "ISS_Items_Foliage",
+    "Tags": {
+        "Type": [
+            "Ingredient",
+            "Mix"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "Input": [
+        {
+            "ItemId": "LeafJuice_Dried_Osmanthus",
+            "Quantity": 1
+        },
+        {
+            "ItemId": "LeafJuice_Oolong_Tea_Leaves",
+            "Quantity": 1
+        }
+    ],
+    "PrimaryOutput": {
+        "ItemId": "LeafJuice_Osmanthus_Oolong_Tea_Mix",
+        "Quantity": 1
+    },
+    "Output": [
+        {
+            "ItemId": "LeafJuice_Osmanthus_Oolong_Tea_Mix",
+            "Quantity": 1
+        }
+    ],
+    "BenchRequirement": [
+        {
+            "Type": "Crafting",
+            "Categories": [
+                "LeafJuice_TeaMixing"
+            ],
+            "Id": "LeafJuice_TeaBench"
+        }
+    ],
+    "TimeSeconds": 5
+}

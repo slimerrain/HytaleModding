@@ -5,6 +5,16 @@
   },
   "Parent": "LeafJuice_Template_Tea",
   "Icon": "Icons/ItemsGenerated/LeafJuice_Earl_Grey_Tea.png",
+  "BlockType": {
+    "CustomModel": "Items/Consumables/Food/Tea_Cup_EarlGrey.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Consumables/Food/Tea_Cup_Red.png",
+        "Weight": 1
+      }
+    ],
+    "ParticleColor": "#8B4513"
+  },
   "Recipe": {
     "Input": [
       {

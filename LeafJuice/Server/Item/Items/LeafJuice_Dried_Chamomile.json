@@ -1,0 +1,40 @@
+{
+    "TranslationProperties": {
+        "Name": "server.items.LeafJuice_Dried_Chamomile.name",
+        "Description": "server.items.LeafJuice_Dried_Chamomile.description"
+    },
+    "Parent": "Template_Food",
+    "Icon": "Icons/ItemsGenerated/LeafJuice_Dried_Chamomile.png",
+    "Categories": [
+        "Ingredients.Plants"
+    ],
+    "MaxStack": 64,
+    "ItemSoundSetId": "ISS_Items_Foliage",
+    "Tags": {
+        "Type": [
+            "Ingredient",
+            "Plant"
+        ]
+    },
+    "Recipe": {
+        "Input": [
+            {
+                "ItemId": "LeafJuice_Chamomile_Flower",
+                "Quantity": 1
+            }
+        ],
+        "TimeSeconds": 5,
+        "Output": [
+            {
+                "ItemId": "LeafJuice_Dried_Chamomile",
+                "Quantity": 1
+            }
+        ],
+        "BenchRequirement": [
+            {
+                "Type": "Processing",
+                "Id": "LeafJuice_DryingRack"
+            }
+        ]
+    }
+}

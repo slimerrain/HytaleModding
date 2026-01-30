@@ -1,31 +1,31 @@
 {
     "TranslationProperties": {
-        "Name": "server.items.LeafJuice_White_Tea.name",
-        "Description": "server.items.LeafJuice_White_Tea.description"
+        "Name": "server.items.LeafJuice_Jasmine_Green_Tea.name",
+        "Description": "server.items.LeafJuice_Jasmine_Green_Tea.description"
     },
     "Parent": "LeafJuice_Template_Tea",
-    "Icon": "Icons/ItemsGenerated/LeafJuice_White_Tea.png",
+    "Icon": "Icons/ItemsGenerated/LeafJuice_Jasmine_Green_Tea.png",
     "BlockType": {
-        "CustomModel": "Items/Consumables/Food/Tea_Cup_White.blockymodel",
+        "CustomModel": "Items/Consumables/Food/Tea_Cup_JasmineGreen.blockymodel",
         "CustomModelTexture": [
             {
-                "Texture": "Items/Consumables/Food/Tea_Cup_White.png",
+                "Texture": "Items/Consumables/Food/Tea_Cup_Green.png",
                 "Weight": 1
             }
         ],
-        "ParticleColor": "#F5F5DC"
+        "ParticleColor": "#9ACD32"
     },
     "Recipe": {
         "Input": [
             {
-                "ItemId": "LeafJuice_White_Tea_Leaves",
+                "ItemId": "LeafJuice_Jasmine_Green_Tea_Mix",
                 "Quantity": 1
             }
         ],
         "TimeSeconds": 3,
         "Output": [
             {
-                "ItemId": "LeafJuice_White_Tea",
+                "ItemId": "LeafJuice_Jasmine_Green_Tea",
                 "Quantity": 1
             }
         ],

@@ -5,6 +5,16 @@
     },
     "Parent": "LeafJuice_Template_Tea",
     "Icon": "Icons/ItemsGenerated/LeafJuice_Health_Blend_Tea.png",
+    "BlockType": {
+        "CustomModel": "Items/Consumables/Food/Tea_Cup_HealthBlend.blockymodel",
+        "CustomModelTexture": [
+            {
+                "Texture": "Items/Consumables/Food/Tea_Cup_Red.png",
+                "Weight": 1
+            }
+        ],
+        "ParticleColor": "#DC143C"
+    },
     "InteractionVars": {
         "Effect": {
             "Interactions": [

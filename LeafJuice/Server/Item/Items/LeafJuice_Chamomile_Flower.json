@@ -1,0 +1,19 @@
+{
+    "TranslationProperties": {
+        "Name": "server.items.LeafJuice_Chamomile_Flower.name",
+        "Description": "server.items.LeafJuice_Chamomile_Flower.description"
+    },
+    "Parent": "Template_Food",
+    "Icon": "Icons/ItemsGenerated/LeafJuice_Chamomile_Flower.png",
+    "Categories": [
+        "Ingredients.Plants"
+    ],
+    "MaxStack": 64,
+    "ItemSoundSetId": "ISS_Items_Foliage",
+    "Tags": {
+        "Type": [
+            "Food",
+            "Ingredient"
+        ]
+    }
+}

@@ -10,12 +10,6 @@ items.LeafJuice_WitheringStation.description = A controlled environment for with
 items.LeafJuice_TeaPot.name = Tea Brewing Pot
 items.LeafJuice_TeaPot.description = A large brewing pot used for steeping tea leaves and creating delicious tea beverages.
 
-benchCategories.leafjuice.teamixing = Tea Mixing
-benchCategories.leafjuice.teapowders = Tea Powders
-benchCategories.leafjuice.drying = Drying
-benchCategories.leafjuice.withering = Withering
-benchCategories.leafjuice.brewing = Brewing
-
 items.LeafJuice_Jasmine_Flower.name = Jasmine Flower
 items.LeafJuice_Jasmine_Flower.description = A fragrant white flower with a sweet, delicate aroma. Perfect for making jasmine tea.
 
@@ -23,49 +17,55 @@ items.LeafJuice_Osmanthus_Flower.name = Osmanthus Flower
 items.LeafJuice_Osmanthus_Flower.description = A fragrant yellow flower with a peachy, apricot-like scent. Used to make osmanthus tea.
 
 items.LeafJuice_Bush_Camellia_Assam.name = Camellia Assam Bush
-items.LeafJuice_Bush_Camellia_Assam.description = A tea bush that produces tender Assam tea leaves. Grows best in warm, humid climates.
+items.LeafJuice_Bush_Camellia_Assam.description = A tea bush that produces <item is="LeafJuice_Tender_Camellia_Assam_Leaves"/>. Grows best in warm, humid climates.
 
 items.LeafJuice_Bush_Camellia_Sinesis.name = Camellia Sinensis Bush
-items.LeafJuice_Bush_Camellia_Sinesis.description = The classic tea plant that produces tender leaves for making various types of tea.
+items.LeafJuice_Bush_Camellia_Sinesis.description = The classic tea plant that produces <item is="LeafJuice_Tender_Camellia_Sinesis_Leaves"/> for making various types of tea.
 
 items.LeafJuice_Bush_Goji_Berry.name = Goji Berry Bush
-items.LeafJuice_Bush_Goji_Berry.description = A berry bush that produces nutritious goji berries, known for their health benefits.
+items.LeafJuice_Bush_Goji_Berry.description = A berry bush that produces nutritious <item is="LeafJuice_Goji_Berry"/>, known for their health benefits.
 
-items.LeafJuice_Tender_Camellia_Assam_Leaves.name = Tender Assam Leaves
-items.LeafJuice_Tender_Camellia_Assam_Leaves.description = Fresh, tender leaves from the Camellia Assam bush. Must be dried before processing.
+items.LeafJuice_Tender_Camellia_Assam_Leaves.name = Tender Camellia Assam Leaves
+items.LeafJuice_Tender_Camellia_Assam_Leaves.description = Fresh, tender leaves from the <item is="LeafJuice_Bush_Camellia_Assam"/>. Must be dried before processing.
 
-items.LeafJuice_Tender_Camellia_Sinesis_Leaves.name = Tender Sinensis Leaves
-items.LeafJuice_Tender_Camellia_Sinesis_Leaves.description = Fresh, tender leaves from the Camellia Sinensis bush. Can be processed into various tea types.
+items.LeafJuice_Tender_Camellia_Sinesis_Leaves.name = Tender Camellia Sinensis Leaves
+items.LeafJuice_Tender_Camellia_Sinesis_Leaves.description = Fresh, tender leaves from the <item is="LeafJuice_Bush_Camellia_Sinesis"/>. Can be processed into various tea types.
 
 items.LeafJuice_Goji_Berry.name = Goji Berry
 items.LeafJuice_Goji_Berry.description = A bright red berry packed with nutrients and antioxidants. Sweet and slightly tart.
 
-items.LeafJuice_Date_Fruit.name = Date Fruit
+items.LeafJuice_Date_Fruit.name = Date
 items.LeafJuice_Date_Fruit.description = A sweet, chewy fruit from the date palm tree. Rich in natural sugars and fiber.
 
 items.LeafJuice_Date_Sapling.name = Date Fruit Tree Sapling
-items.LeafJuice_Date_Sapling.description = A sapling that grows into a Date Fruit Tree. Plant on soil to cultivate dates.
+items.LeafJuice_Date_Sapling.description = A sapling that grows into a Date Fruit Tree. Plant on soil to cultivate <item is="LeafJuice_Date_Fruit"/>.
 
 items.Plant_Crop_Date_StageFinal.name = Mature Date
-items.Plant_Crop_Date_StageFinal.description = A mature date fruit ready for harvest. Right-click to collect dates.
+items.Plant_Crop_Date_StageFinal.description = A mature <item is="LeafJuice_Date_Fruit"/> ready for harvest. Right-click to collect it.
 
 items.LeafJuice_Bergamot_Fruit.name = Bergamot Orange
 items.LeafJuice_Bergamot_Fruit.description = A fragrant citrus fruit with bright, floral notes. Often used to flavor tea.
 
 items.LeafJuice_Bergamot_Sapling.name = Bergamot Orange Tree Sapling
-items.LeafJuice_Bergamot_Sapling.description = A sapling that grows into a Bergamot Orange tree. Plant on soil to cultivate bergamot.
+items.LeafJuice_Bergamot_Sapling.description = A sapling that grows into a Bergamot Orange tree. Plant on soil to cultivate <item is="LeafJuice_Bergamot_Fruit"/>.
 
 items.Plant_Crop_Bergamot_StageFinal.name = Mature Bergamot
-items.Plant_Crop_Bergamot_StageFinal.description = A mature bergamot fruit ready for harvest. Right-click to collect bergamot.
+items.Plant_Crop_Bergamot_StageFinal.description = A mature <item is="LeafJuice_Bergamot_Fruit"/> ready for harvest. Right-click to collect it.
 
 items.LeafJuice_Dried_Jasmine.name = Dried Jasmine
-items.LeafJuice_Dried_Jasmine.description = Dried jasmine flowers with concentrated aroma. Ready for brewing into jasmine tea.
+items.LeafJuice_Dried_Jasmine.description = Dried <item is="LeafJuice_Jasmine_Flower"/> with concentrated aroma. Ready for brewing into tea.
 
 items.LeafJuice_Dried_Osmanthus.name = Dried Osmanthus
-items.LeafJuice_Dried_Osmanthus.description = Dried osmanthus flowers with a sweet, peachy fragrance. Perfect for making osmanthus tea.
+items.LeafJuice_Dried_Osmanthus.description = Dried <item is="LeafJuice_Osmanthus_Flower"/> with a sweet, peachy fragrance. Perfect for making tea.
 
 items.LeafJuice_Dried_Chrysanthemum.name = Dried Chrysanthemum
 items.LeafJuice_Dried_Chrysanthemum.description = Dried chrysanthemum flowers with a light, floral flavor. Used in traditional herbal tea.
+
+items.LeafJuice_Chamomile_Flower.name = Chamomile Flower
+items.LeafJuice_Chamomile_Flower.description = Delicate chamomile flowers with a soothing, apple-like aroma. Perfect for brewing calming tea.
+
+items.LeafJuice_Dried_Chamomile.name = Dried Chamomile
+items.LeafJuice_Dried_Chamomile.description = Dried chamomile flowers with a sweet, apple-like flavor. Used for brewing soothing herbal tea.
 
 items.LeafJuice_Dried_Date.name = Dried Date
 items.LeafJuice_Dried_Date.description = Sun-dried dates with concentrated sweetness. Used in tea blends for natural sweetness.
@@ -73,10 +73,10 @@ items.LeafJuice_Dried_Date.description = Sun-dried dates with concentrated sweet
 items.LeafJuice_Dried_Goji_Berry.name = Dried Goji Berry
 items.LeafJuice_Dried_Goji_Berry.description = Dried goji berries with concentrated nutrients. Adds health benefits to tea blends.
 
-items.LeafJuice_Camellia_Assam_Tea_Leaves.name = Assam Tea Leaves (Dried)
+items.LeafJuice_Camellia_Assam_Tea_Leaves.name = Camellia Assam Tea Leaves
 items.LeafJuice_Camellia_Assam_Tea_Leaves.description = Dried tea leaves from the Assam plant. Ready for withering into black Assam tea.
 
-items.LeafJuice_Camellia_Sinesis_Tea_Leaves.name = Sinensis Tea Leaves (Dried)
+items.LeafJuice_Camellia_Sinesis_Tea_Leaves.name = Camellia Sinensis Tea Leaves
 items.LeafJuice_Camellia_Sinesis_Tea_Leaves.description = Dried tea leaves from the Sinensis plant. Can be withered into various tea types.
 
 items.LeafJuice_White_Tea_Leaves.name = White Tea Leaves
@@ -107,53 +107,73 @@ items.LeafJuice_Roasted_Rice.name = Roasted Rice
 items.LeafJuice_Roasted_Rice.description = Rice kernels roasted until golden brown. Adds a nutty, toasted flavor to tea.
 
 items.LeafJuice_Health_Blend_Tea_Mix.name = Health Blend Tea Mix
-items.LeafJuice_Health_Blend_Tea_Mix.description = A nourishing blend of chrysanthemum, dates, and goji berries. Known for health benefits.
+items.LeafJuice_Health_Blend_Tea_Mix.description = A nourishing blend of <item is="LeafJuice_Dried_Chrysanthemum"/>, <item is="LeafJuice_Dried_Date"/>, and <item is="LeafJuice_Dried_Goji_Berry"/>. Known for health benefits.
 
 items.LeafJuice_Roasted_Rice_Green_Tea_Mix.name = Roasted Rice Green Tea Mix
-items.LeafJuice_Roasted_Rice_Green_Tea_Mix.description = A Japanese-style blend of green tea and roasted rice. Creates Genmaicha tea.
+items.LeafJuice_Roasted_Rice_Green_Tea_Mix.description = A Japanese-style blend of <item is="LeafJuice_Green_Tea_Leaves"/> and <item is="LeafJuice_Roasted_Rice"/>. Creates Genmaicha tea.
 
 items.LeafJuice_Earl_Grey_Tea_Mix.name = Earl Grey Tea Mix
-items.LeafJuice_Earl_Grey_Tea_Mix.description = Black tea blended with orange peel for a classic Earl Grey flavor profile.
+items.LeafJuice_Earl_Grey_Tea_Mix.description = <item is="LeafJuice_Red_Tea_Leaves"/> blended with <item is="LeafJuice_Bergamot_Garnish"/> for a classic Earl Grey flavor profile.
+
+items.LeafJuice_Jasmine_Green_Tea_Mix.name = Jasmine Green Tea Mix
+items.LeafJuice_Jasmine_Green_Tea_Mix.description = A fragrant blend of <item is="LeafJuice_Dried_Jasmine"/> and <item is="LeafJuice_Green_Tea_Leaves"/>. Creates a delicate, aromatic tea.
+
+items.LeafJuice_Osmanthus_Oolong_Tea_Mix.name = Osmanthus Oolong Tea Mix
+items.LeafJuice_Osmanthus_Oolong_Tea_Mix.description = A sweet blend of <item is="LeafJuice_Dried_Osmanthus"/> and <item is="LeafJuice_Oolong_Tea_Leaves"/>. Perfect for a sophisticated tea experience.
 
 items.LeafJuice_Jasmine_Tea.name = Jasmine Tea
 items.LeafJuice_Jasmine_Tea.description = A fragrant tea with delicate jasmine flowers. Soothes the mind and refreshes the body.
 
 items.LeafJuice_Osmanthus_Tea.name = Osmanthus Tea
-items.LeafJuice_Osmanthus_Tea.description = A sweet, peachy floral tea. Helps with relaxation and has a pleasant aroma.
+items.LeafJuice_Osmanthus_Tea.description = A light and soothing tea brewed from <item is="LeafJuice_Dried_Osmanthus"/>. Sweet, floral, and deeply relaxing.
 
 items.LeafJuice_Chrysanthemum_Tea.name = Chrysanthemum Tea
 items.LeafJuice_Chrysanthemum_Tea.description = A light herbal tea with cooling properties. Traditional in Eastern medicine.
+
+items.LeafJuice_Chamomile_Tea.name = Chamomile Tea
+items.LeafJuice_Chamomile_Tea.description = A flowery and calming herbal tea brewed from <item is="LeafJuice_Chamomile_Flower"/>.\n\n<i>It's said that having a cup of chamomile tea before bed improves sleep quality greatly! Others just find it simply delicious.</i>
 
 items.LeafJuice_White_Tea.name = White Tea
 items.LeafJuice_White_Tea.description = The most delicate tea with subtle sweetness. High in antioxidants and gentle on the stomach.
 
 items.LeafJuice_Green_Tea.name = Green Tea
-items.LeafJuice_Green_Tea.description = Fresh, grassy tea rich in antioxidants. Provides a gentle energy boost.
+items.LeafJuice_Green_Tea.description = A soft and refined tea brewed from <item is="LeafJuice_Green_Tea_Leaves"/>.\n\n<i>Potentially the most famous tea. Found in nearly every cabinet in Orbis, this tea is said to give a clear head and a soothed stomach.</i>
 
 items.LeafJuice_Oolong_Tea.name = Oolong Tea
-items.LeafJuice_Oolong_Tea.description = A complex tea with floral and fruity notes. Balances between green and black tea characteristics.
+items.LeafJuice_Oolong_Tea.description = A refreshing and revitalizing tea brewed from <item is="LeafJuice_Oolong_Tea_Leaves"/>.\n\n<i>A legendary tea famed for it's complex flavor. An art mastered by tea cultivators from the east. They say that you can judge a persons character by how they like their Oolong.</i>
 
 items.LeafJuice_Red_Tea.name = Red Tea
-items.LeafJuice_Red_Tea.description = A robust black tea with malty sweetness. Perfect for morning energy.
-
+items.LeafJuice_Red_Tea.description = A strong and robust black tea brewed from <item is="LeafJuice_Red_Tea_Leaves"/> \n\n<i>The perfect tea to get your day started. Red tea has been caffeinating the people of Orbis far before the age of heroes!</i>
 items.LeafJuice_Assam_Tea.name = Assam Tea
-items.LeafJuice_Assam_Tea.description = A strong, malty black tea from the Assam region. Bold flavor perfect with milk.
+items.LeafJuice_Assam_Tea.description = A strong, malty tea brewed from <item is="LeafJuice_Assam_Tea_Leaves"/>. Bold flavor perfect with milk.
 
 items.LeafJuice_Matcha_Tea.name = Matcha Tea
-items.LeafJuice_Matcha_Tea.description = A vibrant green tea made from powdered tea leaves. Rich, creamy, and full of antioxidants.
+items.LeafJuice_Matcha_Tea.description = A vibrant green tea made from <item is="LeafJuice_Matcha_Powder"/>. Rich, creamy, and full of antioxidants.
 
 items.LeafJuice_Hojicha_Tea.name = Hojicha Tea
-items.LeafJuice_Hojicha_Tea.description = A roasted green tea with warm, toasty notes. Less caffeine than regular green tea.
+items.LeafJuice_Hojicha_Tea.description = A tea brewed from <item is="LeafJuice_Hojicha_Powder"/>.\n\n<i></i>
 
 items.LeafJuice_Health_Blend_Tea.name = Health Blend Tea
 items.LeafJuice_Health_Blend_Tea.description = A nourishing herbal tea blend. Packed with beneficial ingredients for vitality and wellness.
 
 items.LeafJuice_Roasted_Rice_Green_Tea.name = Roasted Rice Green Tea (Genmaicha)
-items.LeafJuice_Roasted_Rice_Green_Tea.description = A Japanese tea with roasted rice. Nutty, toasty flavor that complements the green tea.
+items.LeafJuice_Roasted_Rice_Green_Tea.description = A Japanese tea brewed from <item is="LeafJuice_Roasted_Rice_Green_Tea_Mix"/>. Nutty, toasty flavor that complements the green tea.
 
 items.LeafJuice_Earl_Grey_Tea.name = Earl Grey Tea
-items.LeafJuice_Earl_Grey_Tea.description = A classic British tea flavored with orange. Bold, aromatic, and slightly citrusy.
+items.LeafJuice_Earl_Grey_Tea.description = A strong and robust black tea brewed from <item is="LeafJuice_Earl_Grey_Tea_Mix"/>.\n\n<i>It is unknown who the Gray Earl was. There are many stories about why they chose to flavor their tea with oil of bergamot, some say it was used as a perfume.. and the Earl like it so much they put it into their tea!</i>
 
-interactionHints.harvest_camellia_assam = Harvest Assam Leaves
-interactionHints.harvest_camellia_sinesis = Harvest Tea Leaves
+items.LeafJuice_Jasmine_Green_Tea.name = Jasmine Green Tea
+items.LeafJuice_Jasmine_Green_Tea.description = A delicate tea brewed from <item is="LeafJuice_Jasmine_Green_Tea_Mix"/>. <i>Jasmine tea is one of balance. Too many green tea leaves and the jasmine flavor is overpowered and undetectable but too many jasmine flowers and the tea tastes weak and bitter. Learning to balance a Jasmine tea can teach someone a lot about how to balance their own life.</i>
+
+items.LeafJuice_Osmanthus_Oolong_Tea.name = Osmanthus Oolong Tea
+items.LeafJuice_Osmanthus_Oolong_Tea.description = A sophisticated tea brewed from <item is="LeafJuice_Osmanthus_Oolong_Tea_Mix"/>. Peachy floral notes with refined taste.
+
+interactionHints.harvest_camellia_assam = Harvest Tender Camellia Assam Leaves
+interactionHints.harvest_camellia_sinesis = Harvest Tender Camellia Sinesis Leaves
 interactionHints.harvest_goji_berry = Harvest Goji Berries
+
+benchCategories.leafjuice.teamixing = Tea Mixing
+benchCategories.leafjuice.teapowders = Tea Powders
+benchCategories.leafjuice.drying = Drying
+benchCategories.leafjuice.withering = Withering
+benchCategories.leafjuice.brewing = Brewing

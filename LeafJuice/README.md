@@ -11,6 +11,7 @@ Tea Pot - a processor used to create tea drinks from processed tea leaves, herbs
 Plants:
 Jasmine Flower - a fragrant white flower
 Osmanthus Flower - a fragrant yellow flower
+Chamomile Flower - a fragrant yellow flower
 Camellia Assam Bush - a bush that produces Tender Camellia Assam Leaves
 Camellia Sinesis Bush - a bush that produces Tender Camellia Sinesis Leaves
 Goji Berry Bush - a bush that produces Goji Berries
@@ -24,6 +25,7 @@ Roasted Rice - made from Rice in the Cooking Station or the Campfire
 Dried Jasmine - made from drying Jasmine Flowers in the Drying Rack
 Dried Osmanthus - made from drying Osmanthus Flowers in the Drying Rack
 Dried Chrysanthemum - made from drying Chrysanthemum Flowers in the Drying Rack
+Dried Chamomile - made from drying Chrysanthemum Flowers in the Drying Rack
 
 Camellia Assam Tea Leaves - made from drying Tender Camellia Assam Leaves in the Drying Rack
 Camellia Sinesis Tea Leaves - made from drying Tender Camellia Sinesis Leaves in the Drying Rack
@@ -43,11 +45,14 @@ Matcha Powder - made from Green Leaves in the Tea Bench
 Health Blend Tea Mix - made from combining Dried Chrysanthemum, Dried Date, and Dried Goji Berry in the Tea Bench
 Roasted Rice Green Tea Mix - made from combining Roasted Rice and Green Tea Leaves in the Tea Bench
 Earl Grey Tea Mix - made from combining Black Tea and Orange Garnish in the Tea Bench
+Jasmine Green Tea Mix - made from Dried Jasmine and Green Tea Leaves in the Tea Bench
+Osmanthus Oolong Tea Mix - made from Dried Osmanthus and Oolong Tea Leaves in the Tea Bench
 
 Drinks:
 Jasmine Tea - made from Dried Jasmine in the Tea Pot
 Osmanthus Tea - made from Dried Osmanthus in the Tea Pot
 Chrysanthemum Tea - made from Dried Chrysanthemum in the Tea Pot
+Chamomile Tea - made from Dried Chamomile in the Tea Pot
 
 White Tea - made from White Tea Leaves in the Tea Pot
 Green Tea - made from Green Tea Leaves in the Tea Pot
@@ -61,3 +66,5 @@ Hojicha Tea - made from Hojicha Powder in the Tea Pot
 Health Blend Tea - made from Health Blend Tea Mix in the Tea Pot
 Roasted Rice Green Tea - made from Roasted Rice Green Tea Mix in the Tea Pot
 Earl Grey Tea - made from Earl Grey Tea Mix in the Tea Pot
+Jasmine Green Tea - made from Jasmine Green Tea Mix in the Tea Pot
+Osmanthus Oolong Tea - made from Osmanthus Oolong Tea Mix in the Tea Pot
