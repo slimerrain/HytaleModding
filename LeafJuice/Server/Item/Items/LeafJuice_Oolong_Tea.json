@@ -3,18 +3,15 @@
     "Name": "server.items.LeafJuice_Oolong_Tea.name",
     "Description": "server.items.LeafJuice_Oolong_Tea.description"
   },
-  "Parent": "Template_Food",
+  "Parent": "LeafJuice_Template_Tea",
   "Icon": "Icons/ItemsGenerated/LeafJuice_Oolong_Tea.png",
-  "Categories": [
-    "Items.Foods"
-  ],
-  "MaxStack": 16,
-  "ItemSoundSetId": "ISS_Items_Food_Liquid",
-  "Tags": {
-    "Type": [
-      "Food",
-      "Drink",
-      "Tea"
-    ]
+  "BlockType": {
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Consumables/Food/Tea_Cup_Amber.png",
+        "Weight": 1
+      }
+    ],
+    "ParticleColor": "#D2691E"
   }
 }
