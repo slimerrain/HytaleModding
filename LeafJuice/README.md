@@ -9,13 +9,13 @@ Withering Station - a processor used to wither tea leaves into specific types of
 Tea Pot - a processor used to create tea drinks from processed tea leaves, herbs, and fruits
 
 Plants:
-Jasmine Flower - a fragrant white flower
-Osmanthus Flower - a fragrant yellow flower
-Chamomile Flower - a fragrant yellow flower
-Camellia Assam Bush - a bush that produces Tender Camellia Assam Leaves
-Camellia Sinesis Bush - a bush that produces Tender Camellia Sinesis Leaves
-Goji Berry Bush - a bush that produces Goji Berries
-Date Fruit Tree - a tree that produces Dates (fruit)
+Jasmine Flower - a fragrant white flower, spawns in emerald wilds
+Osmanthus Flower - a fragrant yellow flower, spawns in emerald wilds
+Chamomile Flower - a fragrant yellow flower, spawns in emerald wilds
+Camellia Assam Bush - a bush that produces Tender Camellia Assam Leaves, spawns in Howling Sands. Can also be randomly bought in shops.
+Camellia Sinesis Bush - a bush that produces Tender Camellia Sinesis Leaves, spawns in Whisperfrost Frontiers. Can also be randomly bought in shops.
+Goji Berry Bush - a bush that produces Goji Berries, spawns in emerald wilds. Can also be randomly bought in shops.
+Date Fruit Tree - a tree that produces Dates (fruit), Sapling can be made in the Farming Bench
 
 Products:
 Orange Garnish - made from Oranges in the Cooking Station
