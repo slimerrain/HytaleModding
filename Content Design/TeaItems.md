@@ -9,7 +9,7 @@ items.Ingredient_Leather_Heavy.description = Processed from the thick hides of a
  - (Bench Level)
 
 # Oolong Tea
- - A refreshing and revitilizing green tea brewed from <item is="tea_leaves_oolong"/>.\n\n<i>A legendary tea famed for it's complex flavor. An art mastered by tea cultivators from the east. They say that you can judge a persons character by how they like their Oolong.</i>
+ - A refreshing and revitalizing green tea brewed from <item is="tea_leaves_oolong"/>.\n\n<i>A legendary tea famed for it's complex flavor. An art mastered by tea cultivators from the east. They say that you can judge a persons character by how they like their Oolong.</i>
  - (Ingredients)
  - (Quality)
  - (Bench Level)
@@ -39,19 +39,19 @@ items.Ingredient_Leather_Heavy.description = Processed from the thick hides of a
  - (Bench Level)
 
 # Black Tea
- - A strong and robust black tea brewed from <item is="tea_leaves_black"/> \n\n<i>The perfect tea to get your day started. Black tea has been caffeinating the people of Orbis far before the age of heroes!</i>
+ - A strong and robust black tea brewed from <item is="LeafJuice_Red_Tea_Leaves"/> \n\n<i>The perfect tea to get your day started. Red tea has been caffeinating the people of Orbis far before the age of heroes!</i>
  - (Ingredients)
  - (Quality)
  - (Bench Level)
 
  # Early Gray Tea
- - A strong and robust black tea brewed from <item is="tea_leaves_black"/> infused with <item is="fruit_orange"/> oil.\n\n<i>It is unknown who the Gray Earl was. There are many stories about why they chose to flavor their tea with oil of oranges, some say it was used as a perfume.. and the Earl like it so much they put it into their tea!</i>
+ - A strong and robust black tea brewed from <item is="LeafJuice_Earl_Grey_Tea_Mix"/>.\n\n<i>It is unknown who the Gray Earl was. There are many stories about why they chose to flavor their tea with oil of bergamot, some say it was used as a perfume.. and the Earl like it so much they put it into their tea!</i>
  - (Ingredients)
  - (Quality)
  - (Bench Level)
  
  # Jasmine Tea
- - A sweet and fragrant green tea brewed from <item is="tea_leaves_green"/> and <item is="tea_leaves_Jasmine"/>.\n\n<i>Jasmine tea is one of balance. Too many green tea leaves and the jasmine flavor is overpowered and undectable but too many jasmine flowers and the tea tastes weak and bitter. Learning to balance a Jasmine tea can teach someone a lot about how to balance their own life.</i>
+ - A sweet and fragrant green tea brewed from <item is="tea_leaves_green"/> and <item is="tea_leaves_Jasmine"/>.\n\n<i>Jasmine tea is one of balance. Too many green tea leaves and the jasmine flavor is overpowered and undetectable but too many jasmine flowers and the tea tastes weak and bitter. Learning to balance a Jasmine tea can teach someone a lot about how to balance their own life.</i>
  - (Ingredients)
  - (Quality)
  - (Bench Level) 
