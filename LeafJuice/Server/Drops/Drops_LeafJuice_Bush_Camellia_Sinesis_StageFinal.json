@@ -1,10 +1,10 @@
 {
-  "Container": {
-    "Type": "Single",
-    "Item": {
-      "ItemId": "LeafJuice_Bush_Camellia_Sinesis",
-      "QuantityMin": 1,
-      "QuantityMax": 1
+    "Container": {
+        "Type": "Single",
+        "Item": {
+            "ItemId": "LeafJuice_Bush_Camellia_Sinesis",
+            "QuantityMin": 1,
+            "QuantityMax": 1
+        }
     }
-  }
 }

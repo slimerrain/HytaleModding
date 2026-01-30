@@ -1,17 +1,39 @@
 {
-  "TranslationProperties": {
-    "Name": "server.items.LeafJuice_Chrysanthemum_Tea.name",
-    "Description": "server.items.LeafJuice_Chrysanthemum_Tea.description"
-  },
-  "Parent": "LeafJuice_Template_Tea",
-  "Icon": "Icons/ItemsGenerated/LeafJuice_Chrysanthemum_Tea.png",
-  "BlockType": {
-    "CustomModelTexture": [
-      {
-        "Texture": "Items/Consumables/Food/Tea_Cup_Yellow.png",
-        "Weight": 1
-      }
-    ],
-    "ParticleColor": "#FFFACD"
-  }
+    "TranslationProperties": {
+        "Name": "server.items.LeafJuice_Chrysanthemum_Tea.name",
+        "Description": "server.items.LeafJuice_Chrysanthemum_Tea.description"
+    },
+    "Parent": "LeafJuice_Template_Tea",
+    "Icon": "Icons/ItemsGenerated/LeafJuice_Chrysanthemum_Tea.png",
+    "BlockType": {
+        "CustomModelTexture": [
+            {
+                "Texture": "Items/Consumables/Food/Tea_Cup_Yellow.png",
+                "Weight": 1
+            }
+        ],
+        "ParticleColor": "#FFFACD"
+    },
+    "Recipe": {
+        "Input": [
+            {
+                "ItemId": "LeafJuice_Dried_Chrysanthemum",
+                "Quantity": 1
+            }
+        ],
+        "TimeSeconds": 3,
+        "Output": [
+            {
+                "ItemId": "LeafJuice_Chrysanthemum_Tea",
+                "Quantity": 1
+            }
+        ],
+        "BenchRequirement": {
+            "Type": "Processing",
+            "Id": "LeafJuice_TeaPot",
+            "Categories": [
+                "LeafJuice_Brewing"
+            ]
+        }
+    }
 }

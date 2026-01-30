@@ -1,28 +1,28 @@
 {
-  "Input": [
-    {
-      "ItemId": "Food_Fruit_Orange",
-      "Quantity": 1
-    }
-  ],
-  "PrimaryOutput": {
-    "ItemId": "LeafJuice_Orange_Garnish",
-    "Quantity": 2
-  },
-  "Output": [
-    {
-      "ItemId": "LeafJuice_Orange_Garnish",
-      "Quantity": 2
-    }
-  ],
-  "BenchRequirement": [
-    {
-      "Type": "Crafting",
-      "Id": "Cookingbench",
-      "Categories": [
-        "Cooking"
-      ]
-    }
-  ],
-  "TimeSeconds": 2
+    "Input": [
+        {
+            "ItemId": "Food_Fruit_Orange",
+            "Quantity": 1
+        }
+    ],
+    "PrimaryOutput": {
+        "ItemId": "LeafJuice_Orange_Garnish",
+        "Quantity": 2
+    },
+    "Output": [
+        {
+            "ItemId": "LeafJuice_Orange_Garnish",
+            "Quantity": 2
+        }
+    ],
+    "BenchRequirement": [
+        {
+            "Type": "Crafting",
+            "Id": "Cookingbench",
+            "Categories": [
+                "Cooking"
+            ]
+        }
+    ],
+    "TimeSeconds": 2
 }

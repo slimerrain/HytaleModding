@@ -1,32 +1,32 @@
 {
-  "Input": [
-    {
-      "ItemId": "LeafJuice_Red_Tea_Leaves",
-      "Quantity": 1
+    "Input": [
+        {
+            "ItemId": "LeafJuice_Red_Tea_Leaves",
+            "Quantity": 1
+        },
+        {
+            "ItemId": "LeafJuice_Orange_Garnish",
+            "Quantity": 1
+        }
+    ],
+    "PrimaryOutput": {
+        "ItemId": "LeafJuice_Earl_Grey_Tea_Mix",
+        "Quantity": 1
     },
-    {
-      "ItemId": "LeafJuice_Orange_Garnish",
-      "Quantity": 1
-    }
-  ],
-  "PrimaryOutput": {
-    "ItemId": "LeafJuice_Earl_Grey_Tea_Mix",
-    "Quantity": 1
-  },
-  "Output": [
-    {
-      "ItemId": "LeafJuice_Earl_Grey_Tea_Mix",
-      "Quantity": 1
-    }
-  ],
-  "BenchRequirement": [
-    {
-      "Type": "Crafting",
-      "Categories": [
-        "LeafJuice_TeaMixing"
-      ],
-      "Id": "LeafJuice_TeaBench"
-    }
-  ],
-  "TimeSeconds": 3
+    "Output": [
+        {
+            "ItemId": "LeafJuice_Earl_Grey_Tea_Mix",
+            "Quantity": 1
+        }
+    ],
+    "BenchRequirement": [
+        {
+            "Type": "Crafting",
+            "Categories": [
+                "LeafJuice_TeaMixing"
+            ],
+            "Id": "LeafJuice_TeaBench"
+        }
+    ],
+    "TimeSeconds": 3
 }

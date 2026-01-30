@@ -1,19 +1,19 @@
 {
-  "TranslationProperties": {
-    "Name": "server.items.LeafJuice_Dried_Jasmine.name",
-    "Description": "server.items.LeafJuice_Dried_Jasmine.description"
-  },
-  "Parent": "Template_Food",
-  "Icon": "Icons/ItemsGenerated/LeafJuice_Dried_Jasmine.png",
-  "Categories": [
-    "Ingredients.Plants"
-  ],
-  "MaxStack": 64,
-  "ItemSoundSetId": "ISS_Items_Foliage",
-  "Tags": {
-    "Type": [
-      "Ingredient",
-      "Plant"
-    ]
-  }
+    "TranslationProperties": {
+        "Name": "server.items.LeafJuice_Dried_Jasmine.name",
+        "Description": "server.items.LeafJuice_Dried_Jasmine.description"
+    },
+    "Parent": "Template_Food",
+    "Icon": "Icons/ItemsGenerated/LeafJuice_Dried_Jasmine.png",
+    "Categories": [
+        "Ingredients.Plants"
+    ],
+    "MaxStack": 64,
+    "ItemSoundSetId": "ISS_Items_Foliage",
+    "Tags": {
+        "Type": [
+            "Ingredient",
+            "Plant"
+        ]
+    }
 }

@@ -1,19 +1,19 @@
 {
-  "TranslationProperties": {
-    "Name": "server.items.LeafJuice_Goji_Berry.name",
-    "Description": "server.items.LeafJuice_Goji_Berry.description"
-  },
-  "Parent": "Template_Food",
-  "Icon": "Icons/ItemsGenerated/LeafJuice_Goji_Berry.png",
-  "Categories": [
-    "Food.Fruits"
-  ],
-  "MaxStack": 64,
-  "ItemSoundSetId": "ISS_Items_Foliage",
-  "Tags": {
-    "Type": [
-      "Food",
-      "Ingredient"
-    ]
-  }
+    "TranslationProperties": {
+        "Name": "server.items.LeafJuice_Goji_Berry.name",
+        "Description": "server.items.LeafJuice_Goji_Berry.description"
+    },
+    "Parent": "Template_Food",
+    "Icon": "Icons/ItemsGenerated/LeafJuice_Goji_Berry.png",
+    "Categories": [
+        "Food.Fruits"
+    ],
+    "MaxStack": 64,
+    "ItemSoundSetId": "ISS_Items_Foliage",
+    "Tags": {
+        "Type": [
+            "Food",
+            "Ingredient"
+        ]
+    }
 }

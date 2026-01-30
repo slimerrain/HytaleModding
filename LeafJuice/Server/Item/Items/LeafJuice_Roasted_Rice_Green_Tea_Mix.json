@@ -1,19 +1,19 @@
 {
-  "TranslationProperties": {
-    "Name": "server.items.LeafJuice_Roasted_Rice_Green_Tea_Mix.name",
-    "Description": "server.items.LeafJuice_Roasted_Rice_Green_Tea_Mix.description"
-  },
-  "Parent": "Template_Food",
-  "Icon": "Icons/ItemsGenerated/LeafJuice_Roasted_Rice_Green_Tea_Mix.png",
-  "Categories": [
-    "Ingredients.Plants"
-  ],
-  "MaxStack": 64,
-  "ItemSoundSetId": "ISS_Items_Foliage",
-  "Tags": {
-    "Type": [
-      "Ingredient",
-      "Mix"
-    ]
-  }
+    "TranslationProperties": {
+        "Name": "server.items.LeafJuice_Roasted_Rice_Green_Tea_Mix.name",
+        "Description": "server.items.LeafJuice_Roasted_Rice_Green_Tea_Mix.description"
+    },
+    "Parent": "Template_Food",
+    "Icon": "Icons/ItemsGenerated/LeafJuice_Roasted_Rice_Green_Tea_Mix.png",
+    "Categories": [
+        "Ingredients.Plants"
+    ],
+    "MaxStack": 64,
+    "ItemSoundSetId": "ISS_Items_Foliage",
+    "Tags": {
+        "Type": [
+            "Ingredient",
+            "Mix"
+        ]
+    }
 }

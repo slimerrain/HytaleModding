@@ -1,32 +1,32 @@
 {
-  "Input": [
-    {
-      "ItemId": "LeafJuice_Roasted_Rice",
-      "Quantity": 1
+    "Input": [
+        {
+            "ItemId": "LeafJuice_Roasted_Rice",
+            "Quantity": 1
+        },
+        {
+            "ItemId": "LeafJuice_Green_Tea_Leaves",
+            "Quantity": 1
+        }
+    ],
+    "PrimaryOutput": {
+        "ItemId": "LeafJuice_Roasted_Rice_Green_Tea_Mix",
+        "Quantity": 1
     },
-    {
-      "ItemId": "LeafJuice_Green_Tea_Leaves",
-      "Quantity": 1
-    }
-  ],
-  "PrimaryOutput": {
-    "ItemId": "LeafJuice_Roasted_Rice_Green_Tea_Mix",
-    "Quantity": 1
-  },
-  "Output": [
-    {
-      "ItemId": "LeafJuice_Roasted_Rice_Green_Tea_Mix",
-      "Quantity": 1
-    }
-  ],
-  "BenchRequirement": [
-    {
-      "Type": "Crafting",
-      "Categories": [
-        "LeafJuice_TeaMixing"
-      ],
-      "Id": "LeafJuice_TeaBench"
-    }
-  ],
-  "TimeSeconds": 3
+    "Output": [
+        {
+            "ItemId": "LeafJuice_Roasted_Rice_Green_Tea_Mix",
+            "Quantity": 1
+        }
+    ],
+    "BenchRequirement": [
+        {
+            "Type": "Crafting",
+            "Categories": [
+                "LeafJuice_TeaMixing"
+            ],
+            "Id": "LeafJuice_TeaBench"
+        }
+    ],
+    "TimeSeconds": 3
 }

@@ -1,36 +1,36 @@
 {
-  "Input": [
-    {
-      "ItemId": "LeafJuice_Dried_Jasmine",
-      "Quantity": 1
+    "Input": [
+        {
+            "ItemId": "LeafJuice_Dried_Jasmine",
+            "Quantity": 1
+        },
+        {
+            "ResourceTypeId": "Water_Bucket",
+            "Quantity": 1
+        }
+    ],
+    "PrimaryOutput": {
+        "ItemId": "LeafJuice_Jasmine_Tea",
+        "Quantity": 1
     },
-    {
-      "ResourceTypeId": "Water_Bucket",
-      "Quantity": 1
-    }
-  ],
-  "PrimaryOutput": {
-    "ItemId": "LeafJuice_Jasmine_Tea",
-    "Quantity": 1
-  },
-  "Output": [
-    {
-      "ItemId": "LeafJuice_Jasmine_Tea",
-      "Quantity": 1
-    },
-    {
-      "ItemId": "Container_Bucket",
-      "Quantity": 1
-    }
-  ],
-  "BenchRequirement": [
-    {
-      "Type": "Processing",
-      "Categories": [
-        "LeafJuice_Brewing"
-      ],
-      "Id": "LeafJuice_TeaPot"
-    }
-  ],
-  "TimeSeconds": 8
+    "Output": [
+        {
+            "ItemId": "LeafJuice_Jasmine_Tea",
+            "Quantity": 1
+        },
+        {
+            "ItemId": "Container_Bucket",
+            "Quantity": 1
+        }
+    ],
+    "BenchRequirement": [
+        {
+            "Type": "Processing",
+            "Categories": [
+                "LeafJuice_Brewing"
+            ],
+            "Id": "LeafJuice_TeaPot"
+        }
+    ],
+    "TimeSeconds": 8
 }

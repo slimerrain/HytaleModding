@@ -1,28 +1,28 @@
 {
-  "Input": [
-    {
-      "ItemId": "Plant_Herb_Chrysanthemum",
-      "Quantity": 2
-    }
-  ],
-  "PrimaryOutput": {
-    "ItemId": "LeafJuice_Dried_Chrysanthemum",
-    "Quantity": 1
-  },
-  "Output": [
-    {
-      "ItemId": "LeafJuice_Dried_Chrysanthemum",
-      "Quantity": 1
-    }
-  ],
-  "BenchRequirement": [
-    {
-      "Type": "Processing",
-      "Categories": [
-        "LeafJuice_Drying"
-      ],
-      "Id": "LeafJuice_DryingRack"
-    }
-  ],
-  "TimeSeconds": 6
+    "Input": [
+        {
+            "ItemId": "Plant_Herb_Chrysanthemum",
+            "Quantity": 2
+        }
+    ],
+    "PrimaryOutput": {
+        "ItemId": "LeafJuice_Dried_Chrysanthemum",
+        "Quantity": 1
+    },
+    "Output": [
+        {
+            "ItemId": "LeafJuice_Dried_Chrysanthemum",
+            "Quantity": 1
+        }
+    ],
+    "BenchRequirement": [
+        {
+            "Type": "Processing",
+            "Categories": [
+                "LeafJuice_Drying"
+            ],
+            "Id": "LeafJuice_DryingRack"
+        }
+    ],
+    "TimeSeconds": 6
 }

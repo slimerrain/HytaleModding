@@ -4,5 +4,29 @@
     "Description": "server.items.LeafJuice_Earl_Grey_Tea.description"
   },
   "Parent": "LeafJuice_Template_Tea",
-  "Icon": "Icons/ItemsGenerated/LeafJuice_Earl_Grey_Tea.png"
+  "Icon": "Icons/ItemsGenerated/LeafJuice_Earl_Grey_Tea.png",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "LeafJuice_Earl_Grey_Tea_Mix",
+        "Quantity": 1
+      }
+    ],
+    "TimeSeconds": 3,
+    "Output": [
+      {
+        "ItemId": "LeafJuice_Earl_Grey_Tea",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Processing",
+        "Id": "LeafJuice_TeaPot",
+        "Categories": [
+          "LeafJuice_Brewing"
+        ]
+      }
+    ]
+  }
 }

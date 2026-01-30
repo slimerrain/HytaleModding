@@ -1,28 +1,28 @@
 {
-  "Input": [
-    {
-      "ItemId": "Plant_Crop_Rice",
-      "Quantity": 2
-    }
-  ],
-  "PrimaryOutput": {
-    "ItemId": "LeafJuice_Roasted_Rice",
-    "Quantity": 1
-  },
-  "Output": [
-    {
-      "ItemId": "LeafJuice_Roasted_Rice",
-      "Quantity": 1
-    }
-  ],
-  "BenchRequirement": [
-    {
-      "Type": "Crafting",
-      "Id": "Campfire",
-      "Categories": [
-        "Cooking"
-      ]
-    }
-  ],
-  "TimeSeconds": 6
+    "Input": [
+        {
+            "ItemId": "Plant_Crop_Rice",
+            "Quantity": 2
+        }
+    ],
+    "PrimaryOutput": {
+        "ItemId": "LeafJuice_Roasted_Rice",
+        "Quantity": 1
+    },
+    "Output": [
+        {
+            "ItemId": "LeafJuice_Roasted_Rice",
+            "Quantity": 1
+        }
+    ],
+    "BenchRequirement": [
+        {
+            "Type": "Crafting",
+            "Id": "Campfire",
+            "Categories": [
+                "Cooking"
+            ]
+        }
+    ],
+    "TimeSeconds": 6
 }

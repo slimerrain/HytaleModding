@@ -1,28 +1,28 @@
 {
-  "Input": [
-    {
-      "ItemId": "LeafJuice_Tender_Camellia_Assam_Leaves",
-      "Quantity": 3
-    }
-  ],
-  "PrimaryOutput": {
-    "ItemId": "LeafJuice_Camellia_Assam_Tea_Leaves",
-    "Quantity": 1
-  },
-  "Output": [
-    {
-      "ItemId": "LeafJuice_Camellia_Assam_Tea_Leaves",
-      "Quantity": 1
-    }
-  ],
-  "BenchRequirement": [
-    {
-      "Type": "Processing",
-      "Categories": [
-        "LeafJuice_Drying"
-      ],
-      "Id": "LeafJuice_DryingRack"
-    }
-  ],
-  "TimeSeconds": 8
+    "Input": [
+        {
+            "ItemId": "LeafJuice_Tender_Camellia_Assam_Leaves",
+            "Quantity": 3
+        }
+    ],
+    "PrimaryOutput": {
+        "ItemId": "LeafJuice_Camellia_Assam_Tea_Leaves",
+        "Quantity": 1
+    },
+    "Output": [
+        {
+            "ItemId": "LeafJuice_Camellia_Assam_Tea_Leaves",
+            "Quantity": 1
+        }
+    ],
+    "BenchRequirement": [
+        {
+            "Type": "Processing",
+            "Categories": [
+                "LeafJuice_Drying"
+            ],
+            "Id": "LeafJuice_DryingRack"
+        }
+    ],
+    "TimeSeconds": 8
 }

@@ -1,19 +1,19 @@
 {
-  "TranslationProperties": {
-    "Name": "server.items.LeafJuice_Orange_Garnish.name",
-    "Description": "server.items.LeafJuice_Orange_Garnish.description"
-  },
-  "Parent": "Template_Food",
-  "Icon": "Icons/ItemsGenerated/LeafJuice_Orange_Garnish.png",
-  "Categories": [
-    "Ingredients.Food"
-  ],
-  "MaxStack": 64,
-  "ItemSoundSetId": "ISS_Items_Foliage",
-  "Tags": {
-    "Type": [
-      "Ingredient",
-      "Food"
-    ]
-  }
+    "TranslationProperties": {
+        "Name": "server.items.LeafJuice_Orange_Garnish.name",
+        "Description": "server.items.LeafJuice_Orange_Garnish.description"
+    },
+    "Parent": "Template_Food",
+    "Icon": "Icons/ItemsGenerated/LeafJuice_Orange_Garnish.png",
+    "Categories": [
+        "Ingredients.Food"
+    ],
+    "MaxStack": 64,
+    "ItemSoundSetId": "ISS_Items_Foliage",
+    "Tags": {
+        "Type": [
+            "Ingredient",
+            "Food"
+        ]
+    }
 }

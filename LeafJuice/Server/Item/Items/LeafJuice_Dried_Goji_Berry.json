@@ -1,19 +1,19 @@
 {
-  "TranslationProperties": {
-    "Name": "server.items.LeafJuice_Dried_Goji_Berry.name",
-    "Description": "server.items.LeafJuice_Dried_Goji_Berry.description"
-  },
-  "Parent": "Template_Food",
-  "Icon": "Icons/ItemsGenerated/LeafJuice_Dried_Goji_Berry.png",
-  "Categories": [
-    "Ingredients.Plants"
-  ],
-  "MaxStack": 64,
-  "ItemSoundSetId": "ISS_Items_Foliage",
-  "Tags": {
-    "Type": [
-      "Ingredient",
-      "Fruit"
-    ]
-  }
+    "TranslationProperties": {
+        "Name": "server.items.LeafJuice_Dried_Goji_Berry.name",
+        "Description": "server.items.LeafJuice_Dried_Goji_Berry.description"
+    },
+    "Parent": "Template_Food",
+    "Icon": "Icons/ItemsGenerated/LeafJuice_Dried_Goji_Berry.png",
+    "Categories": [
+        "Ingredients.Plants"
+    ],
+    "MaxStack": 64,
+    "ItemSoundSetId": "ISS_Items_Foliage",
+    "Tags": {
+        "Type": [
+            "Ingredient",
+            "Fruit"
+        ]
+    }
 }

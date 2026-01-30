@@ -1,19 +1,19 @@
 {
-  "TranslationProperties": {
-    "Name": "server.items.LeafJuice_Osmanthus_Flower.name",
-    "Description": "server.items.LeafJuice_Osmanthus_Flower.description"
-  },
-  "Parent": "Template_Food",
-  "Icon": "Icons/ItemsGenerated/LeafJuice_Osmanthus_Flower.png",
-  "Categories": [
-    "Ingredients.Plants"
-  ],
-  "MaxStack": 64,
-  "ItemSoundSetId": "ISS_Items_Foliage",
-  "Tags": {
-    "Type": [
-      "Food",
-      "Ingredient"
-    ]
-  }
+    "TranslationProperties": {
+        "Name": "server.items.LeafJuice_Osmanthus_Flower.name",
+        "Description": "server.items.LeafJuice_Osmanthus_Flower.description"
+    },
+    "Parent": "Template_Food",
+    "Icon": "Icons/ItemsGenerated/LeafJuice_Osmanthus_Flower.png",
+    "Categories": [
+        "Ingredients.Plants"
+    ],
+    "MaxStack": 64,
+    "ItemSoundSetId": "ISS_Items_Foliage",
+    "Tags": {
+        "Type": [
+            "Food",
+            "Ingredient"
+        ]
+    }
 }

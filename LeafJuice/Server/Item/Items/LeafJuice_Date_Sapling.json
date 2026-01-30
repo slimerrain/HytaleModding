@@ -1,180 +1,180 @@
 {
-  "TranslationProperties": {
-    "Name": "server.items.LeafJuice_Date_Sapling.name",
-    "Description": "server.items.LeafJuice_Date_Sapling.description"
-  },
-  "Icon": "Icons/ItemsGenerated/LeafJuice_Date_Sapling.png",
-  "Categories": [
-    "Blocks.Plants"
-  ],
-  "Interactions": {
-    "Primary": "Block_Primary",
-    "Secondary": "Block_Secondary"
-  },
-  "ItemLevel": 5,
-  "Recipe": {
-    "TimeSeconds": 0,
-    "Input": [
-      {
-        "ItemId": "Ingredient_Life_Essence_Concentrated",
-        "Quantity": 1
-      },
-      {
-        "ItemId": "LeafJuice_Date_Fruit",
-        "Quantity": 4
-      }
+    "TranslationProperties": {
+        "Name": "server.items.LeafJuice_Date_Sapling.name",
+        "Description": "server.items.LeafJuice_Date_Sapling.description"
+    },
+    "Icon": "Icons/ItemsGenerated/LeafJuice_Date_Sapling.png",
+    "Categories": [
+        "Blocks.Plants"
     ],
-    "OutputQuantity": 1,
-    "BenchRequirement": [
-      {
-        "Type": "Crafting",
-        "Id": "Farmingbench",
-        "Categories": [
-          "Saplings"
+    "Interactions": {
+        "Primary": "Block_Primary",
+        "Secondary": "Block_Secondary"
+    },
+    "ItemLevel": 5,
+    "Recipe": {
+        "TimeSeconds": 0,
+        "Input": [
+            {
+                "ItemId": "Ingredient_Life_Essence_Concentrated",
+                "Quantity": 1
+            },
+            {
+                "ItemId": "LeafJuice_Date_Fruit",
+                "Quantity": 4
+            }
         ],
-        "RequiredTierLevel": 4
-      }
-    ]
-  },
-  "BlockType": {
-    "DrawType": "Model",
-    "CustomModel": "Blocks/Foliage/Tree/Sapling.blockymodel",
-    "CustomModelTexture": [
-      {
-        "Texture": "Blocks/Foliage/Tree/Sapling_Textures/Apple.png",
-        "Weight": 1
-      }
-    ],
-    "Group": "Wood",
-    "HitboxType": "Plant_Large",
-    "Flags": {},
-    "RandomRotation": "YawStep1",
-    "BlockEntity": {
-      "Components": {
-        "FarmingBlock": {}
-      }
-    },
-    "Farming": {
-      "Stages": {
-        "Default": [
-          {
-            "Block": "LeafJuice_Date_Sapling",
-            "Duration": {
-              "Min": 46400,
-              "Max": 46400
-            },
-            "Type": "BlockType"
-          },
-          {
-            "Prefabs": [
-              {
-                "Path": "Trees/Fruit/Date_Stage0.prefab.json",
-                "Weight": 1
-              }
-            ],
-            "Duration": {
-              "Min": 46400,
-              "Max": 46400
-            },
-            "Type": "Prefab",
-            "ReplaceMaskTags": [
-              "Soil"
-            ],
-            "SoundEventId": "SFX_Crops_Grow"
-          },
-          {
-            "Prefabs": [
-              {
-                "Path": "Trees/Fruit/Date_Stage1.prefab.json",
-                "Weight": 1
-              }
-            ],
-            "Duration": {
-              "Min": 46400,
-              "Max": 46400
-            },
-            "Type": "Prefab",
-            "ReplaceMaskTags": [
-              "Soil"
-            ],
-            "SoundEventId": "SFX_Crops_Grow"
-          },
-          {
-            "Prefabs": [
-              {
-                "Path": "Trees/Fruit/Date_Stage2.prefab.json",
-                "Weight": 1
-              }
-            ],
-            "Duration": {
-              "Min": 46400,
-              "Max": 46400
-            },
-            "Type": "Prefab",
-            "ReplaceMaskTags": [
-              "Soil"
-            ],
-            "SoundEventId": "SFX_Crops_Grow"
-          },
-          {
-            "Prefabs": [
-              {
-                "Path": "Trees/Fruit/Date_StageFinal.prefab.json",
-                "Weight": 1
-              }
-            ],
-            "Type": "Prefab",
-            "ReplaceMaskTags": [
-              "Soil"
-            ],
-            "SoundEventId": "SFX_Crops_Grow"
-          }
+        "OutputQuantity": 1,
+        "BenchRequirement": [
+            {
+                "Type": "Crafting",
+                "Id": "Farmingbench",
+                "Categories": [
+                    "Saplings"
+                ],
+                "RequiredTierLevel": 4
+            }
         ]
-      },
-      "StartingStageSet": "Default",
-      "ActiveGrowthModifiers": [
-        "Fertilizer",
-        "Water",
-        "LightLevel"
-      ]
     },
-    "Gathering": {
-      "Soft": {
-        "ItemId": "LeafJuice_Date_Sapling"
-      }
+    "BlockType": {
+        "DrawType": "Model",
+        "CustomModel": "Blocks/Foliage/Tree/Sapling.blockymodel",
+        "CustomModelTexture": [
+            {
+                "Texture": "Blocks/Foliage/Tree/Sapling_Textures/Apple.png",
+                "Weight": 1
+            }
+        ],
+        "Group": "Wood",
+        "HitboxType": "Plant_Large",
+        "Flags": {},
+        "RandomRotation": "YawStep1",
+        "BlockEntity": {
+            "Components": {
+                "FarmingBlock": {}
+            }
+        },
+        "Farming": {
+            "Stages": {
+                "Default": [
+                    {
+                        "Block": "LeafJuice_Date_Sapling",
+                        "Duration": {
+                            "Min": 46400,
+                            "Max": 46400
+                        },
+                        "Type": "BlockType"
+                    },
+                    {
+                        "Prefabs": [
+                            {
+                                "Path": "Trees/Fruit/Date_Stage0.prefab.json",
+                                "Weight": 1
+                            }
+                        ],
+                        "Duration": {
+                            "Min": 46400,
+                            "Max": 46400
+                        },
+                        "Type": "Prefab",
+                        "ReplaceMaskTags": [
+                            "Soil"
+                        ],
+                        "SoundEventId": "SFX_Crops_Grow"
+                    },
+                    {
+                        "Prefabs": [
+                            {
+                                "Path": "Trees/Fruit/Date_Stage1.prefab.json",
+                                "Weight": 1
+                            }
+                        ],
+                        "Duration": {
+                            "Min": 46400,
+                            "Max": 46400
+                        },
+                        "Type": "Prefab",
+                        "ReplaceMaskTags": [
+                            "Soil"
+                        ],
+                        "SoundEventId": "SFX_Crops_Grow"
+                    },
+                    {
+                        "Prefabs": [
+                            {
+                                "Path": "Trees/Fruit/Date_Stage2.prefab.json",
+                                "Weight": 1
+                            }
+                        ],
+                        "Duration": {
+                            "Min": 46400,
+                            "Max": 46400
+                        },
+                        "Type": "Prefab",
+                        "ReplaceMaskTags": [
+                            "Soil"
+                        ],
+                        "SoundEventId": "SFX_Crops_Grow"
+                    },
+                    {
+                        "Prefabs": [
+                            {
+                                "Path": "Trees/Fruit/Date_StageFinal.prefab.json",
+                                "Weight": 1
+                            }
+                        ],
+                        "Type": "Prefab",
+                        "ReplaceMaskTags": [
+                            "Soil"
+                        ],
+                        "SoundEventId": "SFX_Crops_Grow"
+                    }
+                ]
+            },
+            "StartingStageSet": "Default",
+            "ActiveGrowthModifiers": [
+                "Fertilizer",
+                "Water",
+                "LightLevel"
+            ]
+        },
+        "Gathering": {
+            "Soft": {
+                "ItemId": "LeafJuice_Date_Sapling"
+            }
+        },
+        "Support": {
+            "Down": [
+                {
+                    "TagId": "Type=Soil"
+                }
+            ]
+        },
+        "BlockParticleSetId": "Flower",
+        "BlockSoundSetId": "Bush",
+        "ParticleColor": "#8cc461"
     },
-    "Support": {
-      "Down": [
-        {
-          "TagId": "Type=Soil"
-        }
-      ]
+    "PlayerAnimationsId": "Item",
+    "Tags": {
+        "Type": [
+            "Plant"
+        ],
+        "Family": [
+            "Sapling"
+        ]
     },
-    "BlockParticleSetId": "Flower",
-    "BlockSoundSetId": "Bush",
-    "ParticleColor": "#8cc461"
-  },
-  "PlayerAnimationsId": "Item",
-  "Tags": {
-    "Type": [
-      "Plant"
-    ],
-    "Family": [
-      "Sapling"
-    ]
-  },
-  "ItemSoundSetId": "ISS_Items_Foliage",
-  "IconProperties": {
-    "Scale": 0.85,
-    "Rotation": [
-      22.5,
-      45,
-      22.5
-    ],
-    "Translation": [
-      0,
-      -4.2
-    ]
-  },
-  "DropOnDeath": true
+    "ItemSoundSetId": "ISS_Items_Foliage",
+    "IconProperties": {
+        "Scale": 0.85,
+        "Rotation": [
+            22.5,
+            45,
+            22.5
+        ],
+        "Translation": [
+            0,
+            -4.2
+        ]
+    },
+    "DropOnDeath": true
 }

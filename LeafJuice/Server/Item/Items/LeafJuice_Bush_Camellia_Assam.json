@@ -1,301 +1,301 @@
 {
-  "TranslationProperties": {
-    "Name": "server.items.LeafJuice_Bush_Camellia_Assam.name",
-    "Description": "server.items.LeafJuice_Bush_Camellia_Assam.description"
-  },
-  "ItemLevel": 10,
-  "Categories": [
-    "Blocks.Plants"
-  ],
-  "Interactions": {
-    "Primary": "Block_Primary",
-    "Secondary": "Block_Secondary"
-  },
-  "BlockType": {
-    "DrawType": "Model",
-    "CustomModel": "Blocks/Foliage/Plants/LeafJuice_Bush_Camellia_Assam_Wild.blockymodel",
-    "CustomModelTexture": [
-      {
-        "Texture": "Blocks/Foliage/Plants/LeafJuice_Bush_Camellia_Assam.png",
-        "Weight": 1
-      }
-    ],
-    "Effect": [
-      "WindFractal"
-    ],
-    "CustomModelScale": 0.8,
-    "Opacity": "Transparent",
-    "Flags": {
-      "IsStackable": false
+    "TranslationProperties": {
+        "Name": "server.items.LeafJuice_Bush_Camellia_Assam.name",
+        "Description": "server.items.LeafJuice_Bush_Camellia_Assam.description"
     },
-    "RandomRotation": "YawStep1",
-    "InitialState": "default",
-    "State": {
-      "Definitions": {
-        "Stage1": {
-          "CustomModelTexture": [
-            {
-              "Texture": "Blocks/Foliage/Plants/LeafJuice_Bush_Camellia_Assam_Stage1.png",
-              "Weight": 1
-            }
-          ],
-          "Support": {
-            "Down": [
-              {
-                "FaceType": "Full"
-              },
-              {
-                "FaceType": "Bushes"
-              }
-            ]
-          },
-          "Supporting": {
-            "Up": [
-              {
-                "FaceType": "Bushes"
-              }
-            ]
-          },
-          "Gathering": {
-            "Soft": {
-              "DropList": "Drops_LeafJuice_Bush_Camellia_Assam_Stage1"
-            }
-          }
-        },
-        "Stage2": {
-          "CustomModelTexture": [
-            {
-              "Texture": "Blocks/Foliage/Plants/LeafJuice_Bush_Camellia_Assam_Stage2.png",
-              "Weight": 1
-            }
-          ],
-          "Support": {
-            "Down": [
-              {
-                "FaceType": "Full"
-              },
-              {
-                "FaceType": "Bushes"
-              }
-            ]
-          },
-          "Supporting": {
-            "Up": [
-              {
-                "FaceType": "Bushes"
-              }
-            ]
-          },
-          "Gathering": {
-            "Soft": {
-              "DropList": "Drops_LeafJuice_Bush_Camellia_Assam_Stage2"
-            }
-          }
-        },
-        "Stage3": {
-          "CustomModelTexture": [
-            {
-              "Texture": "Blocks/Foliage/Plants/LeafJuice_Bush_Camellia_Assam_Stage3.png",
-              "Weight": 1
-            }
-          ],
-          "Support": {
-            "Down": [
-              {
-                "FaceType": "Full"
-              },
-              {
-                "FaceType": "Bushes"
-              }
-            ]
-          },
-          "Supporting": {
-            "Up": [
-              {
-                "FaceType": "Bushes"
-              }
-            ]
-          },
-          "Gathering": {
-            "Soft": {
-              "DropList": "Drops_LeafJuice_Bush_Camellia_Assam_Stage3"
-            }
-          }
-        },
-        "StageFinal": {
-          "CustomModel": "Blocks/Foliage/Plants/LeafJuice_Bush_Camellia_Assam_Wild_Leaves.blockymodel",
-          "CustomModelTexture": [
-            {
-              "Texture": "Blocks/Foliage/Plants/LeafJuice_Bush_Camellia_Assam_Leaves.png",
-              "Weight": 1
-            }
-          ],
-          "InteractionHint": "server.interactionHints.harvest_camellia_assam",
-          "Interactions": {
-            "Use": {
-              "Interactions": [
-                {
-                  "Type": "HarvestCrop"
-                }
-              ]
-            }
-          },
-          "Support": {
-            "Down": [
-              {
-                "FaceType": "Full"
-              },
-              {
-                "FaceType": "Bushes"
-              }
-            ]
-          },
-          "Supporting": {
-            "Up": [
-              {
-                "FaceType": "Bushes"
-              }
-            ]
-          },
-          "Gathering": {
-            "Soft": {
-              "DropList": "Drops_LeafJuice_Bush_Camellia_Assam_StageFinal",
-              "IsWeaponBreakable": false
-            },
-            "Harvest": {
-              "DropList": "Drops_LeafJuice_Bush_Camellia_Assam_StageFinal_Harvest"
-            }
-          }
-        }
-      }
+    "ItemLevel": 10,
+    "Categories": [
+        "Blocks.Plants"
+    ],
+    "Interactions": {
+        "Primary": "Block_Primary",
+        "Secondary": "Block_Secondary"
     },
-    "Farming": {
-      "Stages": {
-        "Default": [
-          {
-            "Type": "BlockState",
-            "Duration": {
-              "Min": 6000,
-              "Max": 8000
-            },
-            "State": "default",
-            "SoundEventId": "SFX_Crops_Grow"
-          },
-          {
-            "Type": "BlockState",
-            "Duration": {
-              "Min": 2000,
-              "Max": 3000
-            },
-            "State": "Stage1",
-            "SoundEventId": "SFX_Crops_Grow"
-          },
-          {
-            "Type": "BlockState",
-            "Duration": {
-              "Min": 2000,
-              "Max": 3000
-            },
-            "State": "Stage2",
-            "SoundEventId": "SFX_Crops_Grow"
-          },
-          {
-            "Type": "BlockState",
-            "Duration": {
-              "Min": 2000,
-              "Max": 3000
-            },
-            "State": "Stage3",
-            "SoundEventId": "SFX_Crops_Grow"
-          },
-          {
-            "Type": "BlockState",
-            "Duration": {
-              "Min": 5000,
-              "Max": 10000
-            },
-            "State": "StageFinal",
-            "SoundEventId": "SFX_Crops_Grow_Stage_Complete"
-          }
+    "BlockType": {
+        "DrawType": "Model",
+        "CustomModel": "Blocks/Foliage/Plants/LeafJuice_Bush_Camellia_Assam_Wild.blockymodel",
+        "CustomModelTexture": [
+            {
+                "Texture": "Blocks/Foliage/Plants/LeafJuice_Bush_Camellia_Assam.png",
+                "Weight": 1
+            }
         ],
-        "Harvested": [
-          {
-            "Type": "BlockState",
-            "Duration": {
-              "Min": 3000,
-              "Max": 4000
-            },
-            "State": "Stage3",
-            "SoundEventId": "SFX_Crops_Grow"
-          },
-          {
-            "Type": "BlockState",
-            "Duration": {
-              "Min": 5000,
-              "Max": 10000
-            },
-            "State": "StageFinal",
-            "SoundEventId": "SFX_Crops_Grow_Stage_Complete"
-          }
-        ]
-      },
-      "StartingStageSet": "Default",
-      "StageSetAfterHarvest": "Harvested"
-    },
-    "Gathering": {
-      "Soft": {
-        "DropList": "Drops_LeafJuice_Bush_Camellia_Assam_Block",
-        "IsWeaponBreakable": false
-      },
-      "UseDefaultDropWhenPlaced": true
-    },
-    "Support": {
-      "Down": [
-        {
-          "FaceType": "Full"
+        "Effect": [
+            "WindFractal"
+        ],
+        "CustomModelScale": 0.8,
+        "Opacity": "Transparent",
+        "Flags": {
+            "IsStackable": false
         },
-        {
-          "FaceType": "Bushes"
+        "RandomRotation": "YawStep1",
+        "InitialState": "default",
+        "State": {
+            "Definitions": {
+                "Stage1": {
+                    "CustomModelTexture": [
+                        {
+                            "Texture": "Blocks/Foliage/Plants/LeafJuice_Bush_Camellia_Assam_Stage1.png",
+                            "Weight": 1
+                        }
+                    ],
+                    "Support": {
+                        "Down": [
+                            {
+                                "FaceType": "Full"
+                            },
+                            {
+                                "FaceType": "Bushes"
+                            }
+                        ]
+                    },
+                    "Supporting": {
+                        "Up": [
+                            {
+                                "FaceType": "Bushes"
+                            }
+                        ]
+                    },
+                    "Gathering": {
+                        "Soft": {
+                            "DropList": "Drops_LeafJuice_Bush_Camellia_Assam_Stage1"
+                        }
+                    }
+                },
+                "Stage2": {
+                    "CustomModelTexture": [
+                        {
+                            "Texture": "Blocks/Foliage/Plants/LeafJuice_Bush_Camellia_Assam_Stage2.png",
+                            "Weight": 1
+                        }
+                    ],
+                    "Support": {
+                        "Down": [
+                            {
+                                "FaceType": "Full"
+                            },
+                            {
+                                "FaceType": "Bushes"
+                            }
+                        ]
+                    },
+                    "Supporting": {
+                        "Up": [
+                            {
+                                "FaceType": "Bushes"
+                            }
+                        ]
+                    },
+                    "Gathering": {
+                        "Soft": {
+                            "DropList": "Drops_LeafJuice_Bush_Camellia_Assam_Stage2"
+                        }
+                    }
+                },
+                "Stage3": {
+                    "CustomModelTexture": [
+                        {
+                            "Texture": "Blocks/Foliage/Plants/LeafJuice_Bush_Camellia_Assam_Stage3.png",
+                            "Weight": 1
+                        }
+                    ],
+                    "Support": {
+                        "Down": [
+                            {
+                                "FaceType": "Full"
+                            },
+                            {
+                                "FaceType": "Bushes"
+                            }
+                        ]
+                    },
+                    "Supporting": {
+                        "Up": [
+                            {
+                                "FaceType": "Bushes"
+                            }
+                        ]
+                    },
+                    "Gathering": {
+                        "Soft": {
+                            "DropList": "Drops_LeafJuice_Bush_Camellia_Assam_Stage3"
+                        }
+                    }
+                },
+                "StageFinal": {
+                    "CustomModel": "Blocks/Foliage/Plants/LeafJuice_Bush_Camellia_Assam_Wild_Leaves.blockymodel",
+                    "CustomModelTexture": [
+                        {
+                            "Texture": "Blocks/Foliage/Plants/LeafJuice_Bush_Camellia_Assam_Leaves.png",
+                            "Weight": 1
+                        }
+                    ],
+                    "InteractionHint": "server.interactionHints.harvest_camellia_assam",
+                    "Interactions": {
+                        "Use": {
+                            "Interactions": [
+                                {
+                                    "Type": "HarvestCrop"
+                                }
+                            ]
+                        }
+                    },
+                    "Support": {
+                        "Down": [
+                            {
+                                "FaceType": "Full"
+                            },
+                            {
+                                "FaceType": "Bushes"
+                            }
+                        ]
+                    },
+                    "Supporting": {
+                        "Up": [
+                            {
+                                "FaceType": "Bushes"
+                            }
+                        ]
+                    },
+                    "Gathering": {
+                        "Soft": {
+                            "DropList": "Drops_LeafJuice_Bush_Camellia_Assam_StageFinal",
+                            "IsWeaponBreakable": false
+                        },
+                        "Harvest": {
+                            "DropList": "Drops_LeafJuice_Bush_Camellia_Assam_StageFinal_Harvest"
+                        }
+                    }
+                }
+            }
+        },
+        "Farming": {
+            "Stages": {
+                "Default": [
+                    {
+                        "Type": "BlockState",
+                        "Duration": {
+                            "Min": 6000,
+                            "Max": 8000
+                        },
+                        "State": "default",
+                        "SoundEventId": "SFX_Crops_Grow"
+                    },
+                    {
+                        "Type": "BlockState",
+                        "Duration": {
+                            "Min": 2000,
+                            "Max": 3000
+                        },
+                        "State": "Stage1",
+                        "SoundEventId": "SFX_Crops_Grow"
+                    },
+                    {
+                        "Type": "BlockState",
+                        "Duration": {
+                            "Min": 2000,
+                            "Max": 3000
+                        },
+                        "State": "Stage2",
+                        "SoundEventId": "SFX_Crops_Grow"
+                    },
+                    {
+                        "Type": "BlockState",
+                        "Duration": {
+                            "Min": 2000,
+                            "Max": 3000
+                        },
+                        "State": "Stage3",
+                        "SoundEventId": "SFX_Crops_Grow"
+                    },
+                    {
+                        "Type": "BlockState",
+                        "Duration": {
+                            "Min": 5000,
+                            "Max": 10000
+                        },
+                        "State": "StageFinal",
+                        "SoundEventId": "SFX_Crops_Grow_Stage_Complete"
+                    }
+                ],
+                "Harvested": [
+                    {
+                        "Type": "BlockState",
+                        "Duration": {
+                            "Min": 3000,
+                            "Max": 4000
+                        },
+                        "State": "Stage3",
+                        "SoundEventId": "SFX_Crops_Grow"
+                    },
+                    {
+                        "Type": "BlockState",
+                        "Duration": {
+                            "Min": 5000,
+                            "Max": 10000
+                        },
+                        "State": "StageFinal",
+                        "SoundEventId": "SFX_Crops_Grow_Stage_Complete"
+                    }
+                ]
+            },
+            "StartingStageSet": "Default",
+            "StageSetAfterHarvest": "Harvested"
+        },
+        "Gathering": {
+            "Soft": {
+                "DropList": "Drops_LeafJuice_Bush_Camellia_Assam_Block",
+                "IsWeaponBreakable": false
+            },
+            "UseDefaultDropWhenPlaced": true
+        },
+        "Support": {
+            "Down": [
+                {
+                    "FaceType": "Full"
+                },
+                {
+                    "FaceType": "Bushes"
+                }
+            ]
+        },
+        "Supporting": {
+            "Up": [
+                {
+                    "FaceType": "BushBase"
+                }
+            ]
+        },
+        "BlockParticleSetId": "Leaves_Round",
+        "ParticleColor": "#8B4513",
+        "BlockSoundSetId": "Bush",
+        "BlockEntity": {
+            "Components": {
+                "FarmingBlock": {}
+            }
         }
-      ]
     },
-    "Supporting": {
-      "Up": [
-        {
-          "FaceType": "BushBase"
-        }
-      ]
+    "PlayerAnimationsId": "Item",
+    "Icon": "Icons/ItemsGenerated/LeafJuice_Bush_Camellia_Assam.png",
+    "IconProperties": {
+        "Scale": 0.37,
+        "Rotation": [
+            9,
+            57,
+            21
+        ],
+        "Translation": [
+            2.5,
+            -27
+        ]
     },
-    "BlockParticleSetId": "Leaves_Round",
-    "ParticleColor": "#8B4513",
-    "BlockSoundSetId": "Bush",
-    "BlockEntity": {
-      "Components": {
-        "FarmingBlock": {}
-      }
-    }
-  },
-  "PlayerAnimationsId": "Item",
-  "Icon": "Icons/ItemsGenerated/LeafJuice_Bush_Camellia_Assam.png",
-  "IconProperties": {
-    "Scale": 0.37,
-    "Rotation": [
-      9,
-      57,
-      21
-    ],
-    "Translation": [
-      2.5,
-      -27
-    ]
-  },
-  "Tags": {
-    "Type": [
-      "Plant"
-    ],
-    "Family": [
-      "Bush"
-    ]
-  },
-  "ItemSoundSetId": "ISS_Items_Foliage"
+    "Tags": {
+        "Type": [
+            "Plant"
+        ],
+        "Family": [
+            "Bush"
+        ]
+    },
+    "ItemSoundSetId": "ISS_Items_Foliage"
 }

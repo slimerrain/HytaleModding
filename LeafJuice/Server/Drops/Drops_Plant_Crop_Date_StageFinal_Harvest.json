@@ -1,15 +1,15 @@
 {
-  "Container": {
-    "Type": "Multiple",
-    "Containers": [
-      {
-        "Type": "Single",
-        "Item": {
-          "ItemId": "LeafJuice_Date_Fruit",
-          "QuantityMin": 2,
-          "QuantityMax": 4
-        }
-      }
-    ]
-  }
+    "Container": {
+        "Type": "Multiple",
+        "Containers": [
+            {
+                "Type": "Single",
+                "Item": {
+                    "ItemId": "LeafJuice_Date_Fruit",
+                    "QuantityMin": 2,
+                    "QuantityMax": 4
+                }
+            }
+        ]
+    }
 }

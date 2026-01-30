@@ -1,28 +1,28 @@
 {
-  "Input": [
-    {
-      "ItemId": "LeafJuice_Oolong_Tea_Leaves",
-      "Quantity": 1
-    }
-  ],
-  "PrimaryOutput": {
-    "ItemId": "LeafJuice_Red_Tea_Leaves",
-    "Quantity": 1
-  },
-  "Output": [
-    {
-      "ItemId": "LeafJuice_Red_Tea_Leaves",
-      "Quantity": 1
-    }
-  ],
-  "BenchRequirement": [
-    {
-      "Type": "Processing",
-      "Categories": [
-        "LeafJuice_Withering"
-      ],
-      "Id": "LeafJuice_WitheringStation"
-    }
-  ],
-  "TimeSeconds": 10
+    "Input": [
+        {
+            "ItemId": "LeafJuice_Oolong_Tea_Leaves",
+            "Quantity": 1
+        }
+    ],
+    "PrimaryOutput": {
+        "ItemId": "LeafJuice_Red_Tea_Leaves",
+        "Quantity": 1
+    },
+    "Output": [
+        {
+            "ItemId": "LeafJuice_Red_Tea_Leaves",
+            "Quantity": 1
+        }
+    ],
+    "BenchRequirement": [
+        {
+            "Type": "Processing",
+            "Categories": [
+                "LeafJuice_Withering"
+            ],
+            "Id": "LeafJuice_WitheringStation"
+        }
+    ],
+    "TimeSeconds": 10
 }

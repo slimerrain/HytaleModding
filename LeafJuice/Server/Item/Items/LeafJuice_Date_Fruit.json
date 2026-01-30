@@ -1,19 +1,19 @@
 {
-  "TranslationProperties": {
-    "Name": "server.items.LeafJuice_Date_Fruit.name",
-    "Description": "server.items.LeafJuice_Date_Fruit.description"
-  },
-  "Parent": "Template_Food",
-  "Icon": "Icons/ItemsGenerated/LeafJuice_Date_Fruit.png",
-  "Categories": [
-    "Food.Fruits"
-  ],
-  "MaxStack": 64,
-  "ItemSoundSetId": "ISS_Items_Foliage",
-  "Tags": {
-    "Type": [
-      "Food",
-      "Ingredient"
-    ]
-  }
+    "TranslationProperties": {
+        "Name": "server.items.LeafJuice_Date_Fruit.name",
+        "Description": "server.items.LeafJuice_Date_Fruit.description"
+    },
+    "Parent": "Template_Food",
+    "Icon": "Icons/ItemsGenerated/LeafJuice_Date_Fruit.png",
+    "Categories": [
+        "Food.Fruits"
+    ],
+    "MaxStack": 64,
+    "ItemSoundSetId": "ISS_Items_Foliage",
+    "Tags": {
+        "Type": [
+            "Food",
+            "Ingredient"
+        ]
+    }
 }

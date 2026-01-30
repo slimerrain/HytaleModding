@@ -1,19 +1,19 @@
 {
-  "TranslationProperties": {
-    "Name": "server.items.LeafJuice_Hojicha_Powder.name",
-    "Description": "server.items.LeafJuice_Hojicha_Powder.description"
-  },
-  "Parent": "Template_Food",
-  "Icon": "Icons/ItemsGenerated/LeafJuice_Hojicha_Powder.png",
-  "Categories": [
-    "Ingredients.Powders"
-  ],
-  "MaxStack": 64,
-  "ItemSoundSetId": "ISS_Items_Foliage",
-  "Tags": {
-    "Type": [
-      "Food",
-      "Ingredient"
-    ]
-  }
+    "TranslationProperties": {
+        "Name": "server.items.LeafJuice_Hojicha_Powder.name",
+        "Description": "server.items.LeafJuice_Hojicha_Powder.description"
+    },
+    "Parent": "Template_Food",
+    "Icon": "Icons/ItemsGenerated/LeafJuice_Hojicha_Powder.png",
+    "Categories": [
+        "Ingredients.Powders"
+    ],
+    "MaxStack": 64,
+    "ItemSoundSetId": "ISS_Items_Foliage",
+    "Tags": {
+        "Type": [
+            "Food",
+            "Ingredient"
+        ]
+    }
 }

@@ -1,28 +1,28 @@
 {
-  "Input": [
-    {
-      "ItemId": "LeafJuice_Date_Fruit",
-      "Quantity": 2
-    }
-  ],
-  "PrimaryOutput": {
-    "ItemId": "LeafJuice_Dried_Date",
-    "Quantity": 1
-  },
-  "Output": [
-    {
-      "ItemId": "LeafJuice_Dried_Date",
-      "Quantity": 1
-    }
-  ],
-  "BenchRequirement": [
-    {
-      "Type": "Processing",
-      "Categories": [
-        "LeafJuice_Drying"
-      ],
-      "Id": "LeafJuice_DryingRack"
-    }
-  ],
-  "TimeSeconds": 6
+    "Input": [
+        {
+            "ItemId": "LeafJuice_Date_Fruit",
+            "Quantity": 2
+        }
+    ],
+    "PrimaryOutput": {
+        "ItemId": "LeafJuice_Dried_Date",
+        "Quantity": 1
+    },
+    "Output": [
+        {
+            "ItemId": "LeafJuice_Dried_Date",
+            "Quantity": 1
+        }
+    ],
+    "BenchRequirement": [
+        {
+            "Type": "Processing",
+            "Categories": [
+                "LeafJuice_Drying"
+            ],
+            "Id": "LeafJuice_DryingRack"
+        }
+    ],
+    "TimeSeconds": 6
 }
