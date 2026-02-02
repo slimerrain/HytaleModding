@@ -1,0 +1,28 @@
+{
+    "Input": [
+        {
+            "ItemId": "Ingredient_Life_Essence",
+            "Quantity": 10
+        }
+    ],
+    "PrimaryOutput": {
+        "ItemId": "LeafJuice_Jasmine_Flower",
+        "Quantity": 3
+    },
+    "Output": [
+        {
+            "ItemId": "LeafJuice_Jasmine_Flower",
+            "Quantity": 3
+        }
+    ],
+    "BenchRequirement": [
+        {
+            "Type": "Crafting",
+            "Categories": [
+                "LeafJuice_Cultivation"
+            ],
+            "Id": "LeafJuice_TeaBench"
+        }
+    ],
+    "TimeSeconds": 10
+}

@@ -1,0 +1,45 @@
+{
+    "TranslationProperties": {
+        "Name": "server.items.LeafJuice_Matcha_Powder.name",
+        "Description": "server.items.LeafJuice_Matcha_Powder.description"
+    },
+    "Parent": "Template_Food",
+    "Icon": "Icons/ItemsGenerated/LeafJuice_Matcha_Powder.png",
+    "Categories": [
+        "Ingredients.Powders"
+    ],
+    "MaxStack": 64,
+    "ItemSoundSetId": "ISS_Items_Foliage",
+    "Tags": {
+        "Type": [
+            "Food",
+            "Ingredient"
+        ]
+    },
+    "BlockType": {
+        "Material": "Empty",
+        "DrawType": "Model",
+        "HitboxType": "Food_Small",
+        "CustomModel": "Items/Tools/Salt.blockymodel",
+        "CustomModelTexture": [
+            {
+                "Texture": "Items/Tools/Salt_Green.png",
+                "Weight": 1
+            }
+        ],
+        "Support": {
+            "Down": [
+                {
+                    "FaceType": "Full"
+                }
+            ]
+        },
+        "ParticleColor": "#7CB518",
+        "RandomRotation": "YawStep1",
+        "Gathering": {
+            "Harvest": {},
+            "Soft": {}
+        }
+    },
+    "DropOnDeath": true
+}

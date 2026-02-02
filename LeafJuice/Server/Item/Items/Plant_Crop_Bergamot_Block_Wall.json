@@ -1,0 +1,14 @@
+{
+    "TranslationProperties": {
+        "Name": "server.items.Plant_Crop_Bergamot_StageFinal.name"
+    },
+    "Parent": "Plant_Crop_Bergamot_Block",
+    "BlockType": {
+        "CustomModel": "Blocks/Foliage/Plants/Fruit/Bergamot_Block_Stage0.blockymodel",
+        "CustomModelTexture": [
+            {
+                "Texture": "Blocks/Foliage/Plants/Fruit/Bergamot_Block_Stage0.png"
+            }
+        ]
+    }
+}

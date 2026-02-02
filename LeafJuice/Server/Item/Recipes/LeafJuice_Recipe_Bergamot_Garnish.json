@@ -1,0 +1,28 @@
+{
+    "Input": [
+        {
+            "ItemId": "LeafJuice_Bergamot_Fruit",
+            "Quantity": 1
+        }
+    ],
+    "PrimaryOutput": {
+        "ItemId": "LeafJuice_Bergamot_Garnish",
+        "Quantity": 2
+    },
+    "Output": [
+        {
+            "ItemId": "LeafJuice_Bergamot_Garnish",
+            "Quantity": 2
+        }
+    ],
+    "BenchRequirement": [
+        {
+            "Type": "Crafting",
+            "Id": "LeafJuice_TeaBench",
+            "Categories": [
+                "LeafJuice_Prepared"
+            ]
+        }
+    ],
+    "TimeSeconds": 2
+}

@@ -1,0 +1,39 @@
+{
+    "TranslationProperties": {
+        "Name": "server.items.LeafJuice_Osmanthus_Oolong_Tea.name",
+        "Description": "server.items.LeafJuice_Osmanthus_Oolong_Tea.description"
+    },
+    "Parent": "LeafJuice_Template_Tea",
+    "Icon": "Icons/ItemsGenerated/Tea_Cup_Yellow.png",
+    "BlockType": {
+        "CustomModel": "Items/Consumables/Food/Tea_Cup.blockymodel",
+        "CustomModelTexture": [
+            {
+                "Texture": "Items/Consumables/Food/Tea_Cup_Yellow.png",
+                "Weight": 1
+            }
+        ],
+        "ParticleColor": "#DAA520"
+    },
+    "Recipe": {
+        "Input": [
+            {
+                "ItemId": "LeafJuice_Osmanthus_Oolong_Tea_Mix",
+                "Quantity": 1
+            }
+        ],
+        "TimeSeconds": 3,
+        "Output": [
+            {
+                "ItemId": "LeafJuice_Osmanthus_Oolong_Tea",
+                "Quantity": 1
+            }
+        ],
+        "BenchRequirement": [
+            {
+                "Type": "Processing",
+                "Id": "LeafJuice_TeaPot"
+            }
+        ]
+    }
+}

@@ -1,0 +1,164 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "name": "Origin",
+      "position": {"x": 0, "y": 0, "z": 0},
+      "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+      "shape": {
+        "type": "none",
+        "offset": {"x": 0, "y": 0, "z": 0},
+        "stretch": {"x": 0, "y": 0, "z": 0},
+        "settings": {
+          "isPiece": false
+        },
+        "textureLayout": {},
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "2",
+          "name": "Block",
+          "position": {"x": -11.99398, "y": 22.95419, "z": -15.96843},
+          "orientation": {"x": -0.32569, "y": 0.19018, "z": -0.01828, "w": 0.92597},
+          "shape": {
+            "type": "quad",
+            "offset": {"x": 7, "y": -2, "z": 17},
+            "stretch": {"x": 1.29071, "y": 0.93333, "z": 0.1},
+            "settings": {
+              "isPiece": false,
+              "size": {"x": 32, "y": 56},
+              "normal": "+Z"
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {"x": 0, "y": 0},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": true,
+            "shadingMode": "flat"
+          },
+          "children": [
+            {
+              "id": "3",
+              "name": "Block",
+              "position": {"x": 5.45379, "y": -18.40134, "z": -2.17928},
+              "orientation": {"x": 0.00397, "y": -0.67935, "z": -0.55711, "w": 0.47759},
+              "shape": {
+                "type": "quad",
+                "offset": {"x": 0, "y": 0, "z": 0},
+                "stretch": {"x": 0.87196, "y": 1, "z": 0.1},
+                "settings": {
+                  "isPiece": false,
+                  "size": {"x": 57, "y": 56},
+                  "normal": "+Z"
+                },
+                "textureLayout": {
+                  "front": {
+                    "offset": {"x": 0, "y": 0},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 0
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": true,
+                "shadingMode": "flat"
+              }
+            },
+            {
+              "id": "4",
+              "name": "Block",
+              "position": {"x": 1.43896, "y": -10.61243, "z": -1.88553},
+              "orientation": {"x": 0.0965, "y": -0.89873, "z": -0.34969, "w": 0.24636},
+              "shape": {
+                "type": "quad",
+                "offset": {"x": 0, "y": 0, "z": 0},
+                "stretch": {"x": 0.93197, "y": 0.9576, "z": 0.1},
+                "settings": {
+                  "isPiece": false,
+                  "size": {"x": 57, "y": 56},
+                  "normal": "+Z"
+                },
+                "textureLayout": {
+                  "front": {
+                    "offset": {"x": 57, "y": 0},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": true,
+                "shadingMode": "flat"
+              }
+            },
+            {
+              "id": "5",
+              "name": "Block",
+              "position": {"x": -0.41777, "y": -15.64926, "z": -1.03097},
+              "orientation": {"x": 0.0391, "y": 0.78878, "z": 0.40184, "w": 0.46348},
+              "shape": {
+                "type": "quad",
+                "offset": {"x": 0, "y": 0, "z": 0},
+                "stretch": {"x": -1, "y": 1.04756, "z": 0.1},
+                "settings": {
+                  "isPiece": false,
+                  "size": {"x": 57, "y": 56},
+                  "normal": "+Z"
+                },
+                "textureLayout": {
+                  "front": {
+                    "offset": {"x": 0, "y": 0},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 0
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": true,
+                "shadingMode": "flat"
+              }
+            },
+            {
+              "id": "6",
+              "name": "Block",
+              "position": {"x": -17.20992, "y": -13.65247, "z": 7.58622},
+              "orientation": {"x": -0.12158, "y": 0.6832, "z": 0.57243, "w": 0.43678},
+              "shape": {
+                "type": "quad",
+                "offset": {"x": 0, "y": -3, "z": -6},
+                "stretch": {"x": 0.98981, "y": 1, "z": 0.1},
+                "settings": {
+                  "isPiece": false,
+                  "size": {"x": 57, "y": 56},
+                  "normal": "+Z"
+                },
+                "textureLayout": {
+                  "front": {
+                    "offset": {"x": 0, "y": 0},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 0
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": true,
+                "shadingMode": "flat"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "format": "prop",
+  "lod": "auto"
+}

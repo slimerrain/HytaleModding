@@ -1,0 +1,36 @@
+{
+    "Input": [
+        {
+            "ItemId": "LeafJuice_Roasted_Rice_Green_Tea_Mix",
+            "Quantity": 1
+        },
+        {
+            "ResourceTypeId": "Water_Bucket",
+            "Quantity": 1
+        }
+    ],
+    "PrimaryOutput": {
+        "ItemId": "LeafJuice_Roasted_Rice_Green_Tea",
+        "Quantity": 1
+    },
+    "Output": [
+        {
+            "ItemId": "LeafJuice_Roasted_Rice_Green_Tea",
+            "Quantity": 1
+        },
+        {
+            "ItemId": "Container_Bucket",
+            "Quantity": 1
+        }
+    ],
+    "BenchRequirement": [
+        {
+            "Type": "Processing",
+            "Categories": [
+                "LeafJuice_Brewing"
+            ],
+            "Id": "LeafJuice_TeaPot"
+        }
+    ],
+    "TimeSeconds": 8
+}

@@ -1,0 +1,164 @@
+{
+    "TranslationProperties": {
+        "Name": "server.items.LeafJuice_DryingRack.name",
+        "Description": "server.items.LeafJuice_DryingRack.description"
+    },
+    "Icon": "Icons/ItemsGenerated/LeafJuice_DryingRack.png",
+    "Categories": [
+        "Furniture.Benches"
+    ],
+    "BlockType": {
+        "Material": "Solid",
+        "DrawType": "Model",
+        "Opacity": "Semitransparent",
+        "CustomModel": "Blocks/Benches/LeafJuice_DryingRack.blockymodel",
+        "CustomModelTexture": [
+            {
+                "Texture": "Blocks/Benches/LeafJuice_DryingRack_Texture.png",
+                "Weight": 1
+            }
+        ],
+        "HitboxType": "LeafJuice_Processor_1x1x1",
+        "VariantRotation": "NESW",
+        "Bench": {
+            "Type": "Processing",
+            "Input": [
+                {
+                    "FilterValidIngredients": true
+                }
+            ],
+            "OutputSlotsCount": 1,
+            "Categories": [
+                {
+                    "Id": "LeafJuice_Drying",
+                    "Icon": "Icons/CraftingCategories/LeafJuice/Drying.png",
+                    "Name": "server.benchCategories.leafjuice.drying"
+                }
+            ],
+            "LocalOpenSoundEventId": "SFX_Workbench_Open",
+            "LocalCloseSoundEventId": "SFX_Workbench_Close",
+            "CompletedSoundEventId": "SFX_Workbench_Craft",
+            "FailedSoundEventId": "SFX_Generic_Crafting_Failed",
+            "BenchUpgradeSoundEventId": "SFX_Workbench_Upgrade_Start_Default",
+            "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default",
+            "Id": "LeafJuice_DryingRack",
+            "TierLevels": [
+                {
+                    "CraftingTimeReductionModifier": 0.0,
+                    "UpgradeRequirement": {
+                        "Material": [
+                            {
+                                "ItemId": "Ingredient_Bar_Iron",
+                                "Quantity": 8
+                            },
+                            {
+                                "ItemId": "Ingredient_Stick",
+                                "Quantity": 10
+                            }
+                        ],
+                        "TimeSeconds": 5.0
+                    }
+                },
+                {
+                    "CraftingTimeReductionModifier": 0.3,
+                    "UpgradeRequirement": {
+                        "Material": [
+                            {
+                                "ItemId": "Ingredient_Bar_Cobalt",
+                                "Quantity": 12
+                            },
+                            {
+                                "ItemId": "Ingredient_Bar_Copper",
+                                "Quantity": 15
+                            }
+                        ],
+                        "TimeSeconds": 10.0
+                    }
+                },
+                {
+                    "CraftingTimeReductionModifier": 0.5
+                }
+            ]
+        },
+        "State": {
+            "Id": "processingBench",
+            "Definitions": {
+                "Processing": {
+                    "Looping": true,
+                    "CustomModelAnimation": "Blocks/Benches/LeafJuice_DryingRack_Processing.blockyanim"
+                },
+                "ProcessCompleted": {
+                    "CustomModelAnimation": "Blocks/Benches/LeafJuice_DryingRack_Processing.blockyanim",
+                    "Looping": true
+                }
+            }
+        },
+        "Gathering": {
+            "Breaking": {
+                "GatherType": "Woods"
+            }
+        },
+        "BlockParticleSetId": "Wood",
+        "Support": {
+            "Down": [
+                {
+                    "FaceType": "Full"
+                }
+            ]
+        },
+        "ParticleColor": "#8B7355",
+        "BlockSoundSetId": "Wood",
+        "Interactions": {
+            "Use": "Open_Processing_Bench"
+        }
+    },
+    "PlayerAnimationsId": "Block",
+    "IconProperties": {
+        "Scale": 0.45,
+        "Translation": [
+            -12,
+            -15
+        ],
+        "Rotation": [
+            22.5,
+            45,
+            22.5
+        ]
+    },
+    "Tags": {
+        "Type": [
+            "Furniture"
+        ],
+        "Family": [
+            "Bench"
+        ]
+    },
+    "MaxStack": 1,
+    "ItemSoundSetId": "ISS_Blocks_Wood",
+    "Recipe": {
+        "Input": [
+            {
+                "ResourceTypeId": "Wood_Trunk",
+                "Quantity": 3
+            },
+            {
+                "ItemId": "Ingredient_Bar_Iron",
+                "Quantity": 2
+            },
+            {
+                "ItemId": "Ingredient_Stick",
+                "Quantity": 6
+            }
+        ],
+        "BenchRequirement": [
+            {
+                "Type": "Crafting",
+                "Categories": [
+                    "Workbench_Crafting"
+                ],
+                "Id": "Workbench"
+            }
+        ],
+        "CraftTime": 3.0
+    }
+}

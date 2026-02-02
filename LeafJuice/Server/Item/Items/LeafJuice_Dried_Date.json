@@ -1,0 +1,74 @@
+{
+    "TranslationProperties": {
+        "Name": "server.items.LeafJuice_Dried_Date.name",
+        "Description": "server.items.LeafJuice_Dried_Date.description"
+    },
+    "Quality": "Common",
+    "Icon": "Icons/ItemsGenerated/LeafJuice_Dried_Date.png",
+    "Parent": "Template_Fruit",
+    "BlockType": {
+        "CustomModel": "Resources/Ingredients/Date.blockymodel",
+        "CustomModelTexture": [
+            {
+                "Texture": "Resources/Ingredients/Date_Dried.png",
+                "Weight": 1
+            }
+        ],
+        "ParticleColor": "#654321"
+    },
+    "InteractionVars": {
+        "Consume_Charge": {
+            "Interactions": [
+                {
+                    "Parent": "Consume_Charge_Food_T1_Inner",
+                    "Effects": {
+                        "Particles": [
+                            {
+                                "SystemId": "Food_Eat",
+                                "Color": "#654321",
+                                "TargetNodeName": "Mouth",
+                                "TargetEntityPart": "Entity"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "ItemLevel": 10,
+    "IconProperties": {
+        "Scale": 0.85,
+        "Rotation": [
+            22.5,
+            45,
+            22.5
+        ],
+        "Translation": [
+            0,
+            -10.8
+        ]
+    },
+    "Scale": 1.75,
+    "DropOnDeath": true,
+    "Recipe": {
+        "Input": [
+            {
+                "ItemId": "LeafJuice_Date_Fruit",
+                "Quantity": 1
+            }
+        ],
+        "TimeSeconds": 5,
+        "Output": [
+            {
+                "ItemId": "LeafJuice_Dried_Date",
+                "Quantity": 1
+            }
+        ],
+        "BenchRequirement": [
+            {
+                "Type": "Processing",
+                "Id": "LeafJuice_DryingRack"
+            }
+        ]
+    }
+}

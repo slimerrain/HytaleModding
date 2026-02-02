@@ -1,0 +1,28 @@
+{
+    "Input": [
+        {
+            "ItemId": "LeafJuice_Jasmine_Flower",
+            "Quantity": 2
+        }
+    ],
+    "PrimaryOutput": {
+        "ItemId": "LeafJuice_Dried_Jasmine",
+        "Quantity": 1
+    },
+    "Output": [
+        {
+            "ItemId": "LeafJuice_Dried_Jasmine",
+            "Quantity": 1
+        }
+    ],
+    "BenchRequirement": [
+        {
+            "Type": "Processing",
+            "Categories": [
+                "LeafJuice_Drying"
+            ],
+            "Id": "LeafJuice_DryingRack"
+        }
+    ],
+    "TimeSeconds": 6
+}

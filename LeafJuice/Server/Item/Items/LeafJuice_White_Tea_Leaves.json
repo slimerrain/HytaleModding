@@ -1,0 +1,44 @@
+{
+    "TranslationProperties": {
+        "Name": "server.items.LeafJuice_White_Tea_Leaves.name",
+        "Description": "server.items.LeafJuice_White_Tea_Leaves.description"
+    },
+    "Parent": "Template_Crop_Item",
+    "Icon": "Icons/ItemsGenerated/LeafJuice_White_Tea_Leaves.png",
+    "Categories": [
+        "Ingredients.Plants"
+    ],
+    "MaxStack": 64,
+    "ItemSoundSetId": "ISS_Items_Foliage",
+    "Tags": {
+        "Type": [
+            "Ingredient",
+            "Plant"
+        ]
+    },
+    "BlockType": {
+        "Material": "Empty",
+        "DrawType": "Model",
+        "HitboxType": "Food_Small",
+        "CustomModel": "Resources/Plants/Leaves.blockymodel",
+        "CustomModelTexture": [
+            {
+                "Texture": "Resources/Plants/Leaves_Textures/White.png",
+                "Weight": 1
+            }
+        ],
+        "Support": {
+            "Down": [
+                {
+                    "FaceType": "Full"
+                }
+            ]
+        },
+        "ParticleColor": "#F5F5DC",
+        "RandomRotation": "YawStep1",
+        "Gathering": {
+            "Harvest": {},
+            "Soft": {}
+        }
+    }
+}

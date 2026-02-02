@@ -1,0 +1,10 @@
+{
+    "Container": {
+        "Type": "Single",
+        "Item": {
+            "ItemId": "LeafJuice_Bush_Goji_Berry",
+            "QuantityMin": 1,
+            "QuantityMax": 1
+        }
+    }
+}

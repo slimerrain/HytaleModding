@@ -1,0 +1,32 @@
+{
+    "Input": [
+        {
+            "ItemId": "Ingredient_Life_Essence",
+            "Quantity": 2
+        },
+        {
+            "ResourceTypeId": "Seed_Generic_Plant",
+            "Quantity": 1
+        }
+    ],
+    "PrimaryOutput": {
+        "ItemId": "Plant_Crop_Chamomile_Block",
+        "Quantity": 1
+    },
+    "Output": [
+        {
+            "ItemId": "Plant_Crop_Chamomile_Block",
+            "Quantity": 1
+        }
+    ],
+    "BenchRequirement": [
+        {
+            "Type": "Crafting",
+            "Categories": [
+                "LeafJuice_Cultivation"
+            ],
+            "Id": "LeafJuice_TeaBench"
+        }
+    ],
+    "TimeSeconds": 12
+}
