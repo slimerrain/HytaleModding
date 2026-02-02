@@ -5,6 +5,8 @@
     },
     "Parent": "Template_Food",
     "Icon": "Icons/ItemsGenerated/LeafJuice_Roasted_Rice.png",
+    "Model": "Resources/Plants/Seeds.blockymodel",
+    "Texture": "Resources/Plants/Seeds_Textures/Roasted_Rice.png",
     "Categories": [
         "Ingredients.Grains"
     ],
@@ -16,6 +18,32 @@
             "Ingredient"
         ]
     },
+    "BlockType": {
+        "Material": "Empty",
+        "DrawType": "Model",
+        "HitboxType": "Food_Small",
+        "CustomModel": "Resources/Plants/Seeds.blockymodel",
+        "CustomModelTexture": [
+            {
+                "Texture": "Resources/Plants/Seeds_Textures/Roasted_Rice.png",
+                "Weight": 1
+            }
+        ],
+        "Support": {
+            "Down": [
+                {
+                    "FaceType": "Full"
+                }
+            ]
+        },
+        "ParticleColor": "#8B7355",
+        "RandomRotation": "YawStep1",
+        "Gathering": {
+            "Harvest": {},
+            "Soft": {}
+        }
+    },
+    "DropOnDeath": true,
     "Recipe": {
         "Input": [
             {

@@ -73,12 +73,6 @@ items.LeafJuice_Dried_Date.description = Sun-dried dates with concentrated sweet
 items.LeafJuice_Dried_Goji_Berry.name = Dried Goji Berry
 items.LeafJuice_Dried_Goji_Berry.description = Dried goji berries with concentrated nutrients. Adds health benefits to tea blends.
 
-items.LeafJuice_Camellia_Assam_Tea_Leaves.name = Camellia Assam Tea Leaves
-items.LeafJuice_Camellia_Assam_Tea_Leaves.description = Dried tea leaves from the Assam plant. Ready for withering into black Assam tea.
-
-items.LeafJuice_Camellia_Sinesis_Tea_Leaves.name = Camellia Sinensis Tea Leaves
-items.LeafJuice_Camellia_Sinesis_Tea_Leaves.description = Dried tea leaves from the Sinensis plant. Can be withered into various tea types.
-
 items.LeafJuice_White_Tea_Leaves.name = White Tea Leaves
 items.LeafJuice_White_Tea_Leaves.description = Minimally processed tea leaves with a delicate, sweet flavor profile.
 

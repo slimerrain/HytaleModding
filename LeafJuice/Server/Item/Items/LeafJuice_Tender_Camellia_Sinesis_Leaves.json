@@ -15,5 +15,30 @@
             "Ingredient",
             "Plant"
         ]
+    },
+    "BlockType": {
+        "Material": "Empty",
+        "DrawType": "Model",
+        "HitboxType": "Food_Small",
+        "CustomModel": "Resources/Plants/Leaves.blockymodel",
+        "CustomModelTexture": [
+            {
+                "Texture": "Resources/Plants/Leaves_Textures/Tender_Camellia_Sinesis.png",
+                "Weight": 1
+            }
+        ],
+        "Support": {
+            "Down": [
+                {
+                    "FaceType": "Full"
+                }
+            ]
+        },
+        "ParticleColor": "#90EE90",
+        "RandomRotation": "YawStep1",
+        "Gathering": {
+            "Harvest": {},
+            "Soft": {}
+        }
     }
 }

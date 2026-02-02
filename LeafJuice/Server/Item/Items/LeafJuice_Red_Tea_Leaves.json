@@ -15,5 +15,30 @@
             "Ingredient",
             "Plant"
         ]
+    },
+    "BlockType": {
+        "Material": "Empty",
+        "DrawType": "Model",
+        "HitboxType": "Food_Small",
+        "CustomModel": "Resources/Plants/Leaves.blockymodel",
+        "CustomModelTexture": [
+            {
+                "Texture": "Resources/Plants/Leaves_Textures/Red.png",
+                "Weight": 1
+            }
+        ],
+        "Support": {
+            "Down": [
+                {
+                    "FaceType": "Full"
+                }
+            ]
+        },
+        "ParticleColor": "#DC143C",
+        "RandomRotation": "YawStep1",
+        "Gathering": {
+            "Harvest": {},
+            "Soft": {}
+        }
     }
 }

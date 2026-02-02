@@ -3,17 +3,53 @@
         "Name": "server.items.LeafJuice_Goji_Berry.name",
         "Description": "server.items.LeafJuice_Goji_Berry.description"
     },
-    "Parent": "Template_Food",
+    "Quality": "Common",
     "Icon": "Icons/ItemsGenerated/LeafJuice_Goji_Berry.png",
-    "Categories": [
-        "Food.Fruits"
-    ],
-    "MaxStack": 64,
-    "ItemSoundSetId": "ISS_Items_Foliage",
-    "Tags": {
-        "Type": [
-            "Food",
-            "Ingredient"
+    "Parent": "Template_Fruit",
+    "BlockType": {
+        "CustomModel": "Resources/Ingredients/Goji_Berry.blockymodel",
+        "CustomModelTexture": [
+            {
+                "Texture": "Resources/Ingredients/Goji_Berry.png",
+                "Weight": 1
+            }
+        ],
+        "ParticleColor": "#DC143C",
+        "HitboxType": "Plant_Small",
+        "CustomModelScale": 0.75
+    },
+    "InteractionVars": {
+        "Consume_Charge": {
+            "Interactions": [
+                {
+                    "Parent": "Consume_Charge_Food_T1_Inner",
+                    "Effects": {
+                        "Particles": [
+                            {
+                                "SystemId": "Food_Eat",
+                                "Color": "#DC143C",
+                                "TargetNodeName": "Mouth",
+                                "TargetEntityPart": "Entity"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "ItemLevel": 10,
+    "IconProperties": {
+        "Scale": 1.1,
+        "Rotation": [
+            0,
+            72.185,
+            29.435
+        ],
+        "Translation": [
+            1.9,
+            -3
         ]
-    }
+    },
+    "Scale": 1,
+    "DropOnDeath": true
 }

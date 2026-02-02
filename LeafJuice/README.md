@@ -28,20 +28,17 @@ Dried Osmanthus - made from drying Osmanthus Flowers in the Drying Rack
 Dried Chrysanthemum - made from drying Chrysanthemum Flowers in the Drying Rack
 Dried Chamomile - made from drying Chrysanthemum Flowers in the Drying Rack
 
-Camellia Assam Tea Leaves - made from drying Tender Camellia Assam Leaves in the Drying Rack
-Camellia Sinesis Tea Leaves - made from drying Tender Camellia Sinesis Leaves in the Drying Rack
-
 Dried Date - made from drying Date Fruits in the Drying Rack
 Dried Goji Berry = made from drying Goji Berries in the Drying Rack
 
-White Tea Leaves - made from processing Camellia Sinesis Tea Leaves in the Withering Station
+White Tea Leaves - made from processing Tender Camellia Sinesis Leaves in the Withering Station
 Green Tea Leaves - made from processing White Tea Leaves in the Withering Station
 Oolong Tea Leaves - made from processing Green Tea Leaves in the Withering Station
 Red Tea Leaves - made from processing Oolong Tea Leaves in the Withering Station
-Assam Tea Leaves - made from processing Camellia Assam Tea Leaves in the Withering Station
+Assam Tea Leaves - made from processing Tender Camellia Assam Leaves in the Withering Station
 
 Hojicha Powder - made from Green Tea Leaves in the Tea Bench
-Matcha Powder - made from Green Leaves in the Tea Bench
+Matcha Powder - made from Green Tea Leaves in the Tea Bench
 
 Health Blend Tea Mix - made from combining Dried Chrysanthemum, Dried Date, and Dried Goji Berry in the Tea Bench
 Roasted Rice Green Tea Mix - made from combining Roasted Rice and Green Tea Leaves in the Tea Bench
